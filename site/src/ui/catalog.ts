@@ -37,7 +37,10 @@ export function renderPlans(plans: CnyPlan[], raw: RawPlan[]): HTMLElement {
     if (!matches.length) grid.append(h("div", { class: "empty" }, "没有符合条件的套餐，试试调整筛选。"));
     for (const p of matches) {
       const detail = details.get(p.id);
-      const price = p.monthlyCny == null ? "待核实" : money(p.monthlyCny);
+      const price = p.monthlyCny != null ? money(p.monthlyCny)
+        : p.status === "no-plan" ? "按量计费"
+        : p.status === "discontinued" ? "已下架"
+        : p.status === "coming-soon" ? "未开售" : "待核实";
       grid.append(h("article", { class: "plan" }, [
         h("div", { class: "plan__top" }, [vendorBadge(p.platformId, p.vendor),
           h("div", { class: "plan__head" }, [h("h3", { class: "plan__name" }, p.name), h("p", { class: "plan__vendorline" }, p.vendor)])]),
@@ -48,7 +51,7 @@ export function renderPlans(plans: CnyPlan[], raw: RawPlan[]): HTMLElement {
         h("div", { class: "plan__models" }, (detail?.models ?? []).slice(0, 3).map(label)),
         h("div", { class: "plan__meta" }, [label(REGION[p.region] ?? p.region), label(KIND[p.kind] ?? p.kind),
           label(STATUS[p.status] ?? p.status), confidence(p.confidence),
-          h("div", { class: "plan__links" }, [link("购买 ↗", detail?.buyUrl ?? p.platformUrl), link("来源 ↗", detail?.sourceUrl)])]),
+          h("div", { class: "plan__links" }, [link(p.status === "active" || p.status === "sold-out-daily" ? "购买 ↗" : "查看官方 ↗", detail?.buyUrl ?? p.platformUrl), link("来源 ↗", detail?.sourceUrl)])]),
         h("small", { class: "detail-note" }, `核实 ${detail?.verifiedAt ?? "日期未知"}${detail?.price?.note ? ` · 价格条件：${detail.price.note}` : ""}${detail?.includedCredit?.text ? ` · 套餐内额度：${detail.includedCredit.text}` : ""}${detail?.notes ? ` · 使用条款：${detail.notes}` : ""}`),
       ]));
     }

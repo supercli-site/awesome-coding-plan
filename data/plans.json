@@ -3975,7 +3975,7 @@
     "verifiedAt": "2026-11-03",
     "status": "discontinued",
     "confidence": "medium",
-    "notes": "官方活动页显示“本次活动已结束”，现行产品是 Token Plan。没有找到官方停售公告原文，“停售 Coding Plan、改推 Token Plan”的说法来自 V2EX 等第三方。",
+    "notes": "官方活动页显示“本次活动已结束”，当前网站另有 Token Plan 产品。未找到官方明确宣布旧 Coding Plan 永久停售的公告；本条仅按活动结束标为已下架，不据此推断永久停售或恢复时间。",
     "platformId": "tencent-cloud"
   }
 ]
