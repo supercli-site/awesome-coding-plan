@@ -18,8 +18,8 @@ const section = (id: string, number: string, title: string, intro: string, conte
   ]), content]);
 
 /** 优先请求实时 API；任一请求失败后整组读取本站构建快照，避免混入不同时间的数据。 */
-async function loadData(): Promise<{ view: CnyView; rawPlans: RawPlan[]; rawApi: RawApi[]; platforms: PlatformsFile; snapshot: boolean }> {
-  const names = ["cny", "plans", "api-prices", "platforms"];
+async function loadData(): Promise<{ view: CnyView; rawPlans: RawPlan[]; rawApi: RawApi[]; platforms: PlatformsFile; rankings: { snapshotDate: string; models: unknown[] }; snapshot: boolean }> {
+  const names = ["cny", "plans", "api-prices", "platforms", "rankings"];
   const fetchSet = async (base: string) => Promise.all(names.map(async (name) => {
     const url = `${base}/${name}${base.includes("/data") ? ".json" : ""}`;
     const response = await fetch(url, { signal: AbortSignal.timeout(4500) });
@@ -27,16 +27,16 @@ async function loadData(): Promise<{ view: CnyView; rawPlans: RawPlan[]; rawApi:
     return response.json();
   }));
   try {
-    const [view, rawPlans, rawApi, platforms] = await fetchSet("https://api.supercli.site/v1");
-    return { view, rawPlans, rawApi, platforms, snapshot: false };
+    const [view, rawPlans, rawApi, platforms, rankings] = await fetchSet("https://api.supercli.site/v1");
+    return { view, rawPlans, rawApi, platforms, rankings, snapshot: false };
   } catch {
-    const [view, rawPlans, rawApi, platforms] = await fetchSet(`${import.meta.env.BASE_URL.replace(/\/$/, "")}/data`);
-    return { view, rawPlans, rawApi, platforms, snapshot: true };
+    const [view, rawPlans, rawApi, platforms, rankings] = await fetchSet(`${import.meta.env.BASE_URL.replace(/\/$/, "")}/data`);
+    return { view, rawPlans, rawApi, platforms, rankings, snapshot: true };
   }
 }
 
 async function mount() {
-  const { view, rawPlans, rawApi, platforms, snapshot } = await loadData();
+  const { view, rawPlans, rawApi, platforms, rankings, snapshot } = await loadData();
   const hero = h("section", { class: "hero" }, [h("div", { class: "shell hero__inner" }, [
     h("div", { class: "hero__copy" }, [
       h("span", { class: "hero__badge" }, "TOKENPLAN / SUPERCLI"),
@@ -50,11 +50,11 @@ async function mount() {
       h("div", { class: "terminal__bar" }, [h("span", { class: "terminal__dots", "aria-hidden": "true" }, "● ● ●"), "tokenplan / overview"]),
       h("div", { class: "terminal__body" }, [
         h("p", null, [h("span", { class: "terminal__prompt" }, "$"), " tokenplan compare --all"]),
-        h("p", { class: "terminal__muted" }, "// 索引已加载，正在匹配可比价格..."),
+        h("p", { class: "terminal__muted" }, "// 官方来源快照已加载，价格条件可逐项核对"),
         h("div", { class: "terminal__metric" }, [h("span", null, "套餐条目"), h("strong", null, num(view.plans.length))]),
         h("div", { class: "terminal__metric" }, [h("span", null, "API 报价"), h("strong", null, num(view.api.length))]),
-        h("div", { class: "terminal__metric" }, [h("span", null, "模型观测"), h("strong", null, num(view.models.length))]),
-        h("p", { class: "terminal__status" }, "✓ 数据来源可追溯 · CNY 统一口径"),
+        h("div", { class: "terminal__metric" }, [h("span", null, "上游模型记录"), h("strong", null, num(rankings.models.length))]),
+        h("p", { class: "terminal__status" }, `✓ ${view.models.length} 项具备任务成本 · 快照 ${rankings.snapshotDate}`),
       ]),
     ]),
   ])]);
