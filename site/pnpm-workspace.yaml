@@ -1,2 +1,3 @@
+# Vite's bundler requires its verified platform binary install step.
 allowBuilds:
-  esbuild: set this to true or false
+  esbuild: true
