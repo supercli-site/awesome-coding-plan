@@ -1,0 +1,72 @@
+name: Data checks
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: pnpm/action-setup@v4
+        with:
+          version: 12.4.1
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 24
+          cache: pnpm
+      - run: pnpm install --frozen-lockfile
+      - name: Validate data and public boundary
+        run: pnpm check && pnpm test
+      - name: Build TokenPlan
+        run: |
+          pnpm -C site install --frozen-lockfile
+          pnpm -C site exec tsc --noEmit
+          pnpm -C site build
+          echo '{"commit":"${{ github.sha }}","run":"${{ github.run_id }}"}' > site/dist/deployment.json
+      - uses: actions/upload-artifact@v4
+        with:
+          name: tokenplan-site
+          path: site/dist
+          retention-days: 3
+      - name: Verify README is in sync with data
+        run: |
+          node scripts/render-readme.mjs
+          git diff --exit-code README.md
+      - name: Rank snapshot is fresh (within 7 days)
+        run: |
+          node -e '
+            const d = require("./data/rankings.json");
+            const days = (Date.now() - new Date(d.snapshotDate)) / 86400000;
+            if (days > 7) {
+              console.error(`排行快照已过期 ${days.toFixed(1)} 天（${d.snapshotDate}），请运行 pnpm sync`);
+              process.exit(1);
+            }
+            console.log(`排行快照 ${d.snapshotDate}，${days.toFixed(1)} 天前`);
+          '
+
+  deploy:
+    needs: check
+    if: github.ref == 'refs/heads/main' && (github.event_name == 'push' || github.event_name == 'workflow_dispatch')
+    runs-on: ubuntu-latest
+    environment: production
+    concurrency:
+      group: tokenplan-production
+      cancel-in-progress: false
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/download-artifact@v4
+        with:
+          name: tokenplan-site
+          path: site/dist
+      - uses: cloudflare/wrangler-action@v3
+        with:
+          apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          accountId: ${{ vars.CLOUDFLARE_ACCOUNT_ID }}
+          command: pages deploy site/dist --project-name=supercli-plan --branch=main --commit-hash=${{ github.sha }}

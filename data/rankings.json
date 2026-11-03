@@ -1,0 +1,3022 @@
+{
+  "source": "https://modelgo.ai/models/rankings/agent",
+  "attribution": "Agentic Index / Cost per Task / TPS: Artificial Analysis; usage & unit prices: ModelGo",
+  "snapshotDate": "2026-11-03",
+  "total": 137,
+  "valueMinIndex": 40,
+  "highlights": {
+    "topOverall": [
+      "Claude Fable 5.1 (Max, Default Fallback)",
+      "Claude Fable 5.1 (Xhigh, Default Fallback)",
+      "Claude Opus 5 (Max)",
+      "Qwen3.8 Max (0902)",
+      "Claude Opus 5 (Xhigh)",
+      "Muse Spark 1.3 (Max)",
+      "Qwen3.8-Flash-Next",
+      "Claude Fable 5.1 (High, Default Fallback)",
+      "GLM-5.3 (Max)",
+      "Grok 4.6 (High)"
+    ],
+    "topOpenWeights": [
+      "Qwen3.8-Flash-Next",
+      "GLM-5.3 (Max)",
+      "GLM-5.3-Flash",
+      "Qwen3.8 2.4T A95B",
+      "Kimi K3 (Max)",
+      "Qwen3.8 27B (Xhigh)",
+      "Qwen3.8 27B (Medium)",
+      "DeepSeek V4 Pro 0813 (Max)",
+      "DeepSeek V4 Flash 0731 (Max)",
+      "Qwen3.8 27B (Low)"
+    ],
+    "bestValue": [
+      "GPT-5.6 Luna (Max)",
+      "DeepSeek V4 Flash 0731 (Max)",
+      "GLM-5.3-Flash",
+      "Qwen3.8-Flash-Next",
+      "Grok 4.6 (Low)",
+      "GPT-5.6 Terra (Xhigh)",
+      "DeepSeek V4 Pro 0813 (Max)",
+      "GPT-5.6 Sol (High)",
+      "Grok 4.5 (High)",
+      "Muse Spark 1.2 (Xhigh)"
+    ]
+  },
+  "models": [
+    {
+      "model": "Claude Fable 5.1 (Max, Default Fallback)",
+      "baseModel": "Claude Fable 5.1",
+      "variant": "Max, Default Fallback",
+      "creator": "Anthropic",
+      "openWeights": false,
+      "releaseDate": "2026-09-01",
+      "agenticIndex": 57.9,
+      "costPerTaskUsd": 7.6297,
+      "outputTps": 69.28,
+      "latencyMs": 260340,
+      "valueScore": 7.58876496,
+      "onModelGo": true,
+      "modelgoId": "claude-fable-5.1",
+      "markets": [
+        "global"
+      ],
+      "priceUsdPer1M": {
+        "input": 10,
+        "output": 50,
+        "cacheHit": 0.25
+      }
+    },
+    {
+      "model": "Claude Fable 5.1 (Xhigh, Default Fallback)",
+      "baseModel": "Claude Fable 5.1",
+      "variant": "Xhigh, Default Fallback",
+      "creator": "Anthropic",
+      "openWeights": false,
+      "releaseDate": "2026-09-01",
+      "agenticIndex": 57.2,
+      "costPerTaskUsd": 5.9783,
+      "outputTps": 62.03,
+      "latencyMs": 89330,
+      "valueScore": 9.56793737,
+      "onModelGo": true,
+      "modelgoId": "claude-fable-5.1",
+      "markets": [
+        "global"
+      ],
+      "priceUsdPer1M": {
+        "input": 10,
+        "output": 50,
+        "cacheHit": 0.25
+      }
+    },
+    {
+      "model": "Claude Opus 5 (Max)",
+      "baseModel": "Claude Opus 5",
+      "variant": "Max",
+      "creator": "Anthropic",
+      "openWeights": false,
+      "releaseDate": "2026-07-24",
+      "agenticIndex": 56.5,
+      "costPerTaskUsd": 5.8584,
+      "outputTps": 52.65,
+      "latencyMs": 83200,
+      "valueScore": 9.64427147,
+      "onModelGo": true,
+      "modelgoId": "claude-opus-5",
+      "markets": [
+        "global"
+      ],
+      "priceUsdPer1M": {
+        "input": 5,
+        "output": 25,
+        "cacheHit": 0.5
+      }
+    },
+    {
+      "model": "Qwen3.8 Max (0902)",
+      "baseModel": "Qwen3.8 Max",
+      "variant": "0902",
+      "creator": "Alibaba",
+      "openWeights": false,
+      "releaseDate": "2026-09-02",
+      "agenticIndex": 56,
+      "costPerTaskUsd": 5.4085,
+      "outputTps": 39.44,
+      "latencyMs": 66280,
+      "valueScore": 10.35407229,
+      "onModelGo": true,
+      "modelgoId": "qwen3.8-max",
+      "markets": [
+        "global",
+        "cn"
+      ],
+      "priceUsdPer1M": {
+        "input": 2,
+        "output": 6,
+        "cacheHit": 0.25
+      }
+    },
+    {
+      "model": "Claude Opus 5 (Xhigh)",
+      "baseModel": "Claude Opus 5",
+      "variant": "Xhigh",
+      "creator": "Anthropic",
+      "openWeights": false,
+      "releaseDate": "2026-07-24",
+      "agenticIndex": 55.6,
+      "costPerTaskUsd": 4.8778,
+      "outputTps": 52.77,
+      "latencyMs": 42690,
+      "valueScore": 11.39858133,
+      "onModelGo": true,
+      "modelgoId": "claude-opus-5",
+      "markets": [
+        "global"
+      ],
+      "priceUsdPer1M": {
+        "input": 5,
+        "output": 25,
+        "cacheHit": 0.5
+      }
+    },
+    {
+      "model": "Muse Spark 1.3 (Max)",
+      "baseModel": "Muse Spark 1.3",
+      "variant": "Max",
+      "creator": "Meta",
+      "openWeights": false,
+      "releaseDate": "2026-09-02",
+      "agenticIndex": 55.5,
+      "costPerTaskUsd": 1.3146,
+      "outputTps": 194.3,
+      "latencyMs": 54910,
+      "valueScore": 42.21816522,
+      "onModelGo": false,
+      "modelgoId": null,
+      "markets": [],
+      "priceUsdPer1M": {
+        "input": 1.25,
+        "output": 4.25,
+        "cacheHit": 0.15
+      }
+    },
+    {
+      "model": "Qwen3.8-Flash-Next",
+      "baseModel": "Qwen3.8-Flash-Next",
+      "variant": "",
+      "creator": "Alibaba",
+      "openWeights": true,
+      "releaseDate": "2026-08-26",
+      "agenticIndex": 53.6,
+      "costPerTaskUsd": 0.3722,
+      "outputTps": 54.42,
+      "latencyMs": 48270,
+      "valueScore": 144.00859753,
+      "onModelGo": false,
+      "modelgoId": null,
+      "markets": [],
+      "priceUsdPer1M": {
+        "input": 0.15,
+        "output": 0.47,
+        "cacheHit": 0.016
+      }
+    },
+    {
+      "model": "Claude Fable 5.1 (High, Default Fallback)",
+      "baseModel": "Claude Fable 5.1",
+      "variant": "High, Default Fallback",
+      "creator": "Anthropic",
+      "openWeights": false,
+      "releaseDate": "2026-09-01",
+      "agenticIndex": 53.1,
+      "costPerTaskUsd": 3.9125,
+      "outputTps": 57.24,
+      "latencyMs": 28240,
+      "valueScore": 13.57188498,
+      "onModelGo": true,
+      "modelgoId": "claude-fable-5.1",
+      "markets": [
+        "global"
+      ],
+      "priceUsdPer1M": {
+        "input": 10,
+        "output": 50,
+        "cacheHit": 0.25
+      }
+    },
+    {
+      "model": "GLM-5.3 (Max)",
+      "baseModel": "GLM-5.3",
+      "variant": "Max",
+      "creator": "Z AI",
+      "openWeights": true,
+      "releaseDate": "2026-08-18",
+      "agenticIndex": 53.1,
+      "costPerTaskUsd": 2.0056,
+      "outputTps": 88.71,
+      "latencyMs": 29640,
+      "valueScore": 26.47586757,
+      "onModelGo": true,
+      "modelgoId": "glm-5.3",
+      "markets": [
+        "global",
+        "cn"
+      ],
+      "priceUsdPer1M": {
+        "input": 1.4,
+        "output": 4.4,
+        "cacheHit": 0.26
+      }
+    },
+    {
+      "model": "Grok 4.6 (High)",
+      "baseModel": "Grok 4.6",
+      "variant": "High",
+      "creator": "SpaceXAI",
+      "openWeights": false,
+      "releaseDate": "2026-08-12",
+      "agenticIndex": 53,
+      "costPerTaskUsd": 1.4848,
+      "outputTps": 68.44,
+      "latencyMs": 46610,
+      "valueScore": 35.6950431,
+      "onModelGo": true,
+      "modelgoId": "grok-4.6",
+      "markets": [
+        "global"
+      ],
+      "priceUsdPer1M": {
+        "input": 2,
+        "output": 6,
+        "cacheHit": 0.5
+      }
+    },
+    {
+      "model": "Grok 4.6 (Xhigh)",
+      "baseModel": "Grok 4.6",
+      "variant": "Xhigh",
+      "creator": "SpaceXAI",
+      "openWeights": false,
+      "releaseDate": "2026-08-12",
+      "agenticIndex": 52.5,
+      "costPerTaskUsd": 1.7523,
+      "outputTps": 74.16,
+      "latencyMs": 58470,
+      "valueScore": 29.96062318,
+      "onModelGo": true,
+      "modelgoId": "grok-4.6",
+      "markets": [
+        "global"
+      ],
+      "priceUsdPer1M": {
+        "input": 2,
+        "output": 6,
+        "cacheHit": 0.5
+      }
+    },
+    {
+      "model": "Claude Opus 5 (High)",
+      "baseModel": "Claude Opus 5",
+      "variant": "High",
+      "creator": "Anthropic",
+      "openWeights": false,
+      "releaseDate": "2026-07-24",
+      "agenticIndex": 52.3,
+      "costPerTaskUsd": 3.6133,
+      "outputTps": 50.99,
+      "latencyMs": 32610,
+      "valueScore": 14.47430327,
+      "onModelGo": true,
+      "modelgoId": "claude-opus-5",
+      "markets": [
+        "global"
+      ],
+      "priceUsdPer1M": {
+        "input": 5,
+        "output": 25,
+        "cacheHit": 0.5
+      }
+    },
+    {
+      "model": "Muse Spark 1.3 (Xhigh)",
+      "baseModel": "Muse Spark 1.3",
+      "variant": "Xhigh",
+      "creator": "Meta",
+      "openWeights": false,
+      "releaseDate": "2026-09-02",
+      "agenticIndex": 51.5,
+      "costPerTaskUsd": 1.1201,
+      "outputTps": 355.16,
+      "latencyMs": 24420,
+      "valueScore": 45.97803768,
+      "onModelGo": false,
+      "modelgoId": null,
+      "markets": [],
+      "priceUsdPer1M": {
+        "input": 1.25,
+        "output": 4.25,
+        "cacheHit": 0.15
+      }
+    },
+    {
+      "model": "GPT-6 Astra (Max)",
+      "baseModel": "GPT-6 Astra",
+      "variant": "Max",
+      "creator": "OpenAI",
+      "openWeights": false,
+      "releaseDate": "2026-09-03",
+      "agenticIndex": 51,
+      "costPerTaskUsd": 3.2575,
+      "outputTps": 71.55,
+      "latencyMs": 357900,
+      "valueScore": 15.65617805,
+      "onModelGo": true,
+      "modelgoId": "gpt-6-astra",
+      "markets": [
+        "global"
+      ],
+      "priceUsdPer1M": {
+        "input": 10,
+        "output": 50,
+        "cacheHit": 1
+      }
+    },
+    {
+      "model": "GLM-5.3-Flash",
+      "baseModel": "GLM-5.3-Flash",
+      "variant": "",
+      "creator": "Z AI",
+      "openWeights": true,
+      "releaseDate": "2026-08-26",
+      "agenticIndex": 50.9,
+      "costPerTaskUsd": 0.2836,
+      "outputTps": 75.17,
+      "latencyMs": 34800,
+      "valueScore": 179.47813822,
+      "onModelGo": true,
+      "modelgoId": "glm-5.3-flash",
+      "markets": [
+        "global",
+        "cn"
+      ],
+      "priceUsdPer1M": {
+        "input": 0.15,
+        "output": 0.5,
+        "cacheHit": 0.03
+      }
+    },
+    {
+      "model": "Claude Fable 5 (Max, Opus 4.8 Fallback)",
+      "baseModel": "Claude Fable 5",
+      "variant": "Max, Opus 4.8 Fallback",
+      "creator": "Anthropic",
+      "openWeights": false,
+      "releaseDate": "2026-06-09",
+      "agenticIndex": 50.7,
+      "costPerTaskUsd": 8.746,
+      "outputTps": 67.61,
+      "latencyMs": 121480,
+      "valueScore": 5.79693574,
+      "onModelGo": true,
+      "modelgoId": "claude-fable-5",
+      "markets": [
+        "global"
+      ],
+      "priceUsdPer1M": {
+        "input": 10,
+        "output": 50,
+        "cacheHit": 1
+      }
+    },
+    {
+      "model": "Grok 4.6 (Medium)",
+      "baseModel": "Grok 4.6",
+      "variant": "Medium",
+      "creator": "SpaceXAI",
+      "openWeights": false,
+      "releaseDate": "2026-08-12",
+      "agenticIndex": 50.6,
+      "costPerTaskUsd": 1.1438,
+      "outputTps": 71.93,
+      "latencyMs": 42610,
+      "valueScore": 44.23850323,
+      "onModelGo": true,
+      "modelgoId": "grok-4.6",
+      "markets": [
+        "global"
+      ],
+      "priceUsdPer1M": {
+        "input": 2,
+        "output": 6,
+        "cacheHit": 0.5
+      }
+    },
+    {
+      "model": "Claude Fable 5.1 (Medium, Default Fallback)",
+      "baseModel": "Claude Fable 5.1",
+      "variant": "Medium, Default Fallback",
+      "creator": "Anthropic",
+      "openWeights": false,
+      "releaseDate": "2026-09-01",
+      "agenticIndex": 50.2,
+      "costPerTaskUsd": 2.9826,
+      "outputTps": 56.32,
+      "latencyMs": 24720,
+      "valueScore": 16.83095286,
+      "onModelGo": true,
+      "modelgoId": "claude-fable-5.1",
+      "markets": [
+        "global"
+      ],
+      "priceUsdPer1M": {
+        "input": 10,
+        "output": 50,
+        "cacheHit": 0.25
+      }
+    },
+    {
+      "model": "GPT-5.6 Sol (Max)",
+      "baseModel": "GPT-5.6 Sol",
+      "variant": "Max",
+      "creator": "OpenAI",
+      "openWeights": false,
+      "releaseDate": "2026-07-09",
+      "agenticIndex": 50.2,
+      "costPerTaskUsd": 1.9885,
+      "outputTps": 126.63,
+      "latencyMs": 116700,
+      "valueScore": 25.24515967,
+      "onModelGo": true,
+      "modelgoId": "gpt-5.6-sol",
+      "markets": [
+        "global"
+      ],
+      "priceUsdPer1M": {
+        "input": 4,
+        "output": 20,
+        "cacheHit": 0.4
+      }
+    },
+    {
+      "model": "GPT-6 Astra (Xhigh)",
+      "baseModel": "GPT-6 Astra",
+      "variant": "Xhigh",
+      "creator": "OpenAI",
+      "openWeights": false,
+      "releaseDate": "2026-09-03",
+      "agenticIndex": 50.2,
+      "costPerTaskUsd": 2.3088,
+      "outputTps": 67.65,
+      "latencyMs": 204750,
+      "valueScore": 21.74289674,
+      "onModelGo": true,
+      "modelgoId": "gpt-6-astra",
+      "markets": [
+        "global"
+      ],
+      "priceUsdPer1M": {
+        "input": 10,
+        "output": 50,
+        "cacheHit": 1
+      }
+    },
+    {
+      "model": "Qwen3.8 2.4T A95B",
+      "baseModel": "Qwen3.8 2.4T A95B",
+      "variant": "",
+      "creator": "Alibaba",
+      "openWeights": true,
+      "releaseDate": "2026-08-12",
+      "agenticIndex": 50.1,
+      "costPerTaskUsd": 2.1552,
+      "outputTps": 38.72,
+      "latencyMs": 67600,
+      "valueScore": 23.24610245,
+      "onModelGo": false,
+      "modelgoId": null,
+      "markets": [],
+      "priceUsdPer1M": {
+        "input": 2,
+        "output": 6,
+        "cacheHit": 0.25
+      }
+    },
+    {
+      "model": "Kimi K3 (Max)",
+      "baseModel": "Kimi K3",
+      "variant": "Max",
+      "creator": "Kimi",
+      "openWeights": true,
+      "releaseDate": "2026-07-16",
+      "agenticIndex": 50,
+      "costPerTaskUsd": 2.0001,
+      "outputTps": 64.22,
+      "latencyMs": 44130,
+      "valueScore": 24.99875006,
+      "onModelGo": true,
+      "modelgoId": "kimi-k3",
+      "markets": [
+        "global",
+        "cn"
+      ],
+      "priceUsdPer1M": {
+        "input": 3,
+        "output": 15,
+        "cacheHit": 0.3
+      }
+    },
+    {
+      "model": "Qwen3.8 Max",
+      "baseModel": "Qwen3.8 Max",
+      "variant": "",
+      "creator": "Alibaba",
+      "openWeights": false,
+      "releaseDate": "2026-08-03",
+      "agenticIndex": 49.1,
+      "costPerTaskUsd": 2.67,
+      "outputTps": 39.5,
+      "latencyMs": 66060,
+      "valueScore": 18.38951311,
+      "onModelGo": true,
+      "modelgoId": "qwen3.8-max",
+      "markets": [
+        "global",
+        "cn"
+      ],
+      "priceUsdPer1M": {
+        "input": 2,
+        "output": 6,
+        "cacheHit": 0.25
+      }
+    },
+    {
+      "model": "GPT-6 Astra (High)",
+      "baseModel": "GPT-6 Astra",
+      "variant": "High",
+      "creator": "OpenAI",
+      "openWeights": false,
+      "releaseDate": "2026-09-03",
+      "agenticIndex": 48.2,
+      "costPerTaskUsd": 1.7253,
+      "outputTps": 61.67,
+      "latencyMs": 114810,
+      "valueScore": 27.93717035,
+      "onModelGo": true,
+      "modelgoId": "gpt-6-astra",
+      "markets": [
+        "global"
+      ],
+      "priceUsdPer1M": {
+        "input": 10,
+        "output": 50,
+        "cacheHit": 1
+      }
+    },
+    {
+      "model": "DeepSeek V4 Flash Vision (Max)",
+      "baseModel": "DeepSeek V4 Flash Vision",
+      "variant": "Max",
+      "creator": "DeepSeek",
+      "openWeights": false,
+      "releaseDate": "2026-08-21",
+      "agenticIndex": 47.5,
+      "costPerTaskUsd": 1.0379,
+      "outputTps": 157.6,
+      "latencyMs": 17470,
+      "valueScore": 45.765488,
+      "onModelGo": false,
+      "modelgoId": null,
+      "markets": [],
+      "priceUsdPer1M": {
+        "input": 0.44,
+        "output": 1.32,
+        "cacheHit": 0.014
+      }
+    },
+    {
+      "model": "GPT-5.6 Sol (Xhigh)",
+      "baseModel": "GPT-5.6 Sol",
+      "variant": "Xhigh",
+      "creator": "OpenAI",
+      "openWeights": false,
+      "releaseDate": "2026-07-09",
+      "agenticIndex": 47.4,
+      "costPerTaskUsd": 1.1844,
+      "outputTps": 123.15,
+      "latencyMs": 50310,
+      "valueScore": 40.02026342,
+      "onModelGo": true,
+      "modelgoId": "gpt-5.6-sol",
+      "markets": [
+        "global"
+      ],
+      "priceUsdPer1M": {
+        "input": 4,
+        "output": 20,
+        "cacheHit": 0.4
+      }
+    },
+    {
+      "model": "Claude Fable 5.1 (Low, Default Fallback)",
+      "baseModel": "Claude Fable 5.1",
+      "variant": "Low, Default Fallback",
+      "creator": "Anthropic",
+      "openWeights": false,
+      "releaseDate": "2026-09-01",
+      "agenticIndex": 47.1,
+      "costPerTaskUsd": 2.371,
+      "outputTps": 55.41,
+      "latencyMs": 12090,
+      "valueScore": 19.86503585,
+      "onModelGo": true,
+      "modelgoId": "claude-fable-5.1",
+      "markets": [
+        "global"
+      ],
+      "priceUsdPer1M": {
+        "input": 10,
+        "output": 50,
+        "cacheHit": 0.25
+      }
+    },
+    {
+      "model": "Claude Opus 5 (Medium)",
+      "baseModel": "Claude Opus 5",
+      "variant": "Medium",
+      "creator": "Anthropic",
+      "openWeights": false,
+      "releaseDate": "2026-07-24",
+      "agenticIndex": 46.2,
+      "costPerTaskUsd": 2.1895,
+      "outputTps": 51.28,
+      "latencyMs": 20140,
+      "valueScore": 21.10070792,
+      "onModelGo": true,
+      "modelgoId": "claude-opus-5",
+      "markets": [
+        "global"
+      ],
+      "priceUsdPer1M": {
+        "input": 5,
+        "output": 25,
+        "cacheHit": 0.5
+      }
+    },
+    {
+      "model": "GPT-6 Astra (Medium)",
+      "baseModel": "GPT-6 Astra",
+      "variant": "Medium",
+      "creator": "OpenAI",
+      "openWeights": false,
+      "releaseDate": "2026-09-03",
+      "agenticIndex": 46,
+      "costPerTaskUsd": 1.5406,
+      "outputTps": 56.61,
+      "latencyMs": 14860,
+      "valueScore": 29.85849669,
+      "onModelGo": true,
+      "modelgoId": "gpt-6-astra",
+      "markets": [
+        "global"
+      ],
+      "priceUsdPer1M": {
+        "input": 10,
+        "output": 50,
+        "cacheHit": 1
+      }
+    },
+    {
+      "model": "Qwen3.8 27B (Xhigh)",
+      "baseModel": "Qwen3.8 27B",
+      "variant": "Xhigh",
+      "creator": "Alibaba",
+      "openWeights": true,
+      "releaseDate": "2026-08-14",
+      "agenticIndex": 45.8,
+      "costPerTaskUsd": 1.1464,
+      "outputTps": 41.41,
+      "latencyMs": 64400,
+      "valueScore": 39.95115143,
+      "onModelGo": false,
+      "modelgoId": null,
+      "markets": [],
+      "priceUsdPer1M": {
+        "input": 0.5,
+        "output": 3,
+        "cacheHit": 0.1
+      }
+    },
+    {
+      "model": "Qwen3.8 27B (Medium)",
+      "baseModel": "Qwen3.8 27B",
+      "variant": "Medium",
+      "creator": "Alibaba",
+      "openWeights": true,
+      "releaseDate": "2026-08-14",
+      "agenticIndex": 44.4,
+      "costPerTaskUsd": 1.2709,
+      "outputTps": 47.78,
+      "latencyMs": 56390,
+      "valueScore": 34.93587222,
+      "onModelGo": false,
+      "modelgoId": null,
+      "markets": [],
+      "priceUsdPer1M": {
+        "input": 0.5,
+        "output": 3,
+        "cacheHit": 0.1
+      }
+    },
+    {
+      "model": "GPT-5.6 Sol (High)",
+      "baseModel": "GPT-5.6 Sol",
+      "variant": "High",
+      "creator": "OpenAI",
+      "openWeights": false,
+      "releaseDate": "2026-07-09",
+      "agenticIndex": 44.2,
+      "costPerTaskUsd": 0.808,
+      "outputTps": 125.1,
+      "latencyMs": 16260,
+      "valueScore": 54.7029703,
+      "onModelGo": true,
+      "modelgoId": "gpt-5.6-sol",
+      "markets": [
+        "global"
+      ],
+      "priceUsdPer1M": {
+        "input": 4,
+        "output": 20,
+        "cacheHit": 0.4
+      }
+    },
+    {
+      "model": "Claude Sonnet 5 (Max)",
+      "baseModel": "Claude Sonnet 5",
+      "variant": "Max",
+      "creator": "Anthropic",
+      "openWeights": false,
+      "releaseDate": "2026-06-30",
+      "agenticIndex": 43.6,
+      "costPerTaskUsd": 5.0912,
+      "outputTps": 81.33,
+      "latencyMs": 178520,
+      "valueScore": 8.56379635,
+      "onModelGo": true,
+      "modelgoId": "claude-sonnet-5",
+      "markets": [
+        "global"
+      ],
+      "priceUsdPer1M": {
+        "input": 2,
+        "output": 10,
+        "cacheHit": 0.2
+      }
+    },
+    {
+      "model": "GPT-5.6 Terra (Max)",
+      "baseModel": "GPT-5.6 Terra",
+      "variant": "Max",
+      "creator": "OpenAI",
+      "openWeights": false,
+      "releaseDate": "2026-07-09",
+      "agenticIndex": 43.2,
+      "costPerTaskUsd": 1.3987,
+      "outputTps": 133.51,
+      "latencyMs": 154090,
+      "valueScore": 30.88582255,
+      "onModelGo": true,
+      "modelgoId": "gpt-5.6-terra",
+      "markets": [
+        "global"
+      ],
+      "priceUsdPer1M": {
+        "input": 2,
+        "output": 12,
+        "cacheHit": 0.2
+      }
+    },
+    {
+      "model": "Muse Spark 1.2 (Xhigh)",
+      "baseModel": "Muse Spark 1.2",
+      "variant": "Xhigh",
+      "creator": "Meta",
+      "openWeights": false,
+      "releaseDate": "2026-08-05",
+      "agenticIndex": 43.2,
+      "costPerTaskUsd": 0.812,
+      "outputTps": 265.18,
+      "latencyMs": 21710,
+      "valueScore": 53.20197044,
+      "onModelGo": false,
+      "modelgoId": null,
+      "markets": [],
+      "priceUsdPer1M": {
+        "input": 1.25,
+        "output": 4.25,
+        "cacheHit": 0.15
+      }
+    },
+    {
+      "model": "GPT-5.6 Luna (Max)",
+      "baseModel": "GPT-5.6 Luna",
+      "variant": "Max",
+      "creator": "OpenAI",
+      "openWeights": false,
+      "releaseDate": "2026-07-09",
+      "agenticIndex": 42.1,
+      "costPerTaskUsd": 0.1783,
+      "outputTps": 112.46,
+      "latencyMs": 148710,
+      "valueScore": 236.11890073,
+      "onModelGo": true,
+      "modelgoId": "gpt-5.6-luna",
+      "markets": [
+        "global"
+      ],
+      "priceUsdPer1M": {
+        "input": 0.2,
+        "output": 1.2,
+        "cacheHit": 0.02
+      }
+    },
+    {
+      "model": "Claude Opus 4.8 (Max)",
+      "baseModel": "Claude Opus 4.8",
+      "variant": "Max",
+      "creator": "Anthropic",
+      "openWeights": false,
+      "releaseDate": "2026-05-28",
+      "agenticIndex": 41.9,
+      "costPerTaskUsd": 4.081,
+      "outputTps": 64.63,
+      "latencyMs": 67280,
+      "valueScore": 10.2670914,
+      "onModelGo": true,
+      "modelgoId": "claude-opus-4.8",
+      "markets": [
+        "global"
+      ],
+      "priceUsdPer1M": {
+        "input": 5,
+        "output": 25,
+        "cacheHit": 0.5
+      }
+    },
+    {
+      "model": "GPT-5.6 Terra (Xhigh)",
+      "baseModel": "GPT-5.6 Terra",
+      "variant": "Xhigh",
+      "creator": "OpenAI",
+      "openWeights": false,
+      "releaseDate": "2026-07-09",
+      "agenticIndex": 41.4,
+      "costPerTaskUsd": 0.6318,
+      "outputTps": 112.71,
+      "latencyMs": 33460,
+      "valueScore": 65.52706553,
+      "onModelGo": true,
+      "modelgoId": "gpt-5.6-terra",
+      "markets": [
+        "global"
+      ],
+      "priceUsdPer1M": {
+        "input": 2,
+        "output": 12,
+        "cacheHit": 0.2
+      }
+    },
+    {
+      "model": "DeepSeek V4 Pro 0813 (Max)",
+      "baseModel": "DeepSeek V4 Pro 0813",
+      "variant": "Max",
+      "creator": "DeepSeek",
+      "openWeights": true,
+      "releaseDate": "2026-08-13",
+      "agenticIndex": 41.3,
+      "costPerTaskUsd": 0.674,
+      "outputTps": 89.95,
+      "latencyMs": 29590,
+      "valueScore": 61.27596439,
+      "onModelGo": true,
+      "modelgoId": "deepseek-v4-pro",
+      "markets": [
+        "global",
+        "cn"
+      ],
+      "priceUsdPer1M": {
+        "input": 1.32,
+        "output": 3.96,
+        "cacheHit": 0.044
+      }
+    },
+    {
+      "model": "Grok 4.5 (High)",
+      "baseModel": "Grok 4.5",
+      "variant": "High",
+      "creator": "SpaceXAI",
+      "openWeights": false,
+      "releaseDate": "2026-07-08",
+      "agenticIndex": 41.2,
+      "costPerTaskUsd": 0.7603,
+      "outputTps": 57.56,
+      "latencyMs": 23980,
+      "valueScore": 54.18913587,
+      "onModelGo": true,
+      "modelgoId": "grok-4.5",
+      "markets": [
+        "global"
+      ],
+      "priceUsdPer1M": {
+        "input": 2,
+        "output": 6,
+        "cacheHit": 0.3
+      }
+    },
+    {
+      "model": "Grok 4.6 (Low)",
+      "baseModel": "Grok 4.6",
+      "variant": "Low",
+      "creator": "SpaceXAI",
+      "openWeights": false,
+      "releaseDate": "2026-08-12",
+      "agenticIndex": 41.2,
+      "costPerTaskUsd": 0.3758,
+      "outputTps": 73.43,
+      "latencyMs": 15000,
+      "valueScore": 109.6327834,
+      "onModelGo": true,
+      "modelgoId": "grok-4.6",
+      "markets": [
+        "global"
+      ],
+      "priceUsdPer1M": {
+        "input": 2,
+        "output": 6,
+        "cacheHit": 0.5
+      }
+    },
+    {
+      "model": "DeepSeek V4 Flash 0731 (Max)",
+      "baseModel": "DeepSeek V4 Flash 0731",
+      "variant": "Max",
+      "creator": "DeepSeek",
+      "openWeights": true,
+      "releaseDate": "2026-07-31",
+      "agenticIndex": 41,
+      "costPerTaskUsd": 0.1775,
+      "outputTps": 145.27,
+      "latencyMs": 18710,
+      "valueScore": 230.98591549,
+      "onModelGo": true,
+      "modelgoId": "deepseek-v4-flash",
+      "markets": [
+        "global",
+        "cn"
+      ],
+      "priceUsdPer1M": {
+        "input": 0.14,
+        "output": 0.28,
+        "cacheHit": 0.028
+      }
+    },
+    {
+      "model": "Gemini 3.8 Flash (High)",
+      "baseModel": "Gemini 3.8 Flash",
+      "variant": "High",
+      "creator": "Google",
+      "openWeights": false,
+      "releaseDate": "2026-09-02",
+      "agenticIndex": 40.2,
+      "costPerTaskUsd": 3.485,
+      "outputTps": 131.28,
+      "latencyMs": 31660,
+      "valueScore": 11.53515065,
+      "onModelGo": false,
+      "modelgoId": null,
+      "markets": [],
+      "priceUsdPer1M": {
+        "input": 0.75,
+        "output": 3.75,
+        "cacheHit": 0.075
+      }
+    },
+    {
+      "model": "K2 Horizon 375B A23B",
+      "baseModel": "K2 Horizon 375B A23B",
+      "variant": "",
+      "creator": "Institute of Foundation Models",
+      "openWeights": false,
+      "releaseDate": "2026-09-03",
+      "agenticIndex": 40,
+      "costPerTaskUsd": 0,
+      "outputTps": 312.58,
+      "latencyMs": 10420,
+      "valueScore": null,
+      "onModelGo": false,
+      "modelgoId": null,
+      "markets": [],
+      "priceUsdPer1M": {
+        "input": 0,
+        "output": 0,
+        "cacheHit": null
+      }
+    },
+    {
+      "model": "GPT-5.6 Sol (Medium)",
+      "baseModel": "GPT-5.6 Sol",
+      "variant": "Medium",
+      "creator": "OpenAI",
+      "openWeights": false,
+      "releaseDate": "2026-07-09",
+      "agenticIndex": 39.7,
+      "costPerTaskUsd": 0.505,
+      "outputTps": 115.04,
+      "latencyMs": 9580,
+      "valueScore": 78.61386139,
+      "onModelGo": true,
+      "modelgoId": "gpt-5.6-sol",
+      "markets": [
+        "global"
+      ],
+      "priceUsdPer1M": {
+        "input": 4,
+        "output": 20,
+        "cacheHit": 0.4
+      }
+    },
+    {
+      "model": "Gemini 3.8 Flash (Medium)",
+      "baseModel": "Gemini 3.8 Flash",
+      "variant": "Medium",
+      "creator": "Google",
+      "openWeights": false,
+      "releaseDate": "2026-09-02",
+      "agenticIndex": 39.7,
+      "costPerTaskUsd": 2.5927,
+      "outputTps": null,
+      "latencyMs": null,
+      "valueScore": 15.31222278,
+      "onModelGo": false,
+      "modelgoId": null,
+      "markets": [],
+      "priceUsdPer1M": {
+        "input": 0.75,
+        "output": 3.75,
+        "cacheHit": 0.075
+      }
+    },
+    {
+      "model": "Qwen3.8 27B (Low)",
+      "baseModel": "Qwen3.8 27B",
+      "variant": "Low",
+      "creator": "Alibaba",
+      "openWeights": true,
+      "releaseDate": "2026-08-14",
+      "agenticIndex": 38.9,
+      "costPerTaskUsd": 1.1702,
+      "outputTps": 48.22,
+      "latencyMs": 55840,
+      "valueScore": 33.24218082,
+      "onModelGo": false,
+      "modelgoId": null,
+      "markets": [],
+      "priceUsdPer1M": {
+        "input": 0.5,
+        "output": 3,
+        "cacheHit": 0.1
+      }
+    },
+    {
+      "model": "GPT-6 Astra (Low)",
+      "baseModel": "GPT-6 Astra",
+      "variant": "Low",
+      "creator": "OpenAI",
+      "openWeights": false,
+      "releaseDate": "2026-09-03",
+      "agenticIndex": 38.8,
+      "costPerTaskUsd": 0.8175,
+      "outputTps": 54.87,
+      "latencyMs": 11670,
+      "valueScore": 47.4617737,
+      "onModelGo": true,
+      "modelgoId": "gpt-6-astra",
+      "markets": [
+        "global"
+      ],
+      "priceUsdPer1M": {
+        "input": 10,
+        "output": 50,
+        "cacheHit": 1
+      }
+    },
+    {
+      "model": "GPT-5.6 Luna (Xhigh)",
+      "baseModel": "GPT-5.6 Luna",
+      "variant": "Xhigh",
+      "creator": "OpenAI",
+      "openWeights": false,
+      "releaseDate": "2026-07-09",
+      "agenticIndex": 38.7,
+      "costPerTaskUsd": 0.0853,
+      "outputTps": 113.15,
+      "latencyMs": 68780,
+      "valueScore": 453.69284877,
+      "onModelGo": true,
+      "modelgoId": "gpt-5.6-luna",
+      "markets": [
+        "global"
+      ],
+      "priceUsdPer1M": {
+        "input": 0.2,
+        "output": 1.2,
+        "cacheHit": 0.02
+      }
+    },
+    {
+      "model": "Claude Opus 4.7 (Max)",
+      "baseModel": "Claude Opus 4.7",
+      "variant": "Max",
+      "creator": "Anthropic",
+      "openWeights": false,
+      "releaseDate": "2026-04-16",
+      "agenticIndex": 38.6,
+      "costPerTaskUsd": null,
+      "outputTps": 52.66,
+      "latencyMs": 41170,
+      "valueScore": null,
+      "onModelGo": true,
+      "modelgoId": "claude-opus-4.7",
+      "markets": [
+        "global"
+      ],
+      "priceUsdPer1M": {
+        "input": 5,
+        "output": 25,
+        "cacheHit": 0.5
+      }
+    },
+    {
+      "model": "GLM-5.2 (Max)",
+      "baseModel": "GLM-5.2",
+      "variant": "Max",
+      "creator": "Z AI",
+      "openWeights": true,
+      "releaseDate": "2026-06-16",
+      "agenticIndex": 38.4,
+      "costPerTaskUsd": 1.2831,
+      "outputTps": 88.21,
+      "latencyMs": 30120,
+      "valueScore": 29.92751929,
+      "onModelGo": true,
+      "modelgoId": "glm-5.2",
+      "markets": [
+        "global",
+        "cn"
+      ],
+      "priceUsdPer1M": {
+        "input": 1.4,
+        "output": 4.4,
+        "cacheHit": 0.26
+      }
+    },
+    {
+      "model": "GPT-5.6 Terra (High)",
+      "baseModel": "GPT-5.6 Terra",
+      "variant": "High",
+      "creator": "OpenAI",
+      "openWeights": false,
+      "releaseDate": "2026-07-09",
+      "agenticIndex": 36.7,
+      "costPerTaskUsd": 0.3379,
+      "outputTps": 108.97,
+      "latencyMs": 8760,
+      "valueScore": 108.61201539,
+      "onModelGo": true,
+      "modelgoId": "gpt-5.6-terra",
+      "markets": [
+        "global"
+      ],
+      "priceUsdPer1M": {
+        "input": 2,
+        "output": 12,
+        "cacheHit": 0.2
+      }
+    },
+    {
+      "model": "GPT-5.5 (Xhigh)",
+      "baseModel": "GPT-5.5",
+      "variant": "Xhigh",
+      "creator": "OpenAI",
+      "openWeights": false,
+      "releaseDate": "2026-04-23",
+      "agenticIndex": 36.4,
+      "costPerTaskUsd": 2.0997,
+      "outputTps": 90.76,
+      "latencyMs": 78800,
+      "valueScore": 17.33580988,
+      "onModelGo": true,
+      "modelgoId": "gpt-5.5",
+      "markets": [
+        "global"
+      ],
+      "priceUsdPer1M": {
+        "input": 5,
+        "output": 30,
+        "cacheHit": 0.5
+      }
+    },
+    {
+      "model": "Claude Opus 5 (Low)",
+      "baseModel": "Claude Opus 5",
+      "variant": "Low",
+      "creator": "Anthropic",
+      "openWeights": false,
+      "releaseDate": "2026-07-24",
+      "agenticIndex": 36,
+      "costPerTaskUsd": 1.0983,
+      "outputTps": 52.15,
+      "latencyMs": 11760,
+      "valueScore": 32.77792953,
+      "onModelGo": true,
+      "modelgoId": "claude-opus-5",
+      "markets": [
+        "global"
+      ],
+      "priceUsdPer1M": {
+        "input": 5,
+        "output": 25,
+        "cacheHit": 0.5
+      }
+    },
+    {
+      "model": "Gemini 3.7 Flash (High)",
+      "baseModel": "Gemini 3.7 Flash",
+      "variant": "High",
+      "creator": "Google",
+      "openWeights": false,
+      "releaseDate": "2026-08-13",
+      "agenticIndex": 35.2,
+      "costPerTaskUsd": null,
+      "outputTps": null,
+      "latencyMs": null,
+      "valueScore": null,
+      "onModelGo": true,
+      "modelgoId": "gemini-3.7-flash",
+      "markets": [
+        "global"
+      ],
+      "priceUsdPer1M": {
+        "input": 0.75,
+        "output": 3.75,
+        "cacheHit": 0.075
+      }
+    },
+    {
+      "model": "GPT-5.6 Luna (High)",
+      "baseModel": "GPT-5.6 Luna",
+      "variant": "High",
+      "creator": "OpenAI",
+      "openWeights": false,
+      "releaseDate": "2026-07-09",
+      "agenticIndex": 34.6,
+      "costPerTaskUsd": 0.044,
+      "outputTps": 109.12,
+      "latencyMs": 27380,
+      "valueScore": 786.36363636,
+      "onModelGo": true,
+      "modelgoId": "gpt-5.6-luna",
+      "markets": [
+        "global"
+      ],
+      "priceUsdPer1M": {
+        "input": 0.2,
+        "output": 1.2,
+        "cacheHit": 0.02
+      }
+    },
+    {
+      "model": "GPT-5.5 (High)",
+      "baseModel": "GPT-5.5",
+      "variant": "High",
+      "creator": "OpenAI",
+      "openWeights": false,
+      "releaseDate": "2026-04-23",
+      "agenticIndex": 34.3,
+      "costPerTaskUsd": 1.3997,
+      "outputTps": 81.38,
+      "latencyMs": 48310,
+      "valueScore": 24.50525113,
+      "onModelGo": true,
+      "modelgoId": "gpt-5.5",
+      "markets": [
+        "global"
+      ],
+      "priceUsdPer1M": {
+        "input": 5,
+        "output": 30,
+        "cacheHit": 0.5
+      }
+    },
+    {
+      "model": "K2 Horizon MoVA 36B A4B",
+      "baseModel": "K2 Horizon MoVA 36B A4B",
+      "variant": "",
+      "creator": "Institute of Foundation Models",
+      "openWeights": false,
+      "releaseDate": "2026-09-03",
+      "agenticIndex": 33.5,
+      "costPerTaskUsd": null,
+      "outputTps": null,
+      "latencyMs": null,
+      "valueScore": null,
+      "onModelGo": false,
+      "modelgoId": null,
+      "markets": [],
+      "priceUsdPer1M": null
+    },
+    {
+      "model": "Gemini 3.8 Flash (Low)",
+      "baseModel": "Gemini 3.8 Flash",
+      "variant": "Low",
+      "creator": "Google",
+      "openWeights": false,
+      "releaseDate": "2026-09-02",
+      "agenticIndex": 32.6,
+      "costPerTaskUsd": null,
+      "outputTps": null,
+      "latencyMs": null,
+      "valueScore": null,
+      "onModelGo": false,
+      "modelgoId": null,
+      "markets": [],
+      "priceUsdPer1M": {
+        "input": 0.75,
+        "output": 3.75,
+        "cacheHit": 0.075
+      }
+    },
+    {
+      "model": "Claude Sonnet 4.6 (Max)",
+      "baseModel": "Claude Sonnet 4.6",
+      "variant": "Max",
+      "creator": "Anthropic",
+      "openWeights": false,
+      "releaseDate": "2026-02-17",
+      "agenticIndex": 31.8,
+      "costPerTaskUsd": 2.4859,
+      "outputTps": 58.14,
+      "latencyMs": 128940,
+      "valueScore": 12.79214771,
+      "onModelGo": true,
+      "modelgoId": "claude-sonnet-4.6",
+      "markets": [
+        "global"
+      ],
+      "priceUsdPer1M": {
+        "input": 3,
+        "output": 15,
+        "cacheHit": 0.3
+      }
+    },
+    {
+      "model": "GPT-5.6 Sol (Low)",
+      "baseModel": "GPT-5.6 Sol",
+      "variant": "Low",
+      "creator": "OpenAI",
+      "openWeights": false,
+      "releaseDate": "2026-07-09",
+      "agenticIndex": 31.6,
+      "costPerTaskUsd": 0.2606,
+      "outputTps": 112.99,
+      "latencyMs": 6820,
+      "valueScore": 121.25863392,
+      "onModelGo": true,
+      "modelgoId": "gpt-5.6-sol",
+      "markets": [
+        "global"
+      ],
+      "priceUsdPer1M": {
+        "input": 4,
+        "output": 20,
+        "cacheHit": 0.4
+      }
+    },
+    {
+      "model": "Quasar 438B (Max, Based on GLM-5.2)",
+      "baseModel": "Quasar 438B",
+      "variant": "Max, Based on GLM-5.2",
+      "creator": "Multiverse Computing",
+      "openWeights": false,
+      "releaseDate": "2026-08-10",
+      "agenticIndex": 31.4,
+      "costPerTaskUsd": 0.1481,
+      "outputTps": 173.39,
+      "latencyMs": 15730,
+      "valueScore": 212.01890614,
+      "onModelGo": false,
+      "modelgoId": null,
+      "markets": [],
+      "priceUsdPer1M": {
+        "input": 0.11,
+        "output": 0.33,
+        "cacheHit": 0.0099
+      }
+    },
+    {
+      "model": "GPT-5.6 Terra (Medium)",
+      "baseModel": "GPT-5.6 Terra",
+      "variant": "Medium",
+      "creator": "OpenAI",
+      "openWeights": false,
+      "releaseDate": "2026-07-09",
+      "agenticIndex": 30.4,
+      "costPerTaskUsd": 0.1834,
+      "outputTps": 105.08,
+      "latencyMs": 6490,
+      "valueScore": 165.75790622,
+      "onModelGo": true,
+      "modelgoId": "gpt-5.6-terra",
+      "markets": [
+        "global"
+      ],
+      "priceUsdPer1M": {
+        "input": 2,
+        "output": 12,
+        "cacheHit": 0.2
+      }
+    },
+    {
+      "model": "GPT-5.5 (Medium)",
+      "baseModel": "GPT-5.5",
+      "variant": "Medium",
+      "creator": "OpenAI",
+      "openWeights": false,
+      "releaseDate": "2026-04-23",
+      "agenticIndex": 29.5,
+      "costPerTaskUsd": 0.7657,
+      "outputTps": 75.67,
+      "latencyMs": 14790,
+      "valueScore": 38.52683819,
+      "onModelGo": true,
+      "modelgoId": "gpt-5.5",
+      "markets": [
+        "global"
+      ],
+      "priceUsdPer1M": {
+        "input": 5,
+        "output": 30,
+        "cacheHit": 0.5
+      }
+    },
+    {
+      "model": "MiniMax-M3",
+      "baseModel": "MiniMax-M3",
+      "variant": "",
+      "creator": "MiniMax",
+      "openWeights": true,
+      "releaseDate": "2026-06-01",
+      "agenticIndex": 29.5,
+      "costPerTaskUsd": 0.5076,
+      "outputTps": 119.67,
+      "latencyMs": 21590,
+      "valueScore": 58.11662727,
+      "onModelGo": true,
+      "modelgoId": "minimax-m3",
+      "markets": [
+        "global",
+        "cn"
+      ],
+      "priceUsdPer1M": {
+        "input": 0.3,
+        "output": 1.2,
+        "cacheHit": 0.06
+      }
+    },
+    {
+      "model": "Kimi K3 (Low)",
+      "baseModel": "Kimi K3",
+      "variant": "Low",
+      "creator": "Kimi",
+      "openWeights": true,
+      "releaseDate": "2026-07-16",
+      "agenticIndex": 29.3,
+      "costPerTaskUsd": 1.1463,
+      "outputTps": 54.35,
+      "latencyMs": 49140,
+      "valueScore": 25.560499,
+      "onModelGo": true,
+      "modelgoId": "kimi-k3",
+      "markets": [
+        "global",
+        "cn"
+      ],
+      "priceUsdPer1M": {
+        "input": 3,
+        "output": 15,
+        "cacheHit": 0.3
+      }
+    },
+    {
+      "model": "Gemini 3.6 Flash (High)",
+      "baseModel": "Gemini 3.6 Flash",
+      "variant": "High",
+      "creator": "Google",
+      "openWeights": false,
+      "releaseDate": "2026-07-21",
+      "agenticIndex": 29,
+      "costPerTaskUsd": 1.6005,
+      "outputTps": 189.33,
+      "latencyMs": 21380,
+      "valueScore": 18.11933771,
+      "onModelGo": true,
+      "modelgoId": "gemini-3.6-flash",
+      "markets": [
+        "global"
+      ],
+      "priceUsdPer1M": {
+        "input": 0.75,
+        "output": 3.75,
+        "cacheHit": 0.15
+      }
+    },
+    {
+      "model": "Solar Pro 4",
+      "baseModel": "Solar Pro 4",
+      "variant": "",
+      "creator": "Upstage",
+      "openWeights": false,
+      "releaseDate": "2026-08-06",
+      "agenticIndex": 28.8,
+      "costPerTaskUsd": 0.7113,
+      "outputTps": 100.53,
+      "latencyMs": 26800,
+      "valueScore": 40.48924504,
+      "onModelGo": false,
+      "modelgoId": null,
+      "markets": [],
+      "priceUsdPer1M": {
+        "input": 0.3,
+        "output": 1.2,
+        "cacheHit": 0.06
+      }
+    },
+    {
+      "model": "Ling-3.0-flash-VL",
+      "baseModel": "Ling-3.0-flash-VL",
+      "variant": "",
+      "creator": "InclusionAI",
+      "openWeights": true,
+      "releaseDate": "2026-09-10",
+      "agenticIndex": 28.7,
+      "costPerTaskUsd": null,
+      "outputTps": null,
+      "latencyMs": null,
+      "valueScore": null,
+      "onModelGo": false,
+      "modelgoId": null,
+      "markets": [],
+      "priceUsdPer1M": null
+    },
+    {
+      "model": "Apodex 1.1",
+      "baseModel": "Apodex 1.1",
+      "variant": "",
+      "creator": "Apodex",
+      "openWeights": false,
+      "releaseDate": "2026-08-30",
+      "agenticIndex": 28.4,
+      "costPerTaskUsd": 0.4636,
+      "outputTps": null,
+      "latencyMs": null,
+      "valueScore": 61.25970664,
+      "onModelGo": false,
+      "modelgoId": null,
+      "markets": [],
+      "priceUsdPer1M": {
+        "input": 0.3,
+        "output": 3,
+        "cacheHit": 0.03
+      }
+    },
+    {
+      "model": "Motif 3",
+      "baseModel": "Motif 3",
+      "variant": "",
+      "creator": "Motif Technologies",
+      "openWeights": true,
+      "releaseDate": "2026-08-12",
+      "agenticIndex": 28.4,
+      "costPerTaskUsd": null,
+      "outputTps": null,
+      "latencyMs": null,
+      "valueScore": null,
+      "onModelGo": false,
+      "modelgoId": null,
+      "markets": [],
+      "priceUsdPer1M": null
+    },
+    {
+      "model": "GPT-5.6 Sol (Non-reasoning)",
+      "baseModel": "GPT-5.6 Sol",
+      "variant": "Non-reasoning",
+      "creator": "OpenAI",
+      "openWeights": false,
+      "releaseDate": "2026-07-09",
+      "agenticIndex": 28.1,
+      "costPerTaskUsd": null,
+      "outputTps": 109.04,
+      "latencyMs": 5520,
+      "valueScore": null,
+      "onModelGo": true,
+      "modelgoId": "gpt-5.6-sol",
+      "markets": [
+        "global"
+      ],
+      "priceUsdPer1M": {
+        "input": 4,
+        "output": 20,
+        "cacheHit": 0.4
+      }
+    },
+    {
+      "model": "Ling-3.0-flash-Fin",
+      "baseModel": "Ling-3.0-flash-Fin",
+      "variant": "",
+      "creator": "InclusionAI",
+      "openWeights": true,
+      "releaseDate": "2026-09-11",
+      "agenticIndex": 27.9,
+      "costPerTaskUsd": null,
+      "outputTps": null,
+      "latencyMs": null,
+      "valueScore": null,
+      "onModelGo": false,
+      "modelgoId": null,
+      "markets": [],
+      "priceUsdPer1M": null
+    },
+    {
+      "model": "DeepSeek V4 Flash 0420 (High)",
+      "baseModel": "DeepSeek V4 Flash 0420",
+      "variant": "High",
+      "creator": "DeepSeek",
+      "openWeights": false,
+      "releaseDate": "2026-04-24",
+      "agenticIndex": 26.3,
+      "costPerTaskUsd": 0.1275,
+      "outputTps": null,
+      "latencyMs": null,
+      "valueScore": 206.2745098,
+      "onModelGo": false,
+      "modelgoId": null,
+      "markets": [],
+      "priceUsdPer1M": {
+        "input": 0.1119,
+        "output": 0.2338,
+        "cacheHit": 0.0235
+      }
+    },
+    {
+      "model": "DeepSeek V4 Pro 0424 (Max)",
+      "baseModel": "DeepSeek V4 Pro 0424",
+      "variant": "Max",
+      "creator": "DeepSeek",
+      "openWeights": false,
+      "releaseDate": "2026-04-24",
+      "agenticIndex": 26.3,
+      "costPerTaskUsd": 0.1215,
+      "outputTps": 113.41,
+      "latencyMs": 44360,
+      "valueScore": 216.46090535,
+      "onModelGo": false,
+      "modelgoId": null,
+      "markets": [],
+      "priceUsdPer1M": {
+        "input": 1.31,
+        "output": 3.135,
+        "cacheHit": 0.1
+      }
+    },
+    {
+      "model": "K2 Horizon 7B",
+      "baseModel": "K2 Horizon 7B",
+      "variant": "",
+      "creator": "Institute of Foundation Models",
+      "openWeights": false,
+      "releaseDate": "2026-09-03",
+      "agenticIndex": 26.1,
+      "costPerTaskUsd": null,
+      "outputTps": null,
+      "latencyMs": null,
+      "valueScore": null,
+      "onModelGo": false,
+      "modelgoId": null,
+      "markets": [],
+      "priceUsdPer1M": null
+    },
+    {
+      "model": "Gemini 3.5 Flash (High)",
+      "baseModel": "Gemini 3.5 Flash",
+      "variant": "High",
+      "creator": "Google",
+      "openWeights": false,
+      "releaseDate": "2026-05-19",
+      "agenticIndex": 26,
+      "costPerTaskUsd": 2.9783,
+      "outputTps": 184.97,
+      "latencyMs": 21160,
+      "valueScore": 8.72981231,
+      "onModelGo": true,
+      "modelgoId": "gemini-3.5-flash",
+      "markets": [
+        "global"
+      ],
+      "priceUsdPer1M": {
+        "input": 1.5,
+        "output": 9,
+        "cacheHit": 0.15
+      }
+    },
+    {
+      "model": "GPT-5.6 Terra (Low)",
+      "baseModel": "GPT-5.6 Terra",
+      "variant": "Low",
+      "creator": "OpenAI",
+      "openWeights": false,
+      "releaseDate": "2026-07-09",
+      "agenticIndex": 25.9,
+      "costPerTaskUsd": 0.1445,
+      "outputTps": 100.68,
+      "latencyMs": 6600,
+      "valueScore": 179.23875433,
+      "onModelGo": true,
+      "modelgoId": "gpt-5.6-terra",
+      "markets": [
+        "global"
+      ],
+      "priceUsdPer1M": {
+        "input": 2,
+        "output": 12,
+        "cacheHit": 0.2
+      }
+    },
+    {
+      "model": "Muse Spark 1.1 (Xhigh)",
+      "baseModel": "Muse Spark 1.1",
+      "variant": "Xhigh",
+      "creator": "Meta",
+      "openWeights": false,
+      "releaseDate": "2026-07-09",
+      "agenticIndex": 25.8,
+      "costPerTaskUsd": 1.1261,
+      "outputTps": 273.05,
+      "latencyMs": 22030,
+      "valueScore": 22.91093153,
+      "onModelGo": false,
+      "modelgoId": null,
+      "markets": [],
+      "priceUsdPer1M": {
+        "input": 1.25,
+        "output": 4.25,
+        "cacheHit": 0.15
+      }
+    },
+    {
+      "model": "Hy3",
+      "baseModel": "Hy3",
+      "variant": "",
+      "creator": "Tencent",
+      "openWeights": true,
+      "releaseDate": "2026-07-06",
+      "agenticIndex": 24.1,
+      "costPerTaskUsd": 0.0724,
+      "outputTps": 94.93,
+      "latencyMs": 29100,
+      "valueScore": 332.87292818,
+      "onModelGo": false,
+      "modelgoId": null,
+      "markets": [],
+      "priceUsdPer1M": {
+        "input": 0.136,
+        "output": 0.555,
+        "cacheHit": 0.034
+      }
+    },
+    {
+      "model": "GLM-5.1 (Reasoning)",
+      "baseModel": "GLM-5.1",
+      "variant": "Reasoning",
+      "creator": "Z AI",
+      "openWeights": true,
+      "releaseDate": "2026-04-07",
+      "agenticIndex": 23.9,
+      "costPerTaskUsd": 0.7487,
+      "outputTps": 91.78,
+      "latencyMs": 48020,
+      "valueScore": 31.92199813,
+      "onModelGo": true,
+      "modelgoId": "glm-5.1",
+      "markets": [
+        "global",
+        "cn"
+      ],
+      "priceUsdPer1M": {
+        "input": 1.19,
+        "output": 3.74,
+        "cacheHit": 0.26
+      }
+    },
+    {
+      "model": "GPT-5.6 Luna (Medium)",
+      "baseModel": "GPT-5.6 Luna",
+      "variant": "Medium",
+      "creator": "OpenAI",
+      "openWeights": false,
+      "releaseDate": "2026-07-09",
+      "agenticIndex": 23.9,
+      "costPerTaskUsd": 0.0156,
+      "outputTps": 116.88,
+      "latencyMs": 7300,
+      "valueScore": 1532.05128205,
+      "onModelGo": true,
+      "modelgoId": "gpt-5.6-luna",
+      "markets": [
+        "global"
+      ],
+      "priceUsdPer1M": {
+        "input": 0.2,
+        "output": 1.2,
+        "cacheHit": 0.02
+      }
+    },
+    {
+      "model": "Nex-N2-Pro (Based on Qwen3.5-397B-A17B)",
+      "baseModel": "Nex-N2-Pro",
+      "variant": "Based on Qwen3.5-397B-A17B",
+      "creator": "Nex AGI",
+      "openWeights": true,
+      "releaseDate": "2026-06-02",
+      "agenticIndex": 23.7,
+      "costPerTaskUsd": null,
+      "outputTps": null,
+      "latencyMs": null,
+      "valueScore": null,
+      "onModelGo": false,
+      "modelgoId": null,
+      "markets": [],
+      "priceUsdPer1M": null
+    },
+    {
+      "model": "GPT-5.6 Terra (Non-reasoning)",
+      "baseModel": "GPT-5.6 Terra",
+      "variant": "Non-reasoning",
+      "creator": "OpenAI",
+      "openWeights": false,
+      "releaseDate": "2026-07-09",
+      "agenticIndex": 23.5,
+      "costPerTaskUsd": 0.1397,
+      "outputTps": 109.01,
+      "latencyMs": 5420,
+      "valueScore": 168.21760916,
+      "onModelGo": true,
+      "modelgoId": "gpt-5.6-terra",
+      "markets": [
+        "global"
+      ],
+      "priceUsdPer1M": {
+        "input": 2,
+        "output": 12,
+        "cacheHit": 0.2
+      }
+    },
+    {
+      "model": "Inkling Small",
+      "baseModel": "Inkling Small",
+      "variant": "",
+      "creator": "Thinking Machines",
+      "openWeights": true,
+      "releaseDate": "2026-07-30",
+      "agenticIndex": 23.5,
+      "costPerTaskUsd": 0.0895,
+      "outputTps": 232.47,
+      "latencyMs": 12340,
+      "valueScore": 262.5698324,
+      "onModelGo": false,
+      "modelgoId": null,
+      "markets": [],
+      "priceUsdPer1M": {
+        "input": 0.3,
+        "output": 1.2,
+        "cacheHit": 0.06
+      }
+    },
+    {
+      "model": "Inkling (Xhigh)",
+      "baseModel": "Inkling",
+      "variant": "Xhigh",
+      "creator": "Thinking Machines",
+      "openWeights": true,
+      "releaseDate": "2026-07-15",
+      "agenticIndex": 22.5,
+      "costPerTaskUsd": 0.5953,
+      "outputTps": 215.44,
+      "latencyMs": 13320,
+      "valueScore": 37.79606921,
+      "onModelGo": false,
+      "modelgoId": null,
+      "markets": [],
+      "priceUsdPer1M": {
+        "input": 1,
+        "output": 4.05,
+        "cacheHit": 0.17
+      }
+    },
+    {
+      "model": "Qwen3.7 Max",
+      "baseModel": "Qwen3.7 Max",
+      "variant": "",
+      "creator": "Alibaba",
+      "openWeights": false,
+      "releaseDate": "2026-05-19",
+      "agenticIndex": 22.5,
+      "costPerTaskUsd": 0.9318,
+      "outputTps": 201.53,
+      "latencyMs": 16670,
+      "valueScore": 24.14681262,
+      "onModelGo": true,
+      "modelgoId": "qwen3.7-max",
+      "markets": [
+        "global",
+        "cn"
+      ],
+      "priceUsdPer1M": {
+        "input": 2.5,
+        "output": 7.5,
+        "cacheHit": 0.5
+      }
+    },
+    {
+      "model": "Qwen3.8 27B (Non-reasoning)",
+      "baseModel": "Qwen3.8 27B",
+      "variant": "Non-reasoning",
+      "creator": "Alibaba",
+      "openWeights": true,
+      "releaseDate": "2026-08-14",
+      "agenticIndex": 22.4,
+      "costPerTaskUsd": 2.4878,
+      "outputTps": 45.58,
+      "latencyMs": 15020,
+      "valueScore": 9.00393922,
+      "onModelGo": false,
+      "modelgoId": null,
+      "markets": [],
+      "priceUsdPer1M": {
+        "input": 0.5,
+        "output": 3,
+        "cacheHit": 0.1
+      }
+    },
+    {
+      "model": "DeepSeek V4 Flash 0420 (Max)",
+      "baseModel": "DeepSeek V4 Flash 0420",
+      "variant": "Max",
+      "creator": "DeepSeek",
+      "openWeights": false,
+      "releaseDate": "2026-04-24",
+      "agenticIndex": 22.2,
+      "costPerTaskUsd": 0.0983,
+      "outputTps": 81.69,
+      "latencyMs": 76090,
+      "valueScore": 225.83926755,
+      "onModelGo": false,
+      "modelgoId": null,
+      "markets": [],
+      "priceUsdPer1M": {
+        "input": 0.1119,
+        "output": 0.2338,
+        "cacheHit": 0.0235
+      }
+    },
+    {
+      "model": "MiMo-V2.5-Pro (Reasoning)",
+      "baseModel": "MiMo-V2.5-Pro",
+      "variant": "Reasoning",
+      "creator": "Xiaomi",
+      "openWeights": true,
+      "releaseDate": "2026-04-22",
+      "agenticIndex": 21.3,
+      "costPerTaskUsd": 0.1493,
+      "outputTps": 52.19,
+      "latencyMs": 49110,
+      "valueScore": 142.66577361,
+      "onModelGo": false,
+      "modelgoId": "mimo-v2.5-pro",
+      "markets": [],
+      "priceUsdPer1M": {
+        "input": 0.4125,
+        "output": 1.02,
+        "cacheHit": 0.0118
+      }
+    },
+    {
+      "model": "Kimi K2.7 Code",
+      "baseModel": "Kimi K2.7 Code",
+      "variant": "",
+      "creator": "Kimi",
+      "openWeights": true,
+      "releaseDate": "2026-06-12",
+      "agenticIndex": 21,
+      "costPerTaskUsd": 0.5412,
+      "outputTps": 46.38,
+      "latencyMs": 61670,
+      "valueScore": 38.80266075,
+      "onModelGo": true,
+      "modelgoId": "kimi-k2.7-code",
+      "markets": [
+        "global",
+        "cn"
+      ],
+      "priceUsdPer1M": {
+        "input": 0.95,
+        "output": 4,
+        "cacheHit": 0.19
+      }
+    },
+    {
+      "model": "Kimi K2.6 (Reasoning)",
+      "baseModel": "Kimi K2.6",
+      "variant": "Reasoning",
+      "creator": "Kimi",
+      "openWeights": true,
+      "releaseDate": "2026-04-20",
+      "agenticIndex": 20.5,
+      "costPerTaskUsd": 0.7063,
+      "outputTps": 40.71,
+      "latencyMs": 124440,
+      "valueScore": 29.02449384,
+      "onModelGo": true,
+      "modelgoId": "kimi-k2.6",
+      "markets": [
+        "global",
+        "cn"
+      ],
+      "priceUsdPer1M": {
+        "input": 0.95,
+        "output": 4,
+        "cacheHit": 0.16
+      }
+    },
+    {
+      "model": "Nemotron 3 Ultra 550B A55B (Reasoning)",
+      "baseModel": "Nemotron 3 Ultra 550B A55B",
+      "variant": "Reasoning",
+      "creator": "NVIDIA",
+      "openWeights": true,
+      "releaseDate": "2026-06-04",
+      "agenticIndex": 20.1,
+      "costPerTaskUsd": 0.3666,
+      "outputTps": 161.33,
+      "latencyMs": 18370,
+      "valueScore": 54.82815057,
+      "onModelGo": false,
+      "modelgoId": null,
+      "markets": [],
+      "priceUsdPer1M": {
+        "input": 0.6,
+        "output": 2.7,
+        "cacheHit": 0.12
+      }
+    },
+    {
+      "model": "Ling 3.0 Flash",
+      "baseModel": "Ling 3.0 Flash",
+      "variant": "",
+      "creator": "InclusionAI",
+      "openWeights": true,
+      "releaseDate": "2026-08-04",
+      "agenticIndex": 19.3,
+      "costPerTaskUsd": 0.0277,
+      "outputTps": 309.57,
+      "latencyMs": 10690,
+      "valueScore": 696.75090253,
+      "onModelGo": false,
+      "modelgoId": null,
+      "markets": [],
+      "priceUsdPer1M": {
+        "input": 0.075,
+        "output": 0.22,
+        "cacheHit": 0.015
+      }
+    },
+    {
+      "model": "Qwen3.6 27B (Reasoning)",
+      "baseModel": "Qwen3.6 27B",
+      "variant": "Reasoning",
+      "creator": "Alibaba",
+      "openWeights": true,
+      "releaseDate": "2026-04-22",
+      "agenticIndex": 18.5,
+      "costPerTaskUsd": 0.6212,
+      "outputTps": 57.57,
+      "latencyMs": 110920,
+      "valueScore": 29.7810689,
+      "onModelGo": false,
+      "modelgoId": "qwen3.6-27b",
+      "markets": [],
+      "priceUsdPer1M": {
+        "input": 0.6,
+        "output": 3.6,
+        "cacheHit": null
+      }
+    },
+    {
+      "model": "GPT-5.4 mini (Xhigh)",
+      "baseModel": "GPT-5.4 mini",
+      "variant": "Xhigh",
+      "creator": "OpenAI",
+      "openWeights": false,
+      "releaseDate": "2026-03-17",
+      "agenticIndex": 17.9,
+      "costPerTaskUsd": 0.371,
+      "outputTps": 293.34,
+      "latencyMs": 96680,
+      "valueScore": 48.24797844,
+      "onModelGo": true,
+      "modelgoId": "gpt-5.4-mini",
+      "markets": [
+        "global"
+      ],
+      "priceUsdPer1M": {
+        "input": 0.75,
+        "output": 4.5,
+        "cacheHit": 0.075
+      }
+    },
+    {
+      "model": "Qwen3.7 Plus",
+      "baseModel": "Qwen3.7 Plus",
+      "variant": "",
+      "creator": "Alibaba",
+      "openWeights": false,
+      "releaseDate": "2026-06-01",
+      "agenticIndex": 17.5,
+      "costPerTaskUsd": 0.217,
+      "outputTps": 57.63,
+      "latencyMs": 45780,
+      "valueScore": 80.64516129,
+      "onModelGo": true,
+      "modelgoId": "qwen3.7-plus",
+      "markets": [
+        "global",
+        "cn"
+      ],
+      "priceUsdPer1M": {
+        "input": 0.4,
+        "output": 1.6,
+        "cacheHit": 0.08
+      }
+    },
+    {
+      "model": "GPT-5.5 Instant (June 2026)",
+      "baseModel": "GPT-5.5 Instant",
+      "variant": "June 2026",
+      "creator": "OpenAI",
+      "openWeights": false,
+      "releaseDate": "2026-06-25",
+      "agenticIndex": 16.6,
+      "costPerTaskUsd": 0.5689,
+      "outputTps": 156.87,
+      "latencyMs": 16820,
+      "valueScore": 29.1791176,
+      "onModelGo": false,
+      "modelgoId": null,
+      "markets": [],
+      "priceUsdPer1M": {
+        "input": 5,
+        "output": 30,
+        "cacheHit": 0.5
+      }
+    },
+    {
+      "model": "K2 Horizon 3.7B",
+      "baseModel": "K2 Horizon 3.7B",
+      "variant": "",
+      "creator": "Institute of Foundation Models",
+      "openWeights": false,
+      "releaseDate": "2026-09-03",
+      "agenticIndex": 16.5,
+      "costPerTaskUsd": null,
+      "outputTps": null,
+      "latencyMs": null,
+      "valueScore": null,
+      "onModelGo": false,
+      "modelgoId": null,
+      "markets": [],
+      "priceUsdPer1M": null
+    },
+    {
+      "model": "A.X-K2",
+      "baseModel": "A.X-K2",
+      "variant": "",
+      "creator": "SK Telecom",
+      "openWeights": false,
+      "releaseDate": "2026-08-12",
+      "agenticIndex": 16.2,
+      "costPerTaskUsd": null,
+      "outputTps": null,
+      "latencyMs": null,
+      "valueScore": null,
+      "onModelGo": false,
+      "modelgoId": null,
+      "markets": [],
+      "priceUsdPer1M": null
+    },
+    {
+      "model": "GPT-5.6 Luna (Low)",
+      "baseModel": "GPT-5.6 Luna",
+      "variant": "Low",
+      "creator": "OpenAI",
+      "openWeights": false,
+      "releaseDate": "2026-07-09",
+      "agenticIndex": 16.1,
+      "costPerTaskUsd": 0.0098,
+      "outputTps": 110.48,
+      "latencyMs": 6190,
+      "valueScore": 1642.85714286,
+      "onModelGo": true,
+      "modelgoId": "gpt-5.6-luna",
+      "markets": [
+        "global"
+      ],
+      "priceUsdPer1M": {
+        "input": 0.2,
+        "output": 1.2,
+        "cacheHit": 0.02
+      }
+    },
+    {
+      "model": "GPT-5.4 nano (Xhigh)",
+      "baseModel": "GPT-5.4 nano",
+      "variant": "Xhigh",
+      "creator": "OpenAI",
+      "openWeights": false,
+      "releaseDate": "2026-03-17",
+      "agenticIndex": 16,
+      "costPerTaskUsd": 0.1831,
+      "outputTps": 174.18,
+      "latencyMs": 104310,
+      "valueScore": 87.3839432,
+      "onModelGo": true,
+      "modelgoId": "gpt-5.4-nano",
+      "markets": [
+        "global"
+      ],
+      "priceUsdPer1M": {
+        "input": 0.2,
+        "output": 1.25,
+        "cacheHit": 0.02
+      }
+    },
+    {
+      "model": "MiMo-V2.5",
+      "baseModel": "MiMo-V2.5",
+      "variant": "",
+      "creator": "Xiaomi",
+      "openWeights": true,
+      "releaseDate": "2026-04-22",
+      "agenticIndex": 15.8,
+      "costPerTaskUsd": 0.0418,
+      "outputTps": 60.37,
+      "latencyMs": 42640,
+      "valueScore": 377.99043062,
+      "onModelGo": false,
+      "modelgoId": null,
+      "markets": [],
+      "priceUsdPer1M": {
+        "input": 0.133,
+        "output": 0.266,
+        "cacheHit": 0.0028
+      }
+    },
+    {
+      "model": "Grok 4.3 (High)",
+      "baseModel": "Grok 4.3",
+      "variant": "High",
+      "creator": "SpaceXAI",
+      "openWeights": false,
+      "releaseDate": "2026-04-30",
+      "agenticIndex": 15.5,
+      "costPerTaskUsd": 0.2054,
+      "outputTps": 92.28,
+      "latencyMs": 33090,
+      "valueScore": 75.46251217,
+      "onModelGo": false,
+      "modelgoId": "grok-4.3",
+      "markets": [],
+      "priceUsdPer1M": {
+        "input": 1.25,
+        "output": 2.5,
+        "cacheHit": 0.2
+      }
+    },
+    {
+      "model": "MiniMax-M2.7",
+      "baseModel": "MiniMax-M2.7",
+      "variant": "",
+      "creator": "MiniMax",
+      "openWeights": true,
+      "releaseDate": "2026-03-18",
+      "agenticIndex": 15.3,
+      "costPerTaskUsd": 0.1064,
+      "outputTps": 54.44,
+      "latencyMs": 56330,
+      "valueScore": 143.79699248,
+      "onModelGo": true,
+      "modelgoId": "minimax-m2.7",
+      "markets": [
+        "global",
+        "cn"
+      ],
+      "priceUsdPer1M": {
+        "input": 0.3,
+        "output": 1.2,
+        "cacheHit": 0.06
+      }
+    },
+    {
+      "model": "Gemini 3.5 Flash-Lite",
+      "baseModel": "Gemini 3.5 Flash-Lite",
+      "variant": "",
+      "creator": "Google",
+      "openWeights": false,
+      "releaseDate": "2026-07-21",
+      "agenticIndex": 14.3,
+      "costPerTaskUsd": 0.1728,
+      "outputTps": 423.32,
+      "latencyMs": 8000,
+      "valueScore": 82.75462963,
+      "onModelGo": true,
+      "modelgoId": "gemini-3.5-flash-lite",
+      "markets": [
+        "global"
+      ],
+      "priceUsdPer1M": {
+        "input": 0.3,
+        "output": 2.5,
+        "cacheHit": 0.03
+      }
+    },
+    {
+      "model": "Grok 4.3 (Non-reasoning)",
+      "baseModel": "Grok 4.3",
+      "variant": "Non-reasoning",
+      "creator": "SpaceXAI",
+      "openWeights": false,
+      "releaseDate": "2026-04-30",
+      "agenticIndex": 14,
+      "costPerTaskUsd": 0.1462,
+      "outputTps": 68.4,
+      "latencyMs": 8020,
+      "valueScore": 95.75923393,
+      "onModelGo": false,
+      "modelgoId": "grok-4.3",
+      "markets": [],
+      "priceUsdPer1M": {
+        "input": 1.25,
+        "output": 2.5,
+        "cacheHit": 0.2
+      }
+    },
+    {
+      "model": "LongCat 2.0",
+      "baseModel": "LongCat 2.0",
+      "variant": "",
+      "creator": "LongCat",
+      "openWeights": false,
+      "releaseDate": "2026-06-29",
+      "agenticIndex": 14,
+      "costPerTaskUsd": 0.1462,
+      "outputTps": 75.77,
+      "latencyMs": 35730,
+      "valueScore": 95.75923393,
+      "onModelGo": false,
+      "modelgoId": null,
+      "markets": [],
+      "priceUsdPer1M": {
+        "input": 0.75,
+        "output": 2.95,
+        "cacheHit": 0.015
+      }
+    },
+    {
+      "model": "GPT-5.6 Luna (Non-reasoning)",
+      "baseModel": "GPT-5.6 Luna",
+      "variant": "Non-reasoning",
+      "creator": "OpenAI",
+      "openWeights": false,
+      "releaseDate": "2026-07-09",
+      "agenticIndex": 13.4,
+      "costPerTaskUsd": 0.0101,
+      "outputTps": 106.46,
+      "latencyMs": 5490,
+      "valueScore": 1326.73267327,
+      "onModelGo": true,
+      "modelgoId": "gpt-5.6-luna",
+      "markets": [
+        "global"
+      ],
+      "priceUsdPer1M": {
+        "input": 0.2,
+        "output": 1.2,
+        "cacheHit": 0.02
+      }
+    },
+    {
+      "model": "Qwen3.6 35B A3B (Reasoning)",
+      "baseModel": "Qwen3.6 35B A3B",
+      "variant": "Reasoning",
+      "creator": "Alibaba",
+      "openWeights": true,
+      "releaseDate": "2026-04-16",
+      "agenticIndex": 13.1,
+      "costPerTaskUsd": 0.4751,
+      "outputTps": 132.62,
+      "latencyMs": 46500,
+      "valueScore": 27.5731425,
+      "onModelGo": false,
+      "modelgoId": null,
+      "markets": [],
+      "priceUsdPer1M": {
+        "input": 0.375,
+        "output": 2.25,
+        "cacheHit": null
+      }
+    },
+    {
+      "model": "Ring-2.6-1T",
+      "baseModel": "Ring-2.6-1T",
+      "variant": "",
+      "creator": "InclusionAI",
+      "openWeights": false,
+      "releaseDate": "2026-05-08",
+      "agenticIndex": 10.7,
+      "costPerTaskUsd": 0.2872,
+      "outputTps": 125.38,
+      "latencyMs": 23830,
+      "valueScore": 37.25626741,
+      "onModelGo": false,
+      "modelgoId": null,
+      "markets": [],
+      "priceUsdPer1M": {
+        "input": 0.3,
+        "output": 2.5,
+        "cacheHit": null
+      }
+    },
+    {
+      "model": "Muse Glimmer (High)",
+      "baseModel": "Muse Glimmer",
+      "variant": "High",
+      "creator": "Meta",
+      "openWeights": false,
+      "releaseDate": "2026-08-10",
+      "agenticIndex": 8.5,
+      "costPerTaskUsd": 0.0576,
+      "outputTps": 131.08,
+      "latencyMs": 20220,
+      "valueScore": 147.56944444,
+      "onModelGo": false,
+      "modelgoId": null,
+      "markets": [],
+      "priceUsdPer1M": {
+        "input": 0.3,
+        "output": 1.2,
+        "cacheHit": 0.04
+      }
+    },
+    {
+      "model": "Qwen3.5 397B A17B (Reasoning)",
+      "baseModel": "Qwen3.5 397B A17B",
+      "variant": "Reasoning",
+      "creator": "Alibaba",
+      "openWeights": true,
+      "releaseDate": "2026-02-16",
+      "agenticIndex": 8.3,
+      "costPerTaskUsd": 0.4746,
+      "outputTps": 57.54,
+      "latencyMs": 66260,
+      "valueScore": 17.48841129,
+      "onModelGo": false,
+      "modelgoId": null,
+      "markets": [],
+      "priceUsdPer1M": {
+        "input": 0.6,
+        "output": 3.6,
+        "cacheHit": null
+      }
+    },
+    {
+      "model": "Gemini 3.1 Pro Preview",
+      "baseModel": "Gemini 3.1 Pro Preview",
+      "variant": "",
+      "creator": "Google",
+      "openWeights": false,
+      "releaseDate": "2026-02-19",
+      "agenticIndex": 8.2,
+      "costPerTaskUsd": 1.4354,
+      "outputTps": 139.65,
+      "latencyMs": 25820,
+      "valueScore": 5.71269333,
+      "onModelGo": false,
+      "modelgoId": "gemini-3.1-pro-preview",
+      "markets": [],
+      "priceUsdPer1M": {
+        "input": 2,
+        "output": 12,
+        "cacheHit": 0.2
+      }
+    },
+    {
+      "model": "Qwen3.5 122B A10B (Reasoning)",
+      "baseModel": "Qwen3.5 122B A10B",
+      "variant": "Reasoning",
+      "creator": "Alibaba",
+      "openWeights": true,
+      "releaseDate": "2026-02-24",
+      "agenticIndex": 7.6,
+      "costPerTaskUsd": 0.3247,
+      "outputTps": 129.57,
+      "latencyMs": 21600,
+      "valueScore": 23.40622113,
+      "onModelGo": false,
+      "modelgoId": null,
+      "markets": [],
+      "priceUsdPer1M": {
+        "input": 0.4,
+        "output": 3.2,
+        "cacheHit": null
+      }
+    },
+    {
+      "model": "Mistral Medium 3.5",
+      "baseModel": "Mistral Medium 3.5",
+      "variant": "",
+      "creator": "Mistral",
+      "openWeights": false,
+      "releaseDate": "2026-04-29",
+      "agenticIndex": 7,
+      "costPerTaskUsd": 0.4286,
+      "outputTps": 177.56,
+      "latencyMs": 16530,
+      "valueScore": 16.33224452,
+      "onModelGo": false,
+      "modelgoId": null,
+      "markets": [],
+      "priceUsdPer1M": {
+        "input": 1.5,
+        "output": 7.5,
+        "cacheHit": 0.15
+      }
+    },
+    {
+      "model": "MiniCPM5-2B",
+      "baseModel": "MiniCPM5-2B",
+      "variant": "",
+      "creator": "OpenBMB",
+      "openWeights": true,
+      "releaseDate": "2026-09-07",
+      "agenticIndex": 6.7,
+      "costPerTaskUsd": null,
+      "outputTps": null,
+      "latencyMs": null,
+      "valueScore": null,
+      "onModelGo": false,
+      "modelgoId": null,
+      "markets": [],
+      "priceUsdPer1M": null
+    },
+    {
+      "model": "Ling 3.0 Tiny",
+      "baseModel": "Ling 3.0 Tiny",
+      "variant": "",
+      "creator": "InclusionAI",
+      "openWeights": false,
+      "releaseDate": "2026-08-06",
+      "agenticIndex": 4.4,
+      "costPerTaskUsd": 0,
+      "outputTps": 57.29,
+      "latencyMs": 46230,
+      "valueScore": null,
+      "onModelGo": false,
+      "modelgoId": null,
+      "markets": [],
+      "priceUsdPer1M": {
+        "input": 0,
+        "output": 0,
+        "cacheHit": null
+      }
+    },
+    {
+      "model": "Gemma 4 31B (Reasoning)",
+      "baseModel": "Gemma 4 31B",
+      "variant": "Reasoning",
+      "creator": "Google",
+      "openWeights": false,
+      "releaseDate": "2026-04-02",
+      "agenticIndex": 4.2,
+      "costPerTaskUsd": 0,
+      "outputTps": 35.29,
+      "latencyMs": 64440,
+      "valueScore": null,
+      "onModelGo": false,
+      "modelgoId": null,
+      "markets": [],
+      "priceUsdPer1M": {
+        "input": 0,
+        "output": 0,
+        "cacheHit": null
+      }
+    },
+    {
+      "model": "Granite 4.2 30B",
+      "baseModel": "Granite 4.2 30B",
+      "variant": "",
+      "creator": "IBM",
+      "openWeights": false,
+      "releaseDate": "2026-08-25",
+      "agenticIndex": 3.5,
+      "costPerTaskUsd": null,
+      "outputTps": null,
+      "latencyMs": null,
+      "valueScore": null,
+      "onModelGo": false,
+      "modelgoId": null,
+      "markets": [],
+      "priceUsdPer1M": null
+    },
+    {
+      "model": "Nemotron 3.5 Lightning",
+      "baseModel": "Nemotron 3.5 Lightning",
+      "variant": "",
+      "creator": "NVIDIA",
+      "openWeights": true,
+      "releaseDate": "2026-08-11",
+      "agenticIndex": 3.5,
+      "costPerTaskUsd": 0.0862,
+      "outputTps": 292,
+      "latencyMs": 9120,
+      "valueScore": 40.60324826,
+      "onModelGo": false,
+      "modelgoId": null,
+      "markets": [],
+      "priceUsdPer1M": {
+        "input": 0.06,
+        "output": 0.2,
+        "cacheHit": 0.035
+      }
+    },
+    {
+      "model": "Gemma 4 26B A4B (Reasoning)",
+      "baseModel": "Gemma 4 26B A4B",
+      "variant": "Reasoning",
+      "creator": "Google",
+      "openWeights": false,
+      "releaseDate": "2026-04-02",
+      "agenticIndex": 2.9,
+      "costPerTaskUsd": null,
+      "outputTps": 110.91,
+      "latencyMs": 23470,
+      "valueScore": null,
+      "onModelGo": false,
+      "modelgoId": null,
+      "markets": [],
+      "priceUsdPer1M": {
+        "input": 0.1,
+        "output": 0.34,
+        "cacheHit": 0.05
+      }
+    },
+    {
+      "model": "Nemotron 3 Super 120B A12B (Reasoning)",
+      "baseModel": "Nemotron 3 Super 120B A12B",
+      "variant": "Reasoning",
+      "creator": "NVIDIA",
+      "openWeights": true,
+      "releaseDate": "2026-03-11",
+      "agenticIndex": 1.7,
+      "costPerTaskUsd": 1.6391,
+      "outputTps": 156.29,
+      "latencyMs": 17380,
+      "valueScore": 1.03715454,
+      "onModelGo": false,
+      "modelgoId": null,
+      "markets": [],
+      "priceUsdPer1M": {
+        "input": 0.3,
+        "output": 0.9,
+        "cacheHit": 0.085
+      }
+    },
+    {
+      "model": "Gemini 3.1 Flash-Lite",
+      "baseModel": "Gemini 3.1 Flash-Lite",
+      "variant": "",
+      "creator": "Google",
+      "openWeights": false,
+      "releaseDate": "2026-03-03",
+      "agenticIndex": 1.6,
+      "costPerTaskUsd": 0.0602,
+      "outputTps": 394.42,
+      "latencyMs": 5960,
+      "valueScore": 26.57807309,
+      "onModelGo": true,
+      "modelgoId": "gemini-3.1-flash-lite",
+      "markets": [
+        "global"
+      ],
+      "priceUsdPer1M": {
+        "input": 0.25,
+        "output": 1.5,
+        "cacheHit": 0.025
+      }
+    },
+    {
+      "model": "Mercury 2",
+      "baseModel": "Mercury 2",
+      "variant": "",
+      "creator": "Inception",
+      "openWeights": false,
+      "releaseDate": "2026-02-20",
+      "agenticIndex": 1.6,
+      "costPerTaskUsd": 0.0893,
+      "outputTps": null,
+      "latencyMs": null,
+      "valueScore": 17.91713326,
+      "onModelGo": false,
+      "modelgoId": null,
+      "markets": [],
+      "priceUsdPer1M": {
+        "input": 0.25,
+        "output": 0.75,
+        "cacheHit": 0.025
+      }
+    },
+    {
+      "model": "Solar Pro 3",
+      "baseModel": "Solar Pro 3",
+      "variant": "",
+      "creator": "Upstage",
+      "openWeights": false,
+      "releaseDate": "2026-04-06",
+      "agenticIndex": 1.4,
+      "costPerTaskUsd": 0.0583,
+      "outputTps": 141.59,
+      "latencyMs": 18890,
+      "valueScore": 24.01372213,
+      "onModelGo": false,
+      "modelgoId": null,
+      "markets": [],
+      "priceUsdPer1M": {
+        "input": 0.15,
+        "output": 0.6,
+        "cacheHit": 0.015
+      }
+    },
+    {
+      "model": "Granite 4.2 8B",
+      "baseModel": "Granite 4.2 8B",
+      "variant": "",
+      "creator": "IBM",
+      "openWeights": true,
+      "releaseDate": "2026-08-25",
+      "agenticIndex": 1.3,
+      "costPerTaskUsd": 0.0236,
+      "outputTps": 60.97,
+      "latencyMs": 41940,
+      "valueScore": 55.08474576,
+      "onModelGo": false,
+      "modelgoId": null,
+      "markets": [],
+      "priceUsdPer1M": {
+        "input": 0.06,
+        "output": 0.25,
+        "cacheHit": 0.015
+      }
+    },
+    {
+      "model": "Qwen3.5 9B (Reasoning)",
+      "baseModel": "Qwen3.5 9B",
+      "variant": "Reasoning",
+      "creator": "Alibaba",
+      "openWeights": true,
+      "releaseDate": "2026-03-02",
+      "agenticIndex": 1.2,
+      "costPerTaskUsd": 0.2126,
+      "outputTps": 60.4,
+      "latencyMs": 42990,
+      "valueScore": 5.64440263,
+      "onModelGo": false,
+      "modelgoId": null,
+      "markets": [],
+      "priceUsdPer1M": {
+        "input": 0.135,
+        "output": 0.2,
+        "cacheHit": null
+      }
+    },
+    {
+      "model": "North Mini Code",
+      "baseModel": "North Mini Code",
+      "variant": "",
+      "creator": "Cohere",
+      "openWeights": true,
+      "releaseDate": "2026-06-09",
+      "agenticIndex": 1.1,
+      "costPerTaskUsd": 0,
+      "outputTps": 87.38,
+      "latencyMs": 29020,
+      "valueScore": null,
+      "onModelGo": false,
+      "modelgoId": null,
+      "markets": [],
+      "priceUsdPer1M": {
+        "input": 0,
+        "output": 0,
+        "cacheHit": null
+      }
+    },
+    {
+      "model": "Command A+",
+      "baseModel": "Command A+",
+      "variant": "",
+      "creator": "Cohere",
+      "openWeights": true,
+      "releaseDate": "2026-05-20",
+      "agenticIndex": 1,
+      "costPerTaskUsd": 0,
+      "outputTps": 163.21,
+      "latencyMs": 15780,
+      "valueScore": null,
+      "onModelGo": false,
+      "modelgoId": null,
+      "markets": [],
+      "priceUsdPer1M": {
+        "input": 0,
+        "output": 0,
+        "cacheHit": null
+      }
+    },
+    {
+      "model": "Trinity Large Thinking",
+      "baseModel": "Trinity Large Thinking",
+      "variant": "",
+      "creator": "Arcee AI",
+      "openWeights": true,
+      "releaseDate": "2026-04-01",
+      "agenticIndex": 1,
+      "costPerTaskUsd": 0.1188,
+      "outputTps": null,
+      "latencyMs": null,
+      "valueScore": 8.41750842,
+      "onModelGo": false,
+      "modelgoId": null,
+      "markets": [],
+      "priceUsdPer1M": null
+    },
+    {
+      "model": "Granite 4.2 3B",
+      "baseModel": "Granite 4.2 3B",
+      "variant": "",
+      "creator": "IBM",
+      "openWeights": false,
+      "releaseDate": "2026-08-25",
+      "agenticIndex": 0.9,
+      "costPerTaskUsd": 0.006,
+      "outputTps": null,
+      "latencyMs": null,
+      "valueScore": 150,
+      "onModelGo": false,
+      "modelgoId": null,
+      "markets": [],
+      "priceUsdPer1M": null
+    },
+    {
+      "model": "HyperNova 60B 2605 (High, Based on gpt-oss-120b)",
+      "baseModel": "HyperNova 60B 2605",
+      "variant": "High, Based on gpt-oss-120b",
+      "creator": "Multiverse Computing",
+      "openWeights": false,
+      "releaseDate": "2026-05-26",
+      "agenticIndex": 0.9,
+      "costPerTaskUsd": null,
+      "outputTps": null,
+      "latencyMs": null,
+      "valueScore": null,
+      "onModelGo": false,
+      "modelgoId": null,
+      "markets": [],
+      "priceUsdPer1M": null
+    },
+    {
+      "model": "Qwen3 Coder Next",
+      "baseModel": "Qwen3 Coder Next",
+      "variant": "",
+      "creator": "Alibaba",
+      "openWeights": true,
+      "releaseDate": "2026-02-03",
+      "agenticIndex": 0.9,
+      "costPerTaskUsd": 0.4717,
+      "outputTps": 81.25,
+      "latencyMs": 7060,
+      "valueScore": 1.90799237,
+      "onModelGo": false,
+      "modelgoId": "qwen3-coder-next",
+      "markets": [],
+      "priceUsdPer1M": {
+        "input": 0.31,
+        "output": 1,
+        "cacheHit": 0.285
+      }
+    },
+    {
+      "model": "K2 Horizon 0.9B",
+      "baseModel": "K2 Horizon 0.9B",
+      "variant": "",
+      "creator": "Institute of Foundation Models",
+      "openWeights": false,
+      "releaseDate": "2026-09-03",
+      "agenticIndex": 0.8,
+      "costPerTaskUsd": null,
+      "outputTps": null,
+      "latencyMs": null,
+      "valueScore": null,
+      "onModelGo": false,
+      "modelgoId": null,
+      "markets": [],
+      "priceUsdPer1M": null
+    },
+    {
+      "model": "Mistral Small 4 (Reasoning)",
+      "baseModel": "Mistral Small 4",
+      "variant": "Reasoning",
+      "creator": "Mistral",
+      "openWeights": true,
+      "releaseDate": "2026-03-16",
+      "agenticIndex": 0.8,
+      "costPerTaskUsd": 0.0171,
+      "outputTps": 169.77,
+      "latencyMs": 15490,
+      "valueScore": 46.78362573,
+      "onModelGo": false,
+      "modelgoId": null,
+      "markets": [],
+      "priceUsdPer1M": {
+        "input": 0.15,
+        "output": 0.6,
+        "cacheHit": 0.015
+      }
+    },
+    {
+      "model": "Celeris-1",
+      "baseModel": "Celeris-1",
+      "variant": "",
+      "creator": "Celeris",
+      "openWeights": false,
+      "releaseDate": "2026-07-24",
+      "agenticIndex": 0.7,
+      "costPerTaskUsd": 0.0502,
+      "outputTps": 1638.45,
+      "latencyMs": 860,
+      "valueScore": 13.94422311,
+      "onModelGo": false,
+      "modelgoId": null,
+      "markets": [],
+      "priceUsdPer1M": {
+        "input": 0.2,
+        "output": 0.7,
+        "cacheHit": 0.02
+      }
+    }
+  ]
+}

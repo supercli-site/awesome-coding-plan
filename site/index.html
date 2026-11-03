@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>TokenPlan — AI 编程套餐与 API 价格对比</title>
+    <link rel="canonical" href="https://plan.supercli.site/" />
+    <meta property="og:url" content="https://plan.supercli.site/" />
+    <meta
+      name="description"
+      content="国内海外 AI 编程套餐价格、API 单价与模型性价比排行：每条价格带官方来源与核实日期，性价比数据来自公开评测。"
+    />
+    <meta name="theme-color" content="#f8fbf5" media="(prefers-color-scheme: light)" />
+    <meta name="theme-color" content="#101b14" media="(prefers-color-scheme: dark)" />
+    <link rel="icon" href="/src/assets/favicon.svg" type="image/svg+xml" />
+    <script>
+      (() => {
+        try {
+          const saved = localStorage.getItem("supercli-theme");
+          if (saved === "light" || saved === "dark") document.documentElement.dataset.theme = saved;
+        } catch {}
+      })();
+    </script>
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="TokenPlan · SuperCLI" />
+    <meta property="og:title" content="TokenPlan — AI 编程套餐与 API 价格对比" />
+    <meta
+      property="og:description"
+      content="国内海外 Coding Plan 价格、API 单价、模型性价比排行，官方来源可溯。"
+    />
+  </head>
+  <body>
+    <div id="app"></div>
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>
