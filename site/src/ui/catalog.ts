@@ -1,5 +1,6 @@
 /** 套餐、API、平台清单与真实观测值散点图；路由：单页锚点。API：静态 data/*.json。 */
 import { h, clear } from "./dom";
+import { modelBadge, vendorBadge } from "./model-icons";
 import { CONFIDENCE, KIND, REGION, STATUS, money, moneyCompact } from "./format";
 import type { CnyApi, CnyModel, CnyPlan, PlatformsFile, RawApi, RawPlan } from "../types";
 
@@ -38,7 +39,7 @@ export function renderPlans(plans: CnyPlan[], raw: RawPlan[]): HTMLElement {
       const detail = details.get(p.id);
       const price = p.monthlyCny == null ? "待核实" : money(p.monthlyCny);
       grid.append(h("article", { class: "plan" }, [
-        h("div", { class: "plan__top" }, [h("span", { class: "plan__vendor" }, p.vendor.slice(0, 2)),
+        h("div", { class: "plan__top" }, [vendorBadge(p.platformId, p.vendor),
           h("div", { class: "plan__head" }, [h("h3", { class: "plan__name" }, p.name), h("p", { class: "plan__vendorline" }, p.vendor)])]),
         h("div", { class: "plan__price" }, [h("strong", { class: "plan__amount" }, price),
           h("span", { class: "plan__period" }, p.monthlyCny == null ? "" : "/月（折算）")]),
@@ -77,7 +78,7 @@ export function renderApi(prices: CnyApi[], raw: RawApi[]): HTMLElement {
       const detail = details.get(p.id);
       const source = detail?.sourceUrl ?? p.sourceUrl;
       body.append(h("tr", null, [
-        h("td", null, [h("strong", { class: "cell-model" }, p.model), h("span", { class: "cell-vendor block" }, `${p.vendor} · ${p.offeringLabel ?? "主体未知"}`)]),
+        h("td", null, h("div", { class: "model-cell" }, [modelBadge(p.model), h("div", null, [h("strong", { class: "cell-model" }, p.model), h("span", { class: "cell-vendor block" }, `${p.vendor} · ${p.offeringLabel ?? "主体未知"}`)])])),
         h("td", null, REGION[p.region] ?? p.region),
         h("td", { class: "num" }, money(p.inputCny)), h("td", { class: "num" }, money(p.outputCny)),
         h("td", { class: "num" }, money(p.cacheHitCny)), h("td", { class: "num" }, money(p.blendedCny)),
@@ -137,7 +138,7 @@ export function renderScatter(models: CnyModel[]): HTMLElement {
 /** 平台登记表：售卖主体与工具绑定方式均来自 platforms.json。 */
 export function renderPlatforms(file: PlatformsFile, plans: CnyPlan[], api: CnyApi[]): HTMLElement {
   return h("div", { class: "platform-grid" }, file.platforms.map((p) => h("article", { class: "platform" }, [
-    h("div", { class: "platform__top" }, [h("h3", { class: "platform__name" }, p.name),
+    h("div", { class: "platform__top" }, [vendorBadge(p.id, p.name), h("h3", { class: "platform__name" }, p.name),
       h("span", { class: `chip chip--${p.offering}` }, file.offeringDefs[p.offering]?.label ?? p.offering)]),
     h("p", { class: "platform__note" }, p.note),
     h("div", { class: "platform__foot" }, [label(file.bundleDefs[p.bundle]?.label ?? p.bundle), link("平台 ↗", p.url),

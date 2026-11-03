@@ -1,6 +1,7 @@
 /** 官方云平台套餐入口；路由：/#featured；API：由 main 注入的 cny 和 plans 数据。 */
 import { h } from "./dom";
 import { money } from "./format";
+import { modelBadge, vendorBadge } from "./model-icons";
 import type { CnyApi, CnyPlan, RawApi, RawPlan } from "../types";
 
 /** 按可核实的销售主体挑入口；月费仅辅助定位，绝不用于性价比推荐排序。 */
@@ -51,7 +52,7 @@ export function renderFeatured(plans: CnyPlan[], raw: RawPlan[], api: CnyApi[], 
       const detail = source.get(p.id)!;
       return h("article", { class: "featured-card" }, [
         h("span", { class: "featured-card__category" }, `${p.vendor} · 云平台官方`),
-        h("h3", null, p.name),
+        h("div", { class: "model-cell" }, [vendorBadge(p.platformId, p.vendor), h("h3", null, p.name)]),
         h("p", { class: "featured-card__price" }, [money(p.monthlyCny), h("small", null, " / 月折算")]),
         h("p", { class: "featured-card__quota" }, detail.quota || "额度请按官方条款核对"),
         h("p", { class: "detail-note" }, `核实 ${detail.verifiedAt} · ${p.status === "sold-out-daily" ? "每日限量" : "在售"}`),
@@ -63,7 +64,7 @@ export function renderFeatured(plans: CnyPlan[], raw: RawPlan[], api: CnyApi[], 
     })),
     flash && flashDetails ? h("article", { class: "featured-card featured-card--api" }, [
       h("span", { class: "featured-card__category" }, "DeepSeek · 原厂 API 直连例外"),
-      h("h3", null, "DeepSeek V4 Flash / deepseek-flash"),
+      h("div", { class: "model-cell" }, [modelBadge("DeepSeek V4 Flash"), h("h3", null, "DeepSeek V4 Flash / deepseek-flash")]),
       h("p", { class: "featured-card__quota" }, `当前表列高峰价（每百万 tokens）：缓存未命中输入 ${money(flash.inputCny)} / 缓存命中 ${money(flash.cacheHitCny)} / 输出 ${money(flash.outputCny)}。空闲价与时段详见官方来源。`),
       h("p", { class: "detail-note" }, flashDetails.tiering ?? "峰谷时段以官方说明为准"),
       h("p", { class: "detail-note" }, flashDetails.notes ?? "搜索与 Fetch 工具调用可能另计费；请查看官方价格表。"),
