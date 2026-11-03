@@ -42,7 +42,7 @@ async function mount() {
       h("span", { class: "hero__badge" }, "TOKENPLAN / SUPERCLI"),
       h("h1", null, ["找到值得付费的", h("br"), h("span", null, "AI 编程能力。")]),
       h("p", null, "先看云厂商官方 Coding / Token Plan，再对照国内外 API 报价与公开模型评测。价格按人民币统一展示，额度与价格条件以官方条款为准。"),
-      h("div", { class: "hero__actions" }, [h("a", { href: "#route", class: "button button--primary" }, "查看选购路线 ↗"),
+      h("div", { class: "hero__actions" }, [h("a", { href: "#route", class: "button button--primary" }, "查看官方推荐 ↗"),
         h("a", { href: "#value", class: "button button--outline" }, "对比性价比 ↗")]),
       h("span", { class: "hero__date" }, `汇率基准 ${view.fx.date} · 1 USD ≈ ¥${view.fx.rate} · 报价各自按核实日期`),
     ]),
@@ -66,8 +66,8 @@ async function mount() {
     ? `当前展示本站构建时收录的数据快照（汇率基准 ${view.fx.date}）；API 暂不可用，价格不是实时值，请按各条核实日期与来源确认。`
     : `当前数据来自 api.supercli.site；汇率基准 ${view.fx.date}，价格以各条核实日期和官方来源为准。`);
   app!.append(renderHeader(), dataNotice, h("main", null, [hero,
-    section("route", "01 / EDITOR PICKS", "webkubor 的选购路线", "基于使用场景的编辑推荐，与价格事实分开看。", renderBuyingRoute(view.plans, rawPlans, view.api, rawApi)),
-    section("featured", "02 / OFFICIAL CLOUD", "先从云厂商官方入口开始", "仅列云平台官方、纯模型额度且仍在售的套餐；DeepSeek V4 Flash 原厂 API 为单独标注的直连例外。", renderFeatured(view.plans, rawPlans, view.api, rawApi)),
+    section("route", "01 / TOKENPLAN PICKS", "TokenPlan 官方推荐", "按适用场景筛选，依据官方价格、额度和计费条件。", renderBuyingRoute(view.plans, rawPlans, view.api, rawApi)),
+    section("featured", "02 / OFFICIAL CLOUD", "先从云厂商官方入口开始", "仅列云平台官方、纯模型额度且仍在售的套餐，同时提供 DeepSeek V4 Flash 原厂按量 API 入口。", renderFeatured(view.plans, rawPlans, view.api, rawApi)),
     section("highlights", "02 / PRICE RANGE", "价格分布速览", "展示公开报价的两端，不作为购买推荐或性价比排名；额度与单价不同维度不可直接相除。", renderPodiums(view, view.plans, view.api, view.models)),
     section("plans", "02 / SUBSCRIPTIONS", "Coding Plan 套餐", "在这里中立对照原厂、云平台和其他渠道。月费仅是价格维度，额度、限流与超额规则以各条官方来源为准。", renderPlans(view.plans, rawPlans)),
     section("api", "03 / TOKEN PRICES", "API 单价对照", "人民币 / 百万 tokens。分别列缓存未命中输入、缓存命中与输出；3:1 综合价仅是标准化参考，峰谷时段、阶梯价和有效条件见各条备注。", renderApi(view.api, rawApi)),

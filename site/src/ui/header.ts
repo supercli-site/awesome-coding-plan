@@ -23,7 +23,7 @@ const SUN = `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-w
 const MOON = `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M20.5 14.6A8.6 8.6 0 0 1 9.4 3.5a8.6 8.6 0 1 0 11.1 11.1Z"/></svg>`;
 
 const SECTIONS = [
-  ["route", "选购路线"],
+  ["route", "官方推荐"],
   ["featured", "官方入口"],
   ["plans", "套餐"],
   ["api", "API 单价"],

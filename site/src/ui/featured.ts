@@ -5,7 +5,7 @@ import { modelBadge, vendorBadge } from "./model-icons";
 import type { CnyApi, CnyPlan, RawApi, RawPlan } from "../types";
 
 /** 按可核实的销售主体挑入口；月费仅辅助定位，绝不用于性价比推荐排序。 */
-/** 用户选购经验导航，编辑判断和报价事实分别列示，购买入口只向在售官方产品开放。 */
+/** TokenPlan 站点推荐按场景列示，购买入口只向在售官方产品开放。 */
 export function renderBuyingRoute(plans: CnyPlan[], raw: RawPlan[], api: CnyApi[], rawApi: RawApi[]): HTMLElement {
   const detail = new Map(raw.map((p) => [p.id, p]));
   const paths: [string, string, string, string[]][] = [
@@ -16,7 +16,7 @@ export function renderBuyingRoute(plans: CnyPlan[], raw: RawPlan[], api: CnyApi[
     ["海外工具订阅", "Cursor", "偏 Grok 使用及工具整合时值得看；Plus 月费仅含 Grok，Premium 起 Claude / GPT 等第三方模型另按 API 价计费。查看官方当前规则。", ["cursor-plus"]],
   ];
   return h("div", null, [
-    h("p", { class: "featured__notice" }, "webkubor 的使用经验与选购顺序；属于编辑推荐，不是官方评测或保证。价格、限额和状态来自各条记录，请以官方实时条款为准。"),
+    h("p", { class: "featured__notice" }, "TokenPlan 官方推荐：按使用场景、公开价格、额度及计费条件筛选。每项均提供厂商官方入口与核实依据，具体价格和使用限制以厂商当前条款为准。"),
     h("div", { class: "route-grid" }, paths.map(([context, name, desc, ids]) => {
       const entries = ids.map((id) => ({ plan: plans.find((p) => p.id === id), raw: detail.get(id), api: api.find((p) => p.id === id), rawApi: rawApi.find((p) => p.id === id) }));
       return h("article", { class: "route-card" }, [
@@ -63,7 +63,7 @@ export function renderFeatured(plans: CnyPlan[], raw: RawPlan[], api: CnyApi[], 
       ]);
     })),
     flash && flashDetails ? h("article", { class: "featured-card featured-card--api" }, [
-      h("span", { class: "featured-card__category" }, "DeepSeek · 原厂 API 直连例外"),
+      h("span", { class: "featured-card__category" }, "DeepSeek · 原厂按量 API"),
       h("div", { class: "model-cell" }, [modelBadge("DeepSeek V4 Flash"), h("h3", null, "DeepSeek V4 Flash / deepseek-flash")]),
       h("p", { class: "featured-card__quota" }, `当前表列高峰价（每百万 tokens）：缓存未命中输入 ${money(flash.inputCny)} / 缓存命中 ${money(flash.cacheHitCny)} / 输出 ${money(flash.outputCny)}。空闲价与时段详见官方来源。`),
       h("p", { class: "detail-note" }, flashDetails.tiering ?? "峰谷时段以官方说明为准"),
