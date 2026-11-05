@@ -1,13 +1,20 @@
-# TokenPlan local model icons
+# TokenPlan local brand assets
 
-18 unmodified SVGs from **@lobehub/icons-static-svg 1.102.0**, published by [LobeHub](https://github.com/lobehub/lobe-icons) under the [MIT license](./LICENSE). Copied from the verified local SuperCLI asset subset. Brand names and trademarks belong to their respective owners; inclusion does not imply endorsement.
+49 SVGs are unmodified assets from **@lobehub/icons-static-svg 1.102.0**, published by [LobeHub](https://github.com/lobehub/lobe-icons) under the included [MIT license](./LICENSE). They were compared byte-for-byte with the official npm archive locally. Pinned package: https://registry.npmjs.org/@lobehub/icons-static-svg/-/icons-static-svg-1.102.0.tgz .
 
-Pinned package: https://registry.npmjs.org/@lobehub/icons-static-svg/-/icons-static-svg-1.102.0.tgz
+Six additional assets are official website favicons, located from each site's HTML icon declarations:
 
-Package integrity: `sha512-3Na6S2kdslmsfnBjuL0PQWQClrmuWe/pWThRN/3J2VzPg5MhVghy8knVu7kd1/lqA9ydZBvwmnKLzuBo0Wm6Qw==`.
+- Augment: https://augmentcode.com/favicon.svg
+- Factory: https://factory.ai/favicon.svg
+- Zed: https://zed.dev/favicon_black_64.png
+- 百度 Comate: https://comate.baidu.com/favicon.ico
+- Thinking Machines Lab: https://thinkingmachines.ai/images/favicon-32x32.png
+- Multiverse Computing: https://multiversecomputing.com/icon.png
 
-License source: upstream commit `989535d6c13da2dec5a2937fe2789d4af4fdd8e0`.
+These six official brand assets are **not covered by LobeHub's MIT license**. No open-source redistribution license is asserted for them. They are retained for the authorized local review; any later public redistribution requires separate review of the owners' brand usage terms. Names and trademarks belong to their owners; display does not imply endorsement.
 
-The site maps platform IDs to known corporate marks and anchored model families to their confirmed model marks. Cloud-provider marks identify the seller, while API-row marks identify the model family. Unknown platforms and model families use neutral initials. MiMo uses its model-family icon; this is not substituted for a corporate Xiaomi logo. No external icon CDN or runtime dependency is used.
+The machine-readable source URL, license note and SHA-256 for every asset live in the site's `src/ui/icon-sources.json`. CI checks the bytes against that manifest and rejects unsafe SVG content or external resource references. Runtime paths are local and no remote icon service is contacted.
 
-Icons keep their native colors and geometry and render on white chips in both themes. No recoloring or inversion is applied.
+Stable platform IDs map to their confirmed company or named product/service marks. For example AWS is the Kiro seller, Google is the Gemini seller, Cognition's named product mark is Devin, and Xiaomi MiMo uses the MiMo product mark without claiming it is Xiaomi's corporate logo. The platform label always remains visible. API models use anchored model-family matching: ERNIE uses Wenxin, HY uses Hunyuan, and Doubao Seed uses Doubao. Generic descriptions such as “multiple providers” deliberately show the clearly labeled seller mark instead of inventing a model logo. Ranking entries without an independent model mark use the verified creator mark visibly labeled “厂商标识”; unknown creators without an official verified icon use a neutral dot, a reason tracked in `icon-manifest.json`, and retain the full name and measurements. CI fails for unexplained unknown creator gaps.
+
+The SVGs preserve geometry and native colors and sit on white chips in both site themes. Augment's official favicon has an embedded dark-mode white path; a matching CSS inversion restores contrast against that chip when the operating system uses dark mode. The local image bytes are unchanged.

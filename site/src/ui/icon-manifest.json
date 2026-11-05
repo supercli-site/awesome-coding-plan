@@ -1,0 +1,36 @@
+{
+  "vendors": {
+    "anthropic": "anthropic", "openai": "openai", "google": "google-color", "xai": "xai",
+    "deepseek": "deepseek-color", "zhipu": "zai", "zai": "zai", "moonshot": "kimi-color",
+    "minimax": "minimax-color", "xiaomi": "xiaomimimo", "stepfun": "stepfun-color",
+    "tencent-hunyuan": "hunyuan-color", "mistral": "mistral-color", "meta": "meta-color",
+    "aliyun-bailian": "alibaba-color", "volcengine-ark": "volcengine-color",
+    "baidu-qianfan": "baiducloud-color", "tencent-cloud": "tencentcloud-color", "aws": "aws-color",
+    "fireworks": "fireworks-color", "openrouter": "openrouter-color", "opencode": "opencode",
+    "ollama": "ollama", "kilo": "kilocode", "amp": "amp-color", "cursor": "cursor",
+    "cognition": "devin-color", "github": "githubcopilot", "qoder": "qoder-color",
+    "augment": "augment-official", "factory": "factory-official", "zed": "zed-official",
+    "bytedance-trae": "trae-color", "trae-cn": "trae-color", "codebuddy": "codebuddy-color",
+    "tongyi-lingma": "qoder-color", "comate": "comate-official"
+  },
+  "creators": {
+    "Upstage": "upstage-color", "NVIDIA": "nvidia-color", "LongCat": "longcat-color",
+    "Inception": "inception", "IBM": "ibm", "Cohere": "cohere-color", "Arcee AI": "arcee-color",
+    "Thinking Machines": "thinkingmachines-official", "Multiverse Computing": "multiverse-official"
+  },
+  "unidentifiedCreators": {
+    "Institute of Foundation Models": "源数据未提供官网或品牌资产链接，已核实的 LobeHub 1.102.0 归档无对应标记；尚不能确认官方品牌资产，不以其他 IFM 同名机构冒充。",
+    "Apodex": "源数据只给出厂商名，未提供可核实官网或标识链接；LobeHub 1.102.0 无对应条目，暂不采用未经证实的同名站点资产。",
+    "Celeris": "源数据只给出厂商名，同名品牌身份无法据此唯一确认；LobeHub 1.102.0 无对应条目，暂缺已核实官方资产。",
+    "InclusionAI": "Ling 家族有已核实的专用图标；Ring 暂无已核实家族或厂商资产。候选 inclusion.ai 实为域名出售页已排除，未以其图标或未经核实的母公司标记代替。"
+  },
+  "families": {
+    "claude": "claude-color", "gemini": "gemini-color", "gemma": "gemma-color",
+    "qwen": "qwen-color", "deepseek": "deepseek-color", "gpt": "openai",
+    "glm": "zai", "grok": "grok", "kimi": "kimi-color", "minimax": "minimax-color",
+    "mimo": "xiaomimimo", "mistral": "mistral-color", "llama": "meta-color",
+    "doubao": "doubao-color", "seed": "doubao-color", "step": "stepfun-color",
+    "hy": "hunyuan-color", "muse": "muse-color", "ernie": "wenxin-color",
+    "o1": "openai", "o3": "openai", "o4": "openai", "ling": "ling-color"
+  }
+}

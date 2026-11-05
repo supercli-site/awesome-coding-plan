@@ -17,8 +17,8 @@ const section = (id: string, number: string, title: string, intro: string, conte
     h("p", { class: "section__desc" }, intro),
   ]), content]);
 
-/** 优先请求实时 API；任一请求失败后整组读取本站构建快照，避免混入不同时间的数据。 */
-async function loadData(): Promise<{ view: CnyView; rawPlans: RawPlan[]; rawApi: RawApi[]; platforms: PlatformsFile; rankings: { snapshotDate: string; models: unknown[] }; snapshot: boolean }> {
+/** 优先读公开 API；失败时整组回退。VITE_DATA_SOURCE=local 可只读本地候选，且明确标为未发布。 */
+async function loadData(): Promise<{ view: CnyView; rawPlans: RawPlan[]; rawApi: RawApi[]; platforms: PlatformsFile; rankings: { snapshotDate: string; models: unknown[] }; snapshot: boolean; localOnly?: boolean }> {
   const names = ["cny", "plans", "api-prices", "platforms", "rankings"];
   const fetchSet = async (base: string) => Promise.all(names.map(async (name) => {
     const url = `${base}/${name}${base.includes("/data") ? ".json" : ""}`;
@@ -26,6 +26,10 @@ async function loadData(): Promise<{ view: CnyView; rawPlans: RawPlan[]; rawApi:
     if (!response.ok) throw new Error(`${url} 返回 HTTP ${response.status}`);
     return response.json();
   }));
+  if (import.meta.env.VITE_DATA_SOURCE === "local") {
+    const [view, rawPlans, rawApi, platforms, rankings] = await fetchSet(`${import.meta.env.BASE_URL.replace(/\/$/, "")}/data`);
+    return { view, rawPlans, rawApi, platforms, rankings, snapshot: true, localOnly: true };
+  }
   try {
     const [view, rawPlans, rawApi, platforms, rankings] = await fetchSet("https://api.supercli.site/v1");
     return { view, rawPlans, rawApi, platforms, rankings, snapshot: false };
@@ -36,7 +40,7 @@ async function loadData(): Promise<{ view: CnyView; rawPlans: RawPlan[]; rawApi:
 }
 
 async function mount() {
-  const { view, rawPlans, rawApi, platforms, rankings, snapshot } = await loadData();
+  const { view, rawPlans, rawApi, platforms, rankings, snapshot, localOnly } = await loadData();
   const hero = h("section", { class: "hero" }, [h("div", { class: "shell hero__inner" }, [
     h("div", { class: "hero__copy" }, [
       h("span", { class: "hero__badge" }, "TOKENPLAN / SUPERCLI"),
@@ -62,9 +66,11 @@ async function mount() {
     ["月费", view.method.planMonthly], ["API 综合价", view.method.apiBlended],
     ["模型性价比", view.method.value], ["评选边界", view.method.excluded],
   ].map(([title, text]) => h("article", { class: "method__item" }, [h("h3", null, title), h("p", null, text)])));
-  const dataNotice = h("p", { class: "data-notice shell", role: "status" }, snapshot
-    ? `当前展示本站构建时收录的数据快照（汇率基准 ${view.fx.date}）；API 暂不可用，价格不是实时值，请按各条核实日期与来源确认。`
-    : `当前数据来自 api.supercli.site；汇率基准 ${view.fx.date}，价格以各条核实日期和官方来源为准。`);
+  const dataNotice = h("p", { class: "data-notice shell", role: "status" }, localOnly
+    ? `本地候选预览（未发布）：仅使用本地数据，汇率基准 ${view.fx.date}，未请求线上 API。`
+    : snapshot
+      ? `当前展示本站构建时收录的数据快照（汇率基准 ${view.fx.date}）；API 暂不可用，价格不是实时值，请按各条核实日期与来源确认。`
+      : `当前数据来自 api.supercli.site；汇率基准 ${view.fx.date}，价格以各条核实日期和官方来源为准。`);
   app!.append(renderHeader(), dataNotice, h("main", null, [hero,
     section("route", "01 / TOKENPLAN PICKS", "TokenPlan 官方推荐", "按适用场景筛选，依据官方价格、额度和计费条件。", renderBuyingRoute(view.plans, rawPlans, view.api, rawApi)),
     section("featured", "02 / OFFICIAL CLOUD", "先从云厂商官方入口开始", "仅列云平台官方、纯模型额度且仍在售的套餐，同时提供 DeepSeek V4 Flash 原厂按量 API 入口。", renderFeatured(view.plans, rawPlans, view.api, rawApi)),

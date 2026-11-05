@@ -4,6 +4,7 @@ node_modules/
 .research/
 .wrangler/
 dist/
+site/.cache/
 site/public/data/
 .env
 .env.*

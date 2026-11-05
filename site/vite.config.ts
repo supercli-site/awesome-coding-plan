@@ -3,7 +3,7 @@ import { defineConfig } from "vite";
 import { existsSync, readFileSync, readdirSync } from "node:fs";
 
 const ICON_DIR = new URL("./public/model-icons/", import.meta.url);
-const ICON_FILES = readdirSync(ICON_DIR).filter((name) => /\.svg$/.test(name) || ["README.md", "LICENSE"].includes(name));
+const ICON_FILES = readdirSync(ICON_DIR).filter((name) => /\.(?:svg|png|ico)$/.test(name) || ["README.md", "LICENSE"].includes(name));
 
 const DATA_FILES = ["plans.json", "api-prices.json", "rankings.json", "fx.json", "cny.json", "platforms.json"];
 
@@ -24,7 +24,7 @@ export default defineConfig({
       server.middlewares.use("/model-icons", (req, res, next) => {
         const name = req.url?.split("?")[0]?.replace(/^\//, "");
         if (!name || !ICON_FILES.includes(name)) return next();
-        res.setHeader("Content-Type", name.endsWith(".svg") ? "image/svg+xml" : "text/plain; charset=utf-8");
+        res.setHeader("Content-Type", name.endsWith(".svg") ? "image/svg+xml" : name.endsWith(".png") ? "image/png" : name.endsWith(".ico") ? "image/x-icon" : "text/plain; charset=utf-8");
         res.end(readFileSync(new URL(name, ICON_DIR)));
       });
       server.middlewares.use("/data", (req, res, next) => {

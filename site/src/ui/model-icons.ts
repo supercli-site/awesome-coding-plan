@@ -1,41 +1,29 @@
-/** 本地 LobeHub 图标：平台按稳定 id，API 按模型家族；许可证见站点 public/model-icons。 */
+/** 真实品牌图标：平台 ID 严格对应售卖者，模型名只匹配开头家族；路由：站点单页。 */
 import { h } from "./dom";
+import { iconFilename, iconForModel, iconForVendor, iconForRankedModel } from "./icon-resolver.mjs";
 
-const PROVIDERS = new Map<string, string>([
-  ["anthropic", "anthropic"], ["openai", "openai"], ["google", "google-color"],
-  ["xai", "xai"], ["deepseek", "deepseek-color"], ["zhipu", "zai"], ["zai", "zai"],
-  ["moonshot", "kimi-color"], ["minimax", "minimax-color"], ["mistral", "mistral-color"],
-  ["meta", "meta-color"], ["aliyun-bailian", "alibaba-color"],
-  ["tencent-hunyuan", "tencent-color"], ["tencent-cloud", "tencent-color"],
-]);
-const FAMILIES: readonly [RegExp, string][] = [
-  [/^claude(?=[\s\d-]|$)/i, "claude-color"],
-  [/^gemini(?=[\s\d-]|$)/i, "gemini-color"],
-  [/^gemma(?=[\s\d-]|$)/i, "gemma-color"],
-  [/^qwen(?=[\s\d.-]|$)/i, "qwen-color"],
-  [/^deepseek(?=[\s\d-]|$)/i, "deepseek-color"],
-  [/^(?:gpt(?=[\s\d-]|$)|o[134](?=[\s-]|$))/i, "openai"],
-  [/^glm(?=[\s\d-]|$)/i, "zai"],
-  [/^grok(?=[\s\d-]|$)/i, "grok"],
-  [/^kimi(?=[\s\d-]|$)/i, "kimi-color"],
-  [/^minimax(?=[\s\d-]|$)/i, "minimax-color"],
-  [/^mimo(?=[\s\d-]|$)/i, "xiaomimimo"],
-  [/^mistral(?=[\s\d-]|$)/i, "mistral-color"],
-  [/^llama(?=[\s\d-]|$)/i, "meta-color"],
-];
-
-function badge(slug: string | undefined, name: string): HTMLElement {
-  return h("span", { class: `model-icon${slug ? "" : " model-icon--fallback"}`, "aria-hidden": "true" }, slug
-    ? h("img", { src: `${import.meta.env.BASE_URL}model-icons/${slug}.svg`, alt: "", width: "22", height: "22", loading: "lazy", decoding: "async" })
-    : name.trim().slice(0, 2).toLocaleUpperCase() || "?");
+function badge(slug: string | null, name: string, type: "model" | "vendor"): HTMLElement {
+  if (!slug) return h("span", { class: "model-icon model-icon--unknown", title: `暂无${type === "model" ? "模型" : "厂商"}图标：${name}`, "aria-label": `暂无${type === "model" ? "模型" : "厂商"}图标` }, "·");
+  return h("span", { class: "model-icon", title: `${name} · ${type === "model" ? "模型" : "厂商"}图标` },
+    h("img", { src: `${import.meta.env.BASE_URL}model-icons/${iconFilename(slug)}`, alt: "", width: "22", height: "22", loading: "lazy", decoding: "async" }));
 }
 
-/** 不以模型品牌替代未知售卖平台。 */
-export function vendorBadge(platformId: string | null, name: string): HTMLElement {
-  return badge(PROVIDERS.get(platformId ?? ""), name);
+/** 只根据稳定平台 ID 显示售卖者标记。 */
+export function vendorBadge(platformId: string | null | undefined, name: string): HTMLElement {
+  return badge(iconForVendor(platformId), name, "vendor");
 }
 
-/** 家族名称必须从开头匹配，括号内提及的基础模型不会触发替代。 */
-export function modelBadge(name: string): HTMLElement {
-  return badge(FAMILIES.find(([pattern]) => pattern.test(name.trim()))?.[1], name);
+/** 无模型家族匹配时，使用已明确标注的销售者标记；不会冒充模型 logo。 */
+/** 评测表明确露出模型/厂商标识类别；无标识时露出原因。 */
+export function rankedModelBadge(name: string, creator: string): HTMLElement {
+  const resolved = iconForRankedModel(name, creator);
+  return h("span", { class: "ranking-mark", title: resolved.reason ?? undefined }, [
+    badge(resolved.slug, resolved.kind === "creator" ? creator : name, resolved.kind === "model" ? "model" : "vendor"),
+    h("small", { class: "detail-note" }, resolved.kind === "creator" ? `${creator} · 厂商标识` : resolved.label),
+  ]);
+}
+
+export function modelBadge(name: string, platformId?: string | null): HTMLElement {
+  const model = iconForModel(name);
+  return model ? badge(model, name, "model") : badge(iconForVendor(platformId), name, "vendor");
 }
