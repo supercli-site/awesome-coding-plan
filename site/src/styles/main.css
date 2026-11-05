@@ -414,6 +414,87 @@ a:hover {
   border: 1px dashed var(--line);
 }
 
+/* 地区强区分：国内绿 / 海外蓝，全站统一双色语义 */
+.chip--region {
+  font-weight: 600;
+  border: 1px solid transparent;
+}
+
+.chip--region-cn {
+  background: color-mix(in srgb, var(--good) 14%, transparent);
+  color: var(--good);
+  border-color: color-mix(in srgb, var(--good) 34%, transparent);
+}
+
+.chip--region-global {
+  background: color-mix(in srgb, #2f6fdb 14%, transparent);
+  color: #2f6fdb;
+  border-color: color-mix(in srgb, #2f6fdb 34%, transparent);
+}
+
+:root[data-theme="dark"] .chip--region-global,
+:root:not([data-theme="light"]) .chip--region-global {
+  color: #8ab6f5;
+  border-color: color-mix(in srgb, #8ab6f5 38%, transparent);
+}
+
+/* 分段式地区切换器 */
+.segmented--region {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  padding: 3px;
+  border: 1px solid var(--line);
+  border-radius: var(--radius-pill);
+  background: var(--surface);
+}
+
+.region-btn {
+  appearance: none;
+  border: 1px solid transparent;
+  border-radius: var(--radius-pill);
+  padding: 4px 14px;
+  font-size: var(--fs-small);
+  font-weight: 600;
+  line-height: 1.5;
+  color: var(--muted);
+  background: transparent;
+  cursor: pointer;
+  transition: background var(--fast) var(--ease), color var(--fast) var(--ease),
+    border-color var(--fast) var(--ease);
+}
+
+.region-btn:hover {
+  color: var(--ink);
+}
+
+.region-btn--cn[aria-pressed="true"] {
+  background: var(--good);
+  border-color: var(--good);
+  color: #fff;
+}
+
+.region-btn--global[aria-pressed="true"] {
+  background: #2f6fdb;
+  border-color: #2f6fdb;
+  color: #fff;
+}
+
+.region-btn--all[aria-pressed="true"] {
+  background: var(--ink);
+  border-color: var(--ink);
+  color: var(--bg);
+}
+
+/* 套餐卡地区色条：左边框一眼分辨 */
+.plan--cn {
+  border-left: 3px solid var(--good);
+}
+
+.plan--global {
+  border-left: 3px solid #2f6fdb;
+}
+
 .dot {
   width: 6px;
   height: 6px;
@@ -1076,7 +1157,15 @@ th[aria-sort="descending"]::after {
 /* 本地品牌图标保持原色，白色底片保证双色主题下单色图标可辨。 */
 .model-icon { display: inline-flex; align-items: center; justify-content: center; width: 32px; height: 32px; flex: 0 0 32px; border-radius: 8px; padding: 5px; background: #fff; border: 1px solid #dedede; }
 .model-icon img { width: 22px; height: 22px; object-fit: contain; }
-.model-icon--fallback { background: var(--surface); color: var(--muted); border-color: var(--line); font-size: 11px; font-weight: 650; }
+.model-icon--unknown { background: var(--surface); color: var(--muted); border-color: var(--line); font-size: 18px; }
+.model-tag { display: inline-flex; align-items: center; gap: 5px; }
+.model-tag .model-icon { width: 22px; height: 22px; flex-basis: 22px; padding: 3px; border-radius: 5px; }
+.model-tag .model-icon img { width: 16px; height: 16px; }
+@media (prefers-color-scheme: dark) { .model-icon img[src$="augment-official.svg"] { filter: invert(1); } }
+.scatter-models { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 8px; padding: 16px; }
+.scatter-models li { display: flex; align-items: center; gap: 8px; font-size: var(--fs-small); }
+.ranking-mark { display: flex; flex-direction: column; align-items: center; gap: 4px; flex: 0 0 76px; }
+.ranking-mark .detail-note { text-align: center; font-size: 10px; }
 .model-cell { display: flex; align-items: center; gap: 10px; }
 .platform__top { flex-wrap: wrap; }
 

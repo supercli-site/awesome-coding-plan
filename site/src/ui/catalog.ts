@@ -1,6 +1,6 @@
 /** 套餐、API、平台清单与真实观测值散点图；路由：单页锚点。API：静态 data/*.json。 */
 import { h, clear } from "./dom";
-import { modelBadge, vendorBadge } from "./model-icons";
+import { modelBadge, vendorBadge, rankedModelBadge } from "./model-icons";
 import { CONFIDENCE, KIND, REGION, STATUS, money, moneyCompact } from "./format";
 import type { CnyApi, CnyModel, CnyPlan, PlatformsFile, RawApi, RawPlan } from "../types";
 
@@ -8,25 +8,44 @@ const link = (text: string, url?: string | null) => url && /^https:\/\//.test(ur
   ? h("a", { href: url, target: "_blank", rel: "noopener noreferrer" }, text)
   : h("span", null, text);
 const label = (text: string) => h("span", { class: "chip" }, text);
+const regionChip = (region: string) => h("span", { class: `chip chip--region chip--region-${region}` }, REGION[region] ?? region);
+const modelTag = (text: string, platformId: string | null) => h("span", { class: "chip model-tag" }, [modelBadge(text, platformId), text]);
 const confidence = (value: string) => h("span", { class: `conf conf--${value}` }, CONFIDENCE[value] ?? "未核实");
 const field = (name: string, options: [string, string][]) => h("label", { class: "field" }, [name,
   h("select", { "aria-label": name }, options.map(([value, text]) => h("option", { value }, text))),
 ]);
 
+/** 地区是首要对照维度：分段切换 + 配色（国内绿 / 海外蓝），点选后立即刷新。 */
+function regionControl(onInput: () => void) {
+  let current = "all";
+  const options: [string, string][] = [["all", "全部"], ["cn", "国内"], ["global", "海外"]];
+  const buttons = options.map(([value, text]) => {
+    const btn = h("button", { type: "button", class: `region-btn region-btn--${value}`, "aria-pressed": String(value === current) }, text);
+    btn.addEventListener("click", () => {
+      current = value;
+      buttons.forEach((b, i) => b.setAttribute("aria-pressed", String(options[i][0] === current)));
+      onInput();
+    });
+    return btn;
+  });
+  return { el: h("div", { class: "segmented segmented--region", role: "group", "aria-label": "地区筛选" }, buttons),
+    get value() { return current; } };
+}
+
 /** 过滤套餐卡，原始数据详情与人民币派生数据按 id 对齐。 */
 export function renderPlans(plans: CnyPlan[], raw: RawPlan[]): HTMLElement {
   const details = new Map(raw.map((p) => [p.id, p]));
-  const region = field("地区", [["all", "全部"], ["cn", "国内"], ["global", "海外"]]);
+  const region = regionControl(() => update());
   const status = field("状态", [["all", "全部"], ["active", "在售"], ["sold-out-daily", "每日限量"], ["other", "其他"]]);
   const kind = field("类型", [["all", "全部"], ["coding-plan", "Coding Plan"], ["token-plan", "Token Plan"], ["ide", "IDE"], ["free", "免费"]]);
   const search = h("input", { type: "search", placeholder: "搜索厂商或套餐", "aria-label": "搜索套餐" });
   const count = h("span", { class: "toolbar__count", role: "status" });
   const grid = h("div", { class: "plan-grid" });
-  const toolbar = h("div", { class: "toolbar" }, [region, status, kind, h("label", { class: "field" }, ["搜索", search]), count]);
+  const toolbar = h("div", { class: "toolbar" }, [region.el, status, kind, h("label", { class: "field" }, ["搜索", search]), count]);
   function update() {
     const matches = plans.filter((p) => {
       const text = `${p.vendor} ${p.name} ${details.get(p.id)?.models?.join(" ") ?? ""}`.toLocaleLowerCase();
-      return (region.querySelector("select")!.value === "all" || p.region === region.querySelector("select")!.value)
+      return (region.value === "all" || p.region === region.value)
         && (kind.querySelector("select")!.value === "all" || p.kind === kind.querySelector("select")!.value)
         && (status.querySelector("select")!.value === "all" || (status.querySelector("select")!.value === "other"
           ? !["active", "sold-out-daily"].includes(p.status) : p.status === status.querySelector("select")!.value))
@@ -37,19 +56,21 @@ export function renderPlans(plans: CnyPlan[], raw: RawPlan[]): HTMLElement {
     if (!matches.length) grid.append(h("div", { class: "empty" }, "没有符合条件的套餐，试试调整筛选。"));
     for (const p of matches) {
       const detail = details.get(p.id);
-      const price = p.monthlyCny != null ? money(p.monthlyCny)
+      const price = p.status === "discontinued" ? "已下架"
         : p.status === "no-plan" ? "按量计费"
-        : p.status === "discontinued" ? "已下架"
-        : p.status === "coming-soon" ? "未开售" : "待核实";
-      grid.append(h("article", { class: "plan" }, [
+        : p.status === "coming-soon" ? "未开售"
+        : p.kind === "free" && p.monthlyCny === 0 ? "免费"
+        : p.monthlyCny != null && Number.isFinite(p.monthlyCny) && p.monthlyCny > 0 ? money(p.monthlyCny)
+        : (() => { throw new Error(`套餐 ${p.id} 缺少合法可展示价格（状态 ${p.status}）`); })();
+      grid.append(h("article", { class: `plan plan--${p.region}` }, [
         h("div", { class: "plan__top" }, [vendorBadge(p.platformId, p.vendor),
           h("div", { class: "plan__head" }, [h("h3", { class: "plan__name" }, p.name), h("p", { class: "plan__vendorline" }, p.vendor)])]),
         h("div", { class: "plan__price" }, [h("strong", { class: "plan__amount" }, price),
-          h("span", { class: "plan__period" }, p.monthlyCny == null ? "" : "/月（折算）")]),
+          h("span", { class: "plan__period" }, p.status === "discontinued" || p.status === "no-plan" || p.status === "coming-soon" || p.kind === "free" ? "" : "/月（折算）")]),
         p.firstPeriodCny != null ? h("p", { class: "plan__credithint" }, `首期 ${money(p.firstPeriodCny)}，不参与月费排序`) : null,
         h("p", { class: "plan__quota" }, detail?.quota ?? "额度说明待补充"),
-        h("div", { class: "plan__models" }, (detail?.models ?? []).slice(0, 3).map(label)),
-        h("div", { class: "plan__meta" }, [label(REGION[p.region] ?? p.region), label(KIND[p.kind] ?? p.kind),
+        h("div", { class: "plan__models" }, (detail?.models ?? []).slice(0, 3).map((name) => modelTag(name, p.platformId))),
+        h("div", { class: "plan__meta" }, [regionChip(p.region), label(KIND[p.kind] ?? p.kind),
           label(STATUS[p.status] ?? p.status), confidence(p.confidence),
           h("div", { class: "plan__links" }, [link(p.status === "active" || p.status === "sold-out-daily" ? "购买 ↗" : "查看官方 ↗", detail?.buyUrl ?? p.platformUrl), link("来源 ↗", detail?.sourceUrl)])]),
         h("small", { class: "detail-note" }, `核实 ${detail?.verifiedAt ?? "日期未知"}${detail?.price?.note ? ` · 价格条件：${detail.price.note}` : ""}${detail?.includedCredit?.text ? ` · 套餐内额度：${detail.includedCredit.text}` : ""}${detail?.notes ? ` · 使用条款：${detail.notes}` : ""}`),
@@ -81,7 +102,7 @@ export function renderApi(prices: CnyApi[], raw: RawApi[]): HTMLElement {
       const detail = details.get(p.id);
       const source = detail?.sourceUrl ?? p.sourceUrl;
       body.append(h("tr", null, [
-        h("td", null, h("div", { class: "model-cell" }, [modelBadge(p.model), h("div", null, [h("strong", { class: "cell-model" }, p.model), h("span", { class: "cell-vendor block" }, `${p.vendor} · ${p.offeringLabel ?? "主体未知"}`)])])),
+        h("td", null, h("div", { class: "model-cell" }, [modelBadge(p.model, p.platformId), h("div", null, [h("strong", { class: "cell-model" }, p.model), h("span", { class: "cell-vendor block" }, `${p.vendor} · ${p.offeringLabel ?? "主体未知"}`)])])),
         h("td", null, REGION[p.region] ?? p.region),
         h("td", { class: "num" }, money(p.inputCny)), h("td", { class: "num" }, money(p.outputCny)),
         h("td", { class: "num" }, money(p.cacheHitCny)), h("td", { class: "num" }, money(p.blendedCny)),
@@ -135,7 +156,14 @@ export function renderScatter(models: CnyModel[]): HTMLElement {
       fill: m.openWeights ? "var(--warn)" : "var(--accent)", opacity: ".82", tabindex: "0" });
     dot.append(Object.assign(document.createElementNS(ns, "title"), { textContent: `${m.model} · ${money(m.costPerTaskCny)} /任务 · 指数 ${m.agenticIndex}` }));
   }
-  return h("figure", { class: "scatter__card" }, [svg, h("figcaption", { class: "detail-note" }, `共 ${valid.length} 个同时具备两项观测值的模型；绿点为闭源，黄点为开放权重。悬停或聚焦查看名称与数值。`) ]);
+  return h("figure", { class: "scatter__card" }, [svg,
+    h("figcaption", { class: "detail-note" }, `共 ${valid.length} 个同时具备两项观测值的模型；绿点为闭源，黄点为开放权重。悬停或聚焦查看名称与数值。`),
+    h("details", null, [h("summary", null, "查看图中模型、图标与观测值"),
+      h("p", { class: "detail-note" }, "按原始数据顺序列示，不构成推荐排序。优先显示模型标识；没有独立模型图标时显示真实厂商标识并明确标注。仍无法核实的项显示中性圆点，悬停查看原因。"),
+      h("ul", { class: "scatter-models" }, valid.map((m) => h("li", null, [rankedModelBadge(m.model, m.creator),
+        h("span", null, `${m.model} · ${money(m.costPerTaskCny)} /任务 · 指数 ${m.agenticIndex}`)]))),
+    ]),
+  ]);
 }
 
 /** 平台登记表：售卖主体与工具绑定方式均来自 platforms.json。 */
