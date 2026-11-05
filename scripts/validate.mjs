@@ -4,13 +4,14 @@
  * 原则：
  * - 价格必须能溯源到官方页面（sourceUrl），不接受二手博客。
  * - verifiedAt 过旧（默认 90 天）只警告不阻断，但会在报告里点名。
- * - 任何一条「低置信 + 有价格」的条目都会被标出来，提醒人工复核。
+ * - 任何低置信、未知状态或在售无价套餐均不能进入公开目录。
  * - platformId 必须能在 platforms.json 里找到，杜绝拼错后静默丢失「原厂/中转」标注。
  */
 import { readFileSync } from "node:fs";
 import assert from "node:assert/strict";
 import Ajv from "ajv";
 import { assertPublicData } from "./public-boundary.mjs";
+import { assertPublishablePlan, assertCnyMatchesSources } from "./price-semantics.mjs";
 
 const read = (path) => JSON.parse(readFileSync(new URL(path, import.meta.url), "utf8"));
 const plans = read("../data/plans.json");
@@ -52,12 +53,10 @@ for (const p of plans) {
   assert.ok(!ids.has(p.id), `plans id 重复：${p.id}`);
   ids.add(p.id);
   assert.ok(p.sourceUrl.startsWith("https://"), `plans ${p.id} 缺官方来源`);
-  const unverified = p.confidence === "low" || p.status === "unknown" || p.status === "no-plan" || p.status === "discontinued";
-  assert.ok(p.buyUrl?.startsWith("https://") || unverified, `plans ${p.id} 缺购买直达链接（只有未核实条目可为空）`);
+  assertPublishablePlan(p);
+  const noPurchase = p.status === "no-plan" || p.status === "discontinued";
+  assert.ok(p.buyUrl?.startsWith("https://") || noPurchase, `plans ${p.id} 缺购买直达链接（仅无订阅/停售可为空）`);
   assert.ok(p.platformId == null || platformIds.has(p.platformId), `plans ${p.id} platformId 未注册：${p.platformId}`);
-  if (p.confidence === "low" && p.price.amount != null) {
-    console.warn(`⚠️  低置信带价格，需复核：${p.id}（${p.vendor} ${p.name}）`);
-  }
   if (p.platformId == null) console.warn(`⚠️  未标注售卖主体：plans ${p.id}（${p.vendor}）`);
 }
 
@@ -79,7 +78,7 @@ assert.ok(rankings.snapshotDate, "rankings 缺 snapshotDate");
 // 汇率与人民币视图必须同源，否则页面上会出现两套折算口径
 assert.ok(fx.rate > 5 && fx.rate < 9, `fx.rate 越界：${fx.rate}`);
 assert.ok(/^\d{4}-\d{2}-\d{2}/.test(fx.date), "fx.date 非法");
-assert.ok(Math.abs(cny.fx.rate - fx.rate) < 1e-9, "cny.json 的汇率与 fx.json 不一致，请重跑 derive-cny");
+assertCnyMatchesSources({ fx, plans, platforms, api: apiPrices, rankings }, cny);
 for (const key of ["cheapest", "priciest"]) {
   assert.ok(cny.highlights.plans[key].length > 0, `cny.highlights.plans.${key} 为空`);
 }

@@ -340,7 +340,7 @@
     "models": [
       "Gemini 4 Argon"
     ],
-    "quota": "Gemini CLI 1,500 req/day; Jules 100 tasks/24h, 15 concurrent; Antigravity higher rate limits + AI credit pool",
+    "quota": "Jules 100 tasks/24h, 15 concurrent; Antigravity higher rate limits + AI credit pool; consumer Gemini CLI access ended 2026-06-18",
     "quotaWindow": {
       "fiveHours": null,
       "week": null,
@@ -373,7 +373,7 @@
     "models": [
       "Gemini 4 Argon"
     ],
-    "quota": "$99.99 = 5x AI Pro; $199.99 = 20x AI Pro; Gemini CLI 2,000 req/day; Jules 300 tasks/24h, 60 concurrent",
+    "quota": "$99.99 = 5x AI Pro; $199.99 = 20x AI Pro; Jules 300 tasks/24h, 60 concurrent; consumer Gemini CLI access ended 2026-06-18",
     "quotaWindow": {
       "fiveHours": null,
       "week": null,
@@ -393,7 +393,7 @@
   {
     "id": "gemini-cli-free",
     "vendor": "Google",
-    "name": "Gemini CLI / Code Assist Individual (free)",
+    "name": "Gemini CLI（旧个人免费登录档）",
     "region": "global",
     "kind": "free",
     "price": {
@@ -406,7 +406,7 @@
     "models": [
       "Gemini (Flash/Pro, per quota)"
     ],
-    "quota": "1,000 requests/user/day with Google login; API key free tier 250/day",
+    "quota": "历史免费额度为 Google 账号每日 1,000 次；2026-06-18 起消费者登录停止服务，迁移至 Antigravity CLI",
     "quotaWindow": {
       "fiveHours": null,
       "week": null,
@@ -414,12 +414,12 @@
     },
     "tokenAllowance": null,
     "multimodal": true,
-    "buyUrl": "https://geminicli.com",
-    "sourceUrl": "https://geminicli.com/docs/resources/quota-and-pricing/",
+    "buyUrl": null,
+    "sourceUrl": "https://developers.googleblog.com/an-important-update-transitioning-gemini-cli-to-antigravity-cli/",
     "verifiedAt": "2026-11-03",
-    "status": "active",
+    "status": "discontinued",
     "confidence": "high",
-    "notes": null,
+    "notes": "官方 2026-05-19 公告：2026-06-18 起 Gemini CLI 个人免费登录及 Google AI Pro/Ultra 登录停止提供请求；旧配额页正文仍保留已过时的免费表格。",
     "quotaUnit": "requests",
     "platformId": "google"
   },
@@ -1915,103 +1915,6 @@
     "notes": null,
     "quotaUnit": "credits",
     "platformId": "opencode"
-  },
-  {
-    "id": "fireworks-fire-pass",
-    "vendor": "Fireworks AI",
-    "name": "Fire Pass",
-    "region": "global",
-    "kind": "coding-plan",
-    "price": {
-      "amount": null,
-      "currency": "USD",
-      "period": "month",
-      "firstPeriodAmount": null,
-      "note": null
-    },
-    "models": [],
-    "quota": "官方未公开（页面不可访问）",
-    "quotaWindow": {
-      "fiveHours": null,
-      "week": null,
-      "month": null
-    },
-    "tokenAllowance": null,
-    "multimodal": true,
-    "buyUrl": "https://fireworks.ai/pricing",
-    "sourceUrl": "https://fireworks.ai/pricing",
-    "verifiedAt": "2026-11-03",
-    "status": "unknown",
-    "confidence": "low",
-    "notes": "Fire Pass not on current pricing page (now Platform/Nexus); /firepass returns 404; possibly discontinued",
-    "quotaUnit": null,
-    "platformId": "fireworks"
-  },
-  {
-    "id": "xai-supergrok",
-    "vendor": "xAI",
-    "name": "SuperGrok",
-    "region": "global",
-    "kind": "coding-plan",
-    "price": {
-      "amount": null,
-      "currency": "USD",
-      "period": "month",
-      "firstPeriodAmount": null,
-      "note": null
-    },
-    "models": [
-      "Grok"
-    ],
-    "quota": "Higher limits, priority access, multi-agent (no figures)",
-    "quotaWindow": {
-      "fiveHours": null,
-      "week": null,
-      "month": null
-    },
-    "tokenAllowance": null,
-    "multimodal": true,
-    "buyUrl": "https://grok.com/supergrok",
-    "sourceUrl": "https://x.ai/grok",
-    "verifiedAt": "2026-11-03",
-    "status": "active",
-    "confidence": "low",
-    "notes": "x.ai/pricing returns 403; price not verified",
-    "quotaUnit": null,
-    "platformId": "xai"
-  },
-  {
-    "id": "xai-grok-build",
-    "vendor": "xAI",
-    "name": "Grok Build",
-    "region": "global",
-    "kind": "coding-plan",
-    "price": {
-      "amount": null,
-      "currency": "USD",
-      "period": "month",
-      "firstPeriodAmount": null,
-      "note": null
-    },
-    "models": [
-      "Grok"
-    ],
-    "quota": "官方未公开（页面不可访问）",
-    "quotaWindow": {
-      "fiveHours": null,
-      "week": null,
-      "month": null
-    },
-    "tokenAllowance": null,
-    "multimodal": true,
-    "buyUrl": "https://x.ai/build",
-    "sourceUrl": "https://x.ai/grok",
-    "verifiedAt": "2026-11-03",
-    "status": "unknown",
-    "confidence": "low",
-    "notes": "x.ai/build returns 403; not verified",
-    "quotaUnit": null,
-    "platformId": "xai"
   },
   {
     "id": "amp-hobby",
@@ -3894,33 +3797,6 @@
     "confidence": "high",
     "notes": null,
     "platformId": "tongyi-lingma"
-  },
-  {
-    "id": "baidu-comate-personal",
-    "vendor": "百度 文心快码",
-    "name": "文心快码 个人付费档",
-    "region": "cn",
-    "kind": "ide",
-    "price": {
-      "amount": null,
-      "currency": "CNY",
-      "period": "month",
-      "firstPeriodAmount": null,
-      "note": "未核实"
-    },
-    "models": [],
-    "quota": "官方未公开（页面未能核实）",
-    "quotaWindow": null,
-    "quotaUnit": null,
-    "tokenAllowance": null,
-    "multimodal": null,
-    "buyUrl": "https://comate.baidu.com/zh/pricing",
-    "sourceUrl": "https://comate.baidu.com/zh/pricing",
-    "verifiedAt": "2026-11-03",
-    "status": "active",
-    "confidence": "low",
-    "notes": "定价页只渲染出约960字符，没有价格。另一个官方入口 cloud.baidu.com/doc/COMATE/s/rlnvnio4a 未抓取。",
-    "platformId": "comate"
   },
   {
     "id": "minimax-token-plan-legacy",

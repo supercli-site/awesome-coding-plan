@@ -21,7 +21,7 @@ AI 编程的账单分两种，混在一起看很容易选错：
 
 所以这里分三张表：**国内套餐**、**海外套餐**、**API 单价**，外加一张用真实评测数据算的**性价比排行**。
 
-所有价格都标注**官方来源链接**和**核实日期**，没核实到的一律留空并标记低置信度，不猜、不编。
+所有公开价格均标注**官方来源链接**和**核实日期**；仍待核实的在售报价留在本地研究记录，确认后才进入公开对比。不猜、不编。
 
 ---
 
@@ -50,7 +50,7 @@ AI 编程的账单分两种，混在一起看很容易选错：
 | **Kimi 会员 Pro（含 Kimi Code）** | 月之暗面 Kimi | ¥199/月 | Kimi Code 额度每周刷新，高档位额度与并发更高；官方未公布具体数值 | kimi-k2.7-code、kimi-k3 | — | [直达](https://www.kimi.com/code) | [官方](https://www.kimi.com/resources/kimi-k2-7-code-pricing) |
 | **Kimi 会员 Max（含 Kimi Code）** | 月之暗面 Kimi | ¥699/月 | Kimi Code 额度每周刷新，高档位额度与并发更高；官方未公布具体数值 | kimi-k2.7-code、kimi-k3 | — | [直达](https://www.kimi.com/code) | [官方](https://www.kimi.com/resources/kimi-k2-7-code-pricing) |
 | **Kimi 会员 Ultra（含 Kimi Code）** | 月之暗面 Kimi | ¥1399/月 | Kimi Code 额度每周刷新，高档位额度与并发更高；官方未公布具体数值 | kimi-k2.7-code、kimi-k3 | — | [直达](https://www.kimi.com/code) | [官方](https://www.kimi.com/resources/kimi-k2-7-code-pricing) |
-| **DeepSeek API（仅按量）** | DeepSeek | — | 无订阅套餐，按 token 计费 | deepseek-flash、deepseek-v4-pro | ✅ | [直达](https://platform.deepseek.com/) | [官方](https://api-docs.deepseek.com/zh-cn/quick_start/pricing) |
+| **DeepSeek API（仅按量）** | DeepSeek | 仅按量，无月费 | 无订阅套餐，按 token 计费 | deepseek-flash、deepseek-v4-pro | ✅ | [直达](https://platform.deepseek.com/) | [官方](https://api-docs.deepseek.com/zh-cn/quick_start/pricing) |
 | **通用 Token Plan 个人版 Lite（体验套餐）** | 腾讯云 | ¥39/月 | 每订阅月780积分 | hy4-preview、deepseek-v4.1-flash、deepseek-v4-pro、glm-5.3、kimi-k3、minimax-m3、mimo-v2.6-flash | — | [直达](https://cloud.tencent.com/act/pro/tokenplan) | [官方](https://cloud.tencent.com/act/pro/tokenplan) |
 | **通用 Token Plan 个人版 Standard（基础套餐）** | 腾讯云 | ¥99/月 | 每订阅月1,980积分 | hy4-preview、deepseek-v4.1-flash、deepseek-v4-pro、glm-5.3、kimi-k3、minimax-m3、mimo-v2.6-flash | — | [直达](https://cloud.tencent.com/act/pro/tokenplan) | [官方](https://cloud.tencent.com/act/pro/tokenplan) |
 | **通用 Token Plan 个人版 Pro（进阶套餐）** | 腾讯云 | ¥299/月 | 每订阅月5,980积分 | hy4-preview、deepseek-v4.1-flash、deepseek-v4-pro、glm-5.3、kimi-k3、minimax-m3、mimo-v2.6-flash | — | [直达](https://cloud.tencent.com/act/pro/tokenplan) | [官方](https://cloud.tencent.com/act/pro/tokenplan) |
@@ -73,15 +73,14 @@ AI 编程的账单分两种，混在一起看很容易选错：
 | **Token Plan 个人版 Lite（积分制）** | 百度千帆 | ¥40/月 <sub>首期 ¥19.90</sub> | 每月6,600积分 | deepseek-v4.1-flash、deepseek-v4-pro、glm-5.3 | — | [直达](https://cloud.baidu.com/product/qianfan_home/token_plan_personal.html) | [官方](https://cloud.baidu.com/product/qianfan_home/token_plan_personal.html) |
 | **Token Plan 个人版 Pro（积分制）** | 百度千帆 | ¥200/月 <sub>首期 ¥99.90</sub> | 每月45,000积分 | deepseek-v4.1-flash、deepseek-v4-pro、glm-5.3 | — | [直达](https://cloud.baidu.com/product/qianfan_home/token_plan_personal.html) | [官方](https://cloud.baidu.com/product/qianfan_home/token_plan_personal.html) |
 | **Token Plan 个人版 Max（积分制）** | 百度千帆 | ¥600/月 <sub>首期 ¥299.90</sub> | 每月165,000积分 | deepseek-v4.1-flash、deepseek-v4-pro、glm-5.3 | — | [直达](https://cloud.baidu.com/product/qianfan_home/token_plan_personal.html) | [官方](https://cloud.baidu.com/product/qianfan_home/token_plan_personal.html) |
-| **千帆 Coding Plan Lite** | 百度千帆 | ¥40/月 | 每5小时约1,200次请求，每周约9,000次，每订阅月约18,000次 | deepseek-v4-pro、glm-5.1 | — | [直达](null) | [官方](https://cloud.baidu.com/doc/qianfan/s/Fmrexuejc) |
-| **千帆 Coding Plan Pro** | 百度千帆 | ¥200/月 | 每5小时约6,000次请求，每周约45,000次，每月约90,000次 | deepseek-v4-pro、glm-5.1 | — | [直达](null) | [官方](https://cloud.baidu.com/doc/qianfan/s/imlg0beiu) |
+| **千帆 Coding Plan Lite** | 百度千帆 | 已停售（历史价 ¥40/月） | 每5小时约1,200次请求，每周约9,000次，每订阅月约18,000次 | deepseek-v4-pro、glm-5.1 | — | — | [官方](https://cloud.baidu.com/doc/qianfan/s/Fmrexuejc) |
+| **千帆 Coding Plan Pro** | 百度千帆 | 已停售（历史价 ¥200/月） | 每5小时约6,000次请求，每周约45,000次，每月约90,000次 | deepseek-v4-pro、glm-5.1 | — | — | [官方](https://cloud.baidu.com/doc/qianfan/s/imlg0beiu) |
 | **Qoder CN 体验版** | 阿里 Qoder CN（原通义灵码） | ¥0/月 | 有限体验额度，含2周专业版试用和300 Credits；签到30天累计3,000 Credits | qwen3.8-max | — | [直达](https://qoder.com.cn/pricing) | [官方](https://qoder.com.cn/pricing) |
 | **Qoder CN 专业版** | 阿里 Qoder CN（原通义灵码） | ¥59/月 <sub>首期 ¥19.90</sub> | 基础2,000 Credits/月 | qwen3.8-max | — | [直达](https://qoder.com.cn/pricing) | [官方](https://qoder.com.cn/pricing) |
 | **Qoder CN 高级版** | 阿里 Qoder CN（原通义灵码） | ¥169/月 | 基础6,000 Credits/月 | qwen3.8-max | — | [直达](https://qoder.com.cn/pricing) | [官方](https://qoder.com.cn/pricing) |
 | **Qoder CN 旗舰版** | 阿里 Qoder CN（原通义灵码） | ¥559/月 | 基础20,000 Credits/月 | qwen3.8-max | — | [直达](https://qoder.com.cn/pricing) | [官方](https://qoder.com.cn/pricing) |
-| **文心快码 个人付费档** | 百度 文心快码 | —/月 | 官方未公开（页面未能核实） | — | — | [直达](https://comate.baidu.com/zh/pricing) | [官方](https://comate.baidu.com/zh/pricing) |
-| **Token Plan（Plus/Max/Ultra，旧版）** | MiniMax | —/月 | 官方未公开（页面未能核实） | minimax-m3.1-flash | ❌ | [直达](null) | [官方](https://platform.minimaxi.com/docs/m-plan/token-plan-notice.md) |
-| **腾讯云 Coding Plan** | 腾讯云 | —/月 | 官方未公开（页面未能核实） | — | — | [直达](null) | [官方](https://cloud.tencent.com/act/pro/codingplan) |
+| **Token Plan（Plus/Max/Ultra，旧版）** | MiniMax | 已停售 | 官方未公开（页面未能核实） | minimax-m3.1-flash | ❌ | — | [官方](https://platform.minimaxi.com/docs/m-plan/token-plan-notice.md) |
+| **腾讯云 Coding Plan** | 腾讯云 | 已停售 | 官方未公开（页面未能核实） | — | — | — | [官方](https://cloud.tencent.com/act/pro/codingplan) |
 
 ---
 
@@ -98,9 +97,9 @@ AI 编程的账单分两种，混在一起看很容易选错：
 | **ChatGPT Plus (Codex)** | OpenAI | $20/月 | Local msgs per 5h (estimates): GPT-6.1 Sol 15-160, Terra 35-285, GPT-6 Luna 350-3000, Astra 5-45; weekly limits may apply; extend with credits | GPT-6.1 Sol、GPT-6.1 Terra、GPT-6 Luna、GPT-6 Astra | ✅ | [直达](https://chatgpt.com/pricing/) | [官方](https://developers.openai.com/codex/pricing) |
 | **ChatGPT Pro (Codex)** | OpenAI | $100/月 | Tiers at $100/$200/$500; no 5-hour limit currently; Ultrafast mode only on $500 | GPT-6.1 Sol、GPT-6.1 Terra、GPT-6 Luna、GPT-6 Astra | ✅ | [直达](https://chatgpt.com/pricing/) | [官方](https://developers.openai.com/codex/pricing) |
 | **ChatGPT Business (Codex)** | OpenAI | $25/月 | Same per-5h estimates as Plus (Standard Business); extend with credits | GPT-6.1 Sol、GPT-6 Luna | ✅ | [直达](https://chatgpt.com/business/) | [官方](https://developers.openai.com/codex/pricing) |
-| **Google AI Pro** | Google | $19.99/月 | Gemini CLI 1,500 req/day; Jules 100 tasks/24h, 15 concurrent; Antigravity higher rate limits + AI credit pool | Gemini 4 Argon | ✅ | [直达](https://gemini.google/subscriptions/) | [官方](https://gemini.google/subscriptions/) |
-| **Google AI Ultra** | Google | $99.99/月 | $99.99 = 5x AI Pro; $199.99 = 20x AI Pro; Gemini CLI 2,000 req/day; Jules 300 tasks/24h, 60 concurrent | Gemini 4 Argon | ✅ | [直达](https://gemini.google/subscriptions/) | [官方](https://gemini.google/subscriptions/) |
-| **Gemini CLI / Code Assist Individual (free)** | Google | $0 | 1,000 requests/user/day with Google login; API key free tier 250/day | Gemini (Flash/Pro, per quota) | ✅ | [直达](https://geminicli.com) | [官方](https://geminicli.com/docs/resources/quota-and-pricing/) |
+| **Google AI Pro** | Google | $19.99/月 | Jules 100 tasks/24h, 15 concurrent; Antigravity higher rate limits + AI credit pool; consumer Gemini CLI access ended 2026-06-18 | Gemini 4 Argon | ✅ | [直达](https://gemini.google/subscriptions/) | [官方](https://gemini.google/subscriptions/) |
+| **Google AI Ultra** | Google | $99.99/月 | $99.99 = 5x AI Pro; $199.99 = 20x AI Pro; Jules 300 tasks/24h, 60 concurrent; consumer Gemini CLI access ended 2026-06-18 | Gemini 4 Argon | ✅ | [直达](https://gemini.google/subscriptions/) | [官方](https://gemini.google/subscriptions/) |
+| **Gemini CLI（旧个人免费登录档）** | Google | 已停售（历史价 $0） | 历史免费额度为 Google 账号每日 1,000 次；2026-06-18 起消费者登录停止服务，迁移至 Antigravity CLI | Gemini (Flash/Pro, per quota) | ✅ | — | [官方](https://developers.googleblog.com/an-important-update-transitioning-gemini-cli-to-antigravity-cli/) |
 | **Antigravity Individual** | Google | $0 | Unlimited Tab completions & command requests; basic weekly rate limits | Gemini models | ✅ | [直达](https://antigravity.google/pricing) | [官方](https://antigravity.google/pricing) |
 | **Jules (free)** | Google | $0 | 15 tasks per rolling 24h, 3 concurrent | Gemini | ✅ | [直达](https://jules.google) | [官方](https://jules.google/docs/usage-limits/) |
 | **Copilot Free** | GitHub | $0 | 2,000 completions/month; limited chat & agent usage | Claude Haiku 4.5、GPT-5 mini | ✅ | [直达](https://github.com/features/copilot/plans) | [官方](https://github.com/features/copilot/plans) |
@@ -143,9 +142,6 @@ AI 编程的账单分两种，混在一起看很容易选错：
 | **OpenCode Go** | OpenCode | $10/月 | Per-model monthly dollar limits (e.g. GLM-5.3 $15, GLM-5.3-Flash $60) | GLM-5.3、Kimi K3、DeepSeek V4、MiniMax M3、Qwen3.8 | ✅ | [直达](https://opencode.ai/go) | [官方](https://opencode.ai/docs/go/) |
 | **OpenCode Go Plus** | OpenCode | $40/月 | Higher per-model limits than Go (exact values not extracted) | GLM-5.3、Kimi K3、DeepSeek V4 | ✅ | [直达](https://opencode.ai/go) | [官方](https://opencode.ai/docs/go/) |
 | **OpenCode Zen free models** | OpenCode | $0 | Limited-time free models; otherwise PAYG +4.6%+$0.31 per credit purchase | GLM-5.3-Flash Free、DeepSeek V4.1 Flash Free、Big Pickle | ✅ | [直达](https://opencode.ai/zen) | [官方](https://opencode.ai/docs/zen/) |
-| **Fire Pass** | Fireworks AI | —/月 | 官方未公开（页面不可访问） | — | ✅ | [直达](https://fireworks.ai/pricing) | [官方](https://fireworks.ai/pricing) |
-| **SuperGrok** | xAI | —/月 | Higher limits, priority access, multi-agent (no figures) | Grok | ✅ | [直达](https://grok.com/supergrok) | [官方](https://x.ai/grok) |
-| **Grok Build** | xAI | —/月 | 官方未公开（页面不可访问） | Grok | ✅ | [直达](https://x.ai/build) | [官方](https://x.ai/grok) |
 | **Amp Hobby** | Amp | $0 | Pay-as-you-go hosted orbs; unlimited self-hosted; no Amp token fees | BYOK / subscriptions | ✅ | [直达](https://ampcode.com/pricing) | [官方](https://ampcode.com/pricing) |
 | **Amp Individual (Megawatt)** | Amp | $20/月 | 45,000 orb minutes; tokens from your own ChatGPT/Claude subs or keys | BYOK / subscriptions | ✅ | [直达](https://ampcode.com/pricing) | [官方](https://ampcode.com/pricing) |
 | **OpenRouter free models** | OpenRouter | $0 | 20 req/min, 50 req/day; 1,000/day after buying ≥$10 credits | :free models | ✅ | [直达](https://openrouter.ai) | [官方](https://openrouter.ai/pricing) |
@@ -316,7 +312,7 @@ pnpm check     # 校验数据门禁
 ## 数据说明
 
 - 排行快照共 137 个模型档位，采集于 2026-11-04
-- 套餐条目 113 条，API 价格条目 51 条
+- 套餐条目 109 条，API 价格条目 51 条
 - 最后一次核实：2026-11-03
 
 ---

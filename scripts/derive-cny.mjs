@@ -10,16 +10,14 @@
  * - 原币为人民币的条目不经汇率，避免来回换算引入误差。
  */
 import { readFileSync, writeFileSync } from "node:fs";
+import { pathToFileURL } from "node:url";
 import { convertCny, round } from "./currency.mjs";
 
 const read = (f) => JSON.parse(readFileSync(new URL(`../data/${f}`, import.meta.url), "utf8"));
-const fx = read("fx.json");
-const plans = read("plans.json");
-const platforms = read("platforms.json");
-const PLATFORM = Object.fromEntries(platforms.platforms.map((p) => [p.id, p]));
-const api = read("api-prices.json");
-const rankings = read("rankings.json");
 
+// Pure derivation is also used by the data gate to detect stale or edited output.
+export function deriveCny({ fx, plans, platforms, api, rankings }) {
+const PLATFORM = Object.fromEntries(platforms.platforms.map((p) => [p.id, p]));
 const RATE = fx.rate;
 const BLEND = { input: 3, output: 1 };
 const toCny = (value, currency, digits = 2) => convertCny(value, currency, RATE, digits);
@@ -27,7 +25,7 @@ const perMonth = { month: 1, quarter: 1 / 3, year: 1 / 12, week: 52 / 12, none: 
 
 const planRows = plans.map((p) => {
   const factor = perMonth[p.price.period];
-  const monthly = p.price.amount == null || factor == null ? null : toCny(p.price.amount * factor, p.price.currency);
+  const monthly = p.price.amount == null ? null : p.price.amount === 0 ? 0 : factor == null ? null : toCny(p.price.amount * factor, p.price.currency);
   const credit = p.includedCredit?.amount != null ? toCny(p.includedCredit.amount, p.includedCredit.currency ?? "USD") : null;
   return {
     id: p.id,
@@ -99,7 +97,7 @@ const pickIds = (arr, n = 5) => arr.slice(0, n).map((x) => x.id ?? x.model);
 const out = {
   fx: { rate: RATE, date: fx.date, source: fx.source, sourceUrl: fx.sourceUrl, fallbackUsed: fx.fallbackUsed },
   method: {
-    planMonthly: "年付÷12、季付÷3、周付×52÷12；首期优惠不参与排序",
+    planMonthly: "免费条目为0；年付÷12、季付÷3、周付×52÷12；首期优惠不参与排序",
     apiBlended: `输入:输出 = ${BLEND.input}:${BLEND.output} 加权，元/百万 tokens`,
     value: `Agentic Index ÷ 单任务人民币成本，仅比较 Agentic Index ≥ ${minIndex} 的模型`,
     excluded: "置信度 low 的条目不参与最便宜/最贵/性价比评选",
@@ -126,5 +124,18 @@ const out = {
   models: rankRows,
 };
 
-writeFileSync(new URL("../data/cny.json", import.meta.url), JSON.stringify(out, null, 2) + "\n");
-console.log(`人民币视图已生成：1 USD = ${RATE} CNY（${fx.date}）· 套餐 ${planRows.length} · API ${apiRows.length} · 模型 ${rankRows.length}`);
+return out;
+}
+
+if (process.argv[1] && import.meta.url === pathToFileURL(process.argv[1]).href) {
+  const fx = read("fx.json");
+  const out = deriveCny({
+    fx,
+    plans: read("plans.json"),
+    platforms: read("platforms.json"),
+    api: read("api-prices.json"),
+    rankings: read("rankings.json"),
+  });
+  writeFileSync(new URL("../data/cny.json", import.meta.url), JSON.stringify(out, null, 2) + "\n");
+  console.log(`人民币视图已生成：1 USD = ${fx.rate} CNY（${fx.date}）· 套餐 ${out.plans.length} · API ${out.api.length} · 模型 ${out.models.length}`);
+}

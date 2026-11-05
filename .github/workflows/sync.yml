@@ -27,7 +27,8 @@ jobs:
       - run: pnpm install --frozen-lockfile
       - name: Pull rankings + FX, derive CNY view (keeps old files on failure)
         run: pnpm sync
-      - run: pnpm check
+      - name: Validate public prices and derived-data consistency
+        run: pnpm check && pnpm test
       - run: node scripts/render-readme.mjs
       - name: Commit if changed
         run: |

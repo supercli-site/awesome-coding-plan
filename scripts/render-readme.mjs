@@ -23,9 +23,12 @@ const priceCell = (p) => {
     p.price.firstPeriodAmount != null
       ? ` <sub>首期 ${money(p.price.firstPeriodAmount, p.price.currency)}</sub>`
       : "";
+  if (p.status === "discontinued") return p.price.amount === null ? "已停售" : `已停售（历史价 ${base}）`;
+  if (p.status === "no-plan") return "仅按量，无月费";
   return base + first;
 };
 const esc = (s) => String(s ?? "").replace(/\|/g, "\\|");
+const purchaseCell = (url) => url ? `[直达](${url})` : "—";
 
 function plansTable(region) {
   const rows = plans.filter((p) => p.region === region);
@@ -36,7 +39,7 @@ function plansTable(region) {
       (p) =>
         `| **${esc(p.name)}** | ${esc(p.vendor)} | ${priceCell(p)} | ${esc(p.quota)} | ${esc(
           (p.models ?? []).join("、") || "—",
-        )} | ${p.multimodal === null ? "—" : p.multimodal ? "✅" : "❌"} | [直达](${p.buyUrl}) | [官方](${p.sourceUrl}) |`,
+        )} | ${p.multimodal === null ? "—" : p.multimodal ? "✅" : "❌"} | ${purchaseCell(p.buyUrl)} | [官方](${p.sourceUrl}) |`,
     ),
   ].join("\n");
 }
@@ -53,7 +56,7 @@ function apiTable(region) {
           a.currency,
         )} | ${a.cacheHit == null ? "—" : money(a.cacheHit, a.currency)} | ${esc(
           a.context ?? "—",
-        )} | [直达](${a.buyUrl}) | [官方](${a.sourceUrl}) |`,
+        )} | ${purchaseCell(a.buyUrl)} | [官方](${a.sourceUrl}) |`,
     ),
   ].join("\n");
 }
