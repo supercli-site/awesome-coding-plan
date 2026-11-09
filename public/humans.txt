@@ -1,0 +1,3 @@
+TokenPlan
+AI 编程套餐与 API 价格对比。
+项目与贡献：https://github.com/supercli-site/awesome-coding-plan

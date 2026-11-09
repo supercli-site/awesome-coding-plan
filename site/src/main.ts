@@ -71,7 +71,7 @@ async function mount() {
     : snapshot
       ? `当前展示本站构建时收录的数据快照（汇率基准 ${view.fx.date}）；API 暂不可用，价格不是实时值，请按各条核实日期与来源确认。`
       : `当前数据来自 api.supercli.site；汇率基准 ${view.fx.date}，价格以各条核实日期和官方来源为准。`);
-  app!.append(renderHeader(), dataNotice, h("main", null, [hero,
+  app!.replaceChildren(renderHeader(), dataNotice, h("main", null, [hero,
     section("route", "01 / TOKENPLAN PICKS", "TokenPlan 官方推荐", "按适用场景筛选，依据官方价格、额度和计费条件。", renderBuyingRoute(view.plans, rawPlans, view.api, rawApi)),
     section("featured", "02 / OFFICIAL CLOUD", "先从云厂商官方入口开始", "仅列云平台官方、纯模型额度且仍在售的套餐，同时提供 DeepSeek V4 Flash 原厂按量 API 入口。", renderFeatured(view.plans, rawPlans, view.api, rawApi)),
     section("highlights", "02 / PRICE RANGE", "价格分布速览", "展示公开报价的两端，不作为购买推荐或性价比排名；额度与单价不同维度不可直接相除。", renderPodiums(view, view.plans, view.api, view.models)),

@@ -6,7 +6,7 @@
   "description": "AI 编程套餐与 API 价格对比站",
   "scripts": {
     "dev": "vite",
-    "build": "node scripts/check-icons.mjs && vite build && node scripts/check-icons.mjs --dist",
+    "build": "node scripts/check-icons.mjs && vite build && node scripts/prerender.mjs && node scripts/check-icons.mjs --dist",
     "check:icons": "node scripts/check-icons.mjs",
     "preview": "vite preview",
     "sync": "node ../scripts/sync-modelgo.mjs && node ../scripts/validate.mjs",
