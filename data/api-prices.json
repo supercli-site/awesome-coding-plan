@@ -13,7 +13,7 @@
     "context": "1M（最大输出384K）",
     "buyUrl": "https://platform.deepseek.com",
     "sourceUrl": "https://api-docs.deepseek.com/zh-cn/quick_start/pricing",
-    "verifiedAt": "2026-11-03",
+    "verifiedAt": "2026-11-10",
     "confidence": "high",
     "platformId": "deepseek"
   },
@@ -30,7 +30,7 @@
     "context": "1M（最大输出384K）",
     "buyUrl": "https://platform.deepseek.com",
     "sourceUrl": "https://api-docs.deepseek.com/zh-cn/quick_start/pricing",
-    "verifiedAt": "2026-11-03",
+    "verifiedAt": "2026-11-10",
     "confidence": "high",
     "platformId": "deepseek"
   },
@@ -48,7 +48,7 @@
     "context": "1M",
     "buyUrl": "https://platform.deepseek.com",
     "sourceUrl": "https://api-docs.deepseek.com/quick_start/pricing",
-    "verifiedAt": "2026-11-03",
+    "verifiedAt": "2026-11-10",
     "confidence": "high",
     "platformId": "deepseek"
   },
@@ -65,7 +65,7 @@
     "context": "1M",
     "buyUrl": "https://platform.deepseek.com",
     "sourceUrl": "https://api-docs.deepseek.com/quick_start/pricing",
-    "verifiedAt": "2026-11-03",
+    "verifiedAt": "2026-11-10",
     "confidence": "high",
     "platformId": "deepseek"
   },
@@ -82,7 +82,7 @@
     "context": "1M",
     "buyUrl": "https://bigmodel.cn/console",
     "sourceUrl": "https://docs.bigmodel.cn/cn/guide/start/pricing.md",
-    "verifiedAt": "2026-11-03",
+    "verifiedAt": "2026-11-10",
     "confidence": "high",
     "platformId": "zhipu"
   },
@@ -99,7 +99,7 @@
     "context": "1M",
     "buyUrl": "https://bigmodel.cn/console",
     "sourceUrl": "https://docs.bigmodel.cn/cn/guide/start/pricing.md",
-    "verifiedAt": "2026-11-03",
+    "verifiedAt": "2026-11-10",
     "confidence": "high",
     "platformId": "zhipu"
   },
@@ -116,7 +116,7 @@
     "context": null,
     "buyUrl": "https://z.ai/manage-apikey/apikey-list",
     "sourceUrl": "https://docs.z.ai/guides/overview/pricing",
-    "verifiedAt": "2026-11-03",
+    "verifiedAt": "2026-11-10",
     "confidence": "high",
     "platformId": "zai"
   },
@@ -133,7 +133,7 @@
     "context": null,
     "buyUrl": "https://z.ai/manage-apikey/apikey-list",
     "sourceUrl": "https://docs.z.ai/guides/overview/pricing",
-    "verifiedAt": "2026-11-03",
+    "verifiedAt": "2026-11-10",
     "confidence": "high",
     "platformId": "zai"
   },
@@ -150,7 +150,7 @@
     "context": "1,048,576",
     "buyUrl": "https://platform.kimi.com/console",
     "sourceUrl": "https://platform.kimi.com/docs/pricing/chat",
-    "verifiedAt": "2026-11-03",
+    "verifiedAt": "2026-11-10",
     "confidence": "high",
     "platformId": "moonshot"
   },
@@ -167,7 +167,7 @@
     "context": "262,144",
     "buyUrl": "https://platform.kimi.com/console",
     "sourceUrl": "https://platform.kimi.com/docs/pricing/chat",
-    "verifiedAt": "2026-11-03",
+    "verifiedAt": "2026-11-10",
     "confidence": "medium",
     "platformId": "moonshot"
   },
@@ -184,7 +184,7 @@
     "context": "1,048,576",
     "buyUrl": "https://platform.kimi.ai/console",
     "sourceUrl": "https://platform.kimi.ai/docs/pricing/chat",
-    "verifiedAt": "2026-11-03",
+    "verifiedAt": "2026-11-10",
     "confidence": "high",
     "platformId": "moonshot"
   },
@@ -201,7 +201,7 @@
     "context": "262,144",
     "buyUrl": "https://platform.kimi.ai/console",
     "sourceUrl": "https://platform.kimi.ai/docs/pricing/chat",
-    "verifiedAt": "2026-11-03",
+    "verifiedAt": "2026-11-10",
     "confidence": "medium",
     "platformId": "moonshot"
   },
@@ -218,7 +218,7 @@
     "context": null,
     "buyUrl": "https://platform.minimaxi.com/user-center/payment/balance",
     "sourceUrl": "https://platform.minimaxi.com/docs/pricing/overview",
-    "verifiedAt": "2026-11-03",
+    "verifiedAt": "2026-11-10",
     "confidence": "high",
     "platformId": "minimax"
   },
@@ -235,7 +235,7 @@
     "context": null,
     "buyUrl": "https://platform.minimaxi.com/user-center/payment/balance",
     "sourceUrl": "https://platform.minimaxi.com/docs/pricing/overview",
-    "verifiedAt": "2026-11-03",
+    "verifiedAt": "2026-11-10",
     "confidence": "high",
     "platformId": "minimax"
   },
@@ -252,7 +252,7 @@
     "context": null,
     "buyUrl": "https://platform.minimax.io/user-center/payment/balance",
     "sourceUrl": "https://platform.minimax.io/docs/pricing/overview",
-    "verifiedAt": "2026-11-03",
+    "verifiedAt": "2026-11-10",
     "confidence": "high",
     "platformId": "minimax"
   },
@@ -269,7 +269,7 @@
     "context": null,
     "buyUrl": "https://platform.minimax.io/user-center/payment/balance",
     "sourceUrl": "https://platform.minimax.io/docs/pricing/overview",
-    "verifiedAt": "2026-11-03",
+    "verifiedAt": "2026-11-10",
     "confidence": "high",
     "platformId": "minimax"
   },
@@ -286,7 +286,7 @@
     "context": "1M",
     "buyUrl": "https://bailian.console.aliyun.com",
     "sourceUrl": "https://help.aliyun.com/zh/model-studio/model-pricing",
-    "verifiedAt": "2026-11-03",
+    "verifiedAt": "2026-11-10",
     "confidence": "high",
     "platformId": "aliyun-bailian"
   },
@@ -303,7 +303,7 @@
     "context": "1M",
     "buyUrl": "https://bailian.console.aliyun.com",
     "sourceUrl": "https://help.aliyun.com/zh/model-studio/model-pricing",
-    "verifiedAt": "2026-11-03",
+    "verifiedAt": "2026-11-10",
     "confidence": "high",
     "platformId": "aliyun-bailian"
   },
@@ -320,7 +320,7 @@
     "context": "1M",
     "buyUrl": "https://bailian.console.aliyun.com",
     "sourceUrl": "https://help.aliyun.com/zh/model-studio/model-pricing",
-    "verifiedAt": "2026-11-03",
+    "verifiedAt": "2026-11-10",
     "confidence": "high",
     "platformId": "aliyun-bailian"
   },
@@ -337,7 +337,7 @@
     "context": "1M",
     "buyUrl": "https://modelstudio.console.alibabacloud.com",
     "sourceUrl": "https://help.aliyun.com/zh/model-studio/model-pricing",
-    "verifiedAt": "2026-11-03",
+    "verifiedAt": "2026-11-10",
     "confidence": "medium",
     "platformId": "aliyun-bailian"
   },
@@ -354,7 +354,7 @@
     "context": "1024K",
     "buyUrl": "https://console.volcengine.com/ark",
     "sourceUrl": "https://www.volcengine.com/docs/82379/1544106",
-    "verifiedAt": "2026-11-03",
+    "verifiedAt": "2026-11-10",
     "confidence": "high",
     "platformId": "volcengine-ark"
   },
@@ -371,7 +371,7 @@
     "context": "256K",
     "buyUrl": "https://console.volcengine.com/ark",
     "sourceUrl": "https://www.volcengine.com/docs/82379/1544106",
-    "verifiedAt": "2026-11-03",
+    "verifiedAt": "2026-11-10",
     "confidence": "high",
     "platformId": "volcengine-ark"
   },
@@ -388,7 +388,7 @@
     "context": null,
     "buyUrl": "https://mimo.mi.com",
     "sourceUrl": "https://mimo.mi.com/static/docs/price/pay-as-you-go.md",
-    "verifiedAt": "2026-11-03",
+    "verifiedAt": "2026-11-10",
     "confidence": "high",
     "platformId": "xiaomi"
   },
@@ -405,7 +405,7 @@
     "context": null,
     "buyUrl": "https://mimo.mi.com",
     "sourceUrl": "https://mimo.mi.com/static/docs/price/pay-as-you-go.md",
-    "verifiedAt": "2026-11-03",
+    "verifiedAt": "2026-11-10",
     "confidence": "high",
     "platformId": "xiaomi"
   },
@@ -422,7 +422,7 @@
     "context": null,
     "buyUrl": "https://mimo.mi.com",
     "sourceUrl": "https://mimo.mi.com/static/docs/price/pay-as-you-go.md",
-    "verifiedAt": "2026-11-03",
+    "verifiedAt": "2026-11-10",
     "confidence": "high",
     "platformId": "xiaomi"
   },
@@ -439,7 +439,7 @@
     "context": null,
     "buyUrl": "https://mimo.mi.com",
     "sourceUrl": "https://mimo.mi.com/static/docs/price/pay-as-you-go.md",
-    "verifiedAt": "2026-11-03",
+    "verifiedAt": "2026-11-10",
     "confidence": "high",
     "platformId": "xiaomi"
   },
@@ -456,7 +456,7 @@
     "context": "128K（按计费档推断）",
     "buyUrl": "https://console.bce.baidu.com/qianfan",
     "sourceUrl": "https://cloud.baidu.com/doc/qianfan/s/wmh4sv6ya",
-    "verifiedAt": "2026-11-03",
+    "verifiedAt": "2026-11-10",
     "confidence": "high",
     "platformId": "baidu-qianfan"
   },
@@ -473,7 +473,7 @@
     "context": null,
     "buyUrl": "https://platform.stepfun.com",
     "sourceUrl": "https://platform.stepfun.com/docs/zh/guides/pricing/details",
-    "verifiedAt": "2026-11-03",
+    "verifiedAt": "2026-11-10",
     "confidence": "high",
     "platformId": "stepfun"
   },
@@ -490,7 +490,7 @@
     "context": null,
     "buyUrl": "https://platform.stepfun.com",
     "sourceUrl": "https://platform.stepfun.com/docs/zh/guides/pricing/details",
-    "verifiedAt": "2026-11-03",
+    "verifiedAt": "2026-11-10",
     "confidence": "high",
     "platformId": "stepfun"
   },
@@ -509,7 +509,7 @@
     "multimodal": true,
     "buyUrl": "https://bigmodel.cn/usercenter/proj-mgmt/apikeys",
     "sourceUrl": "https://docs.bigmodel.cn/cn/guide/start/pricing",
-    "verifiedAt": "2026-11-03",
+    "verifiedAt": "2026-11-10",
     "confidence": "high",
     "notes": null,
     "platformId": "zhipu"
@@ -529,7 +529,7 @@
     "multimodal": null,
     "buyUrl": "https://platform.moonshot.cn/console/api-keys",
     "sourceUrl": "https://platform.kimi.com/docs/pricing/chat",
-    "verifiedAt": "2026-11-03",
+    "verifiedAt": "2026-11-10",
     "confidence": "high",
     "notes": null,
     "platformId": "moonshot"
@@ -549,7 +549,7 @@
     "multimodal": false,
     "buyUrl": "https://bailian.console.aliyun.com/",
     "sourceUrl": "https://help.aliyun.com/zh/model-studio/model-pricing",
-    "verifiedAt": "2026-11-03",
+    "verifiedAt": "2026-11-10",
     "confidence": "high",
     "notes": "当前页面未见更新代际的 coder 型号",
     "platformId": "aliyun-bailian"
@@ -569,7 +569,7 @@
     "multimodal": null,
     "buyUrl": "https://console.volcengine.com/ark",
     "sourceUrl": "https://www.volcengine.com/docs/82379/1544106",
-    "verifiedAt": "2026-11-03",
+    "verifiedAt": "2026-11-10",
     "confidence": "high",
     "notes": null,
     "platformId": "volcengine-ark"
@@ -585,11 +585,11 @@
     "cacheHit": 0.3,
     "cacheWrite": null,
     "context": null,
-    "tiering": "TokenHub 广州地域价",
+    "tiering": "TokenHub 广州地域目录价；官方“Hy4 限时折扣”：至2026-12-31 23:59:59（北京时间）Hy4 模型调用按目录价50%结算（约3/9/0.15），期满恢复目录价。折扣是否覆盖 preview 版官方未单列",
     "multimodal": null,
     "buyUrl": "https://console.cloud.tencent.com/tokenhub",
     "sourceUrl": "https://cloud.tencent.com/document/product/1823/130055",
-    "verifiedAt": "2026-11-03",
+    "verifiedAt": "2026-11-10",
     "confidence": "high",
     "notes": "混元生文已迁移至 TokenHub，原平台停止新购",
     "platformId": "tencent-hunyuan"
@@ -609,7 +609,7 @@
     "multimodal": null,
     "buyUrl": "https://console.cloud.tencent.com/tokenhub",
     "sourceUrl": "https://cloud.tencent.com/document/product/1823/130055",
-    "verifiedAt": "2026-11-03",
+    "verifiedAt": "2026-11-10",
     "confidence": "high",
     "notes": null,
     "platformId": "tencent-hunyuan"
@@ -629,7 +629,7 @@
     "multimodal": true,
     "buyUrl": "https://platform.claude.com/settings/billing",
     "sourceUrl": "https://platform.claude.com/docs/en/about-claude/pricing",
-    "verifiedAt": "2026-11-03",
+    "verifiedAt": "2026-11-10",
     "confidence": "high",
     "notes": null,
     "platformId": "anthropic"
@@ -649,7 +649,7 @@
     "multimodal": true,
     "buyUrl": "https://platform.claude.com/settings/billing",
     "sourceUrl": "https://platform.claude.com/docs/en/about-claude/pricing",
-    "verifiedAt": "2026-11-03",
+    "verifiedAt": "2026-11-10",
     "confidence": "high",
     "notes": null,
     "platformId": "anthropic"
@@ -669,7 +669,7 @@
     "multimodal": true,
     "buyUrl": "https://platform.claude.com/settings/billing",
     "sourceUrl": "https://platform.claude.com/docs/en/about-claude/pricing",
-    "verifiedAt": "2026-11-03",
+    "verifiedAt": "2026-11-10",
     "confidence": "high",
     "notes": "上下文长度未在价格页确认",
     "platformId": "anthropic"
@@ -689,7 +689,7 @@
     "multimodal": null,
     "buyUrl": "https://platform.openai.com/settings/organization/billing",
     "sourceUrl": "https://developers.openai.com/api/docs/pricing",
-    "verifiedAt": "2026-11-03",
+    "verifiedAt": "2026-11-10",
     "confidence": "high",
     "notes": null,
     "platformId": "openai"
@@ -709,7 +709,7 @@
     "multimodal": null,
     "buyUrl": "https://platform.openai.com/settings/organization/billing",
     "sourceUrl": "https://developers.openai.com/api/docs/pricing",
-    "verifiedAt": "2026-11-03",
+    "verifiedAt": "2026-11-10",
     "confidence": "high",
     "notes": null,
     "platformId": "openai"
@@ -729,7 +729,7 @@
     "multimodal": null,
     "buyUrl": "https://platform.openai.com/settings/organization/billing",
     "sourceUrl": "https://developers.openai.com/api/docs/pricing",
-    "verifiedAt": "2026-11-03",
+    "verifiedAt": "2026-11-10",
     "confidence": "high",
     "notes": "Codex 专用编程模型",
     "platformId": "openai"
@@ -749,7 +749,7 @@
     "multimodal": true,
     "buyUrl": "https://aistudio.google.com/apikey",
     "sourceUrl": "https://ai.google.dev/gemini-api/docs/pricing",
-    "verifiedAt": "2026-11-03",
+    "verifiedAt": "2026-11-10",
     "confidence": "high",
     "notes": "无免费层",
     "platformId": "google"
@@ -769,7 +769,7 @@
     "multimodal": true,
     "buyUrl": "https://aistudio.google.com/apikey",
     "sourceUrl": "https://ai.google.dev/gemini-api/docs/pricing",
-    "verifiedAt": "2026-11-03",
+    "verifiedAt": "2026-11-10",
     "confidence": "high",
     "notes": null,
     "platformId": "google"
@@ -789,7 +789,7 @@
     "multimodal": true,
     "buyUrl": "https://aistudio.google.com/apikey",
     "sourceUrl": "https://ai.google.dev/gemini-api/docs/pricing",
-    "verifiedAt": "2026-11-03",
+    "verifiedAt": "2026-11-10",
     "confidence": "high",
     "notes": null,
     "platformId": "google"
@@ -809,7 +809,7 @@
     "multimodal": null,
     "buyUrl": "https://console.x.ai",
     "sourceUrl": "https://docs.x.ai/developers/pricing",
-    "verifiedAt": "2026-11-03",
+    "verifiedAt": "2026-11-10",
     "confidence": "high",
     "notes": null,
     "platformId": "xai"
@@ -829,7 +829,7 @@
     "multimodal": null,
     "buyUrl": "https://console.x.ai",
     "sourceUrl": "https://docs.x.ai/developers/pricing",
-    "verifiedAt": "2026-11-03",
+    "verifiedAt": "2026-11-10",
     "confidence": "high",
     "notes": "xAI 编程向模型",
     "platformId": "xai"
@@ -849,7 +849,7 @@
     "multimodal": null,
     "buyUrl": "https://console.x.ai",
     "sourceUrl": "https://docs.x.ai/developers/pricing",
-    "verifiedAt": "2026-11-03",
+    "verifiedAt": "2026-11-10",
     "confidence": "high",
     "notes": null,
     "platformId": "xai"
@@ -869,7 +869,7 @@
     "multimodal": true,
     "buyUrl": "https://console.mistral.ai/",
     "sourceUrl": "https://docs.mistral.ai/inference/pricing",
-    "verifiedAt": "2026-11-03",
+    "verifiedAt": "2026-11-10",
     "confidence": "high",
     "notes": "官方状态 Public Preview；Devstral 2 已于 2026-05-22 弃用",
     "platformId": "mistral"
@@ -889,7 +889,7 @@
     "multimodal": null,
     "buyUrl": "https://console.mistral.ai/",
     "sourceUrl": "https://docs.mistral.ai/inference/pricing",
-    "verifiedAt": "2026-11-03",
+    "verifiedAt": "2026-11-10",
     "confidence": "high",
     "notes": null,
     "platformId": "mistral"
@@ -909,7 +909,7 @@
     "multimodal": null,
     "buyUrl": "https://dev.meta.ai/",
     "sourceUrl": "https://dev.meta.ai/docs/pricing-rate-limits",
-    "verifiedAt": "2026-11-03",
+    "verifiedAt": "2026-11-10",
     "confidence": "high",
     "notes": "Meta 官方 Model API 当前按量计费列表中没有 Llama，仅 Muse 系列；Llama 官方价格未核实",
     "platformId": "meta"
@@ -929,7 +929,7 @@
     "multimodal": null,
     "buyUrl": "https://dev.meta.ai/",
     "sourceUrl": "https://dev.meta.ai/docs/pricing-rate-limits",
-    "verifiedAt": "2026-11-03",
+    "verifiedAt": "2026-11-10",
     "confidence": "high",
     "notes": "同上：非 Llama",
     "platformId": "meta"
