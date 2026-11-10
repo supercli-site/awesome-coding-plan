@@ -7,6 +7,7 @@ on:
 
 permissions:
   contents: write
+  actions: write # 允许推送后用 workflow_dispatch 触发 Data checks（内置 token 的 push 不会触发新 run）
 
 concurrency:
   group: sync-rankings
@@ -38,3 +39,6 @@ jobs:
           date=$(node -p 'require("./data/rankings.json").snapshotDate')
           git commit -am "data(daily): 排行快照 ${date} · 汇率 $(node -p 'require("./data/fx.json").rate')"
           git push
+          gh workflow run checks.yml --ref main
+        env:
+          GH_TOKEN: ${{ github.token }}
