@@ -673,7 +673,7 @@
     "verifiedAt": "2026-11-10",
     "status": "active",
     "confidence": "medium",
-    "notes": null,
+    "notes": "同一订阅也在 xAI 官方价格页 https://x.ai/pricing 以相同档位与价格销售，额度池在 Grok（Chat/Imagine/Voice/Build）与 Cursor 之间共享、每周刷新；本站不重复收录 xAI 档。",
     "quotaUnit": null,
     "platformId": "cursor"
   },
@@ -706,7 +706,7 @@
     "verifiedAt": "2026-11-10",
     "status": "active",
     "confidence": "medium",
-    "notes": "月费为 Grok 工具使用额度；官方说明第三方 Claude/GPT 等模型另按 API 单价收费，不含在月费中。工具订阅不等于通用 API 额度。",
+    "notes": "月费为 Grok 工具使用额度；官方说明第三方 Claude/GPT 等模型另按 API 单价收费，不含在月费中。工具订阅不等于通用 API 额度。同一订阅也在 xAI 官方价格页 https://x.ai/pricing 以相同档位与价格销售，额度池在 Grok（Chat/Imagine/Voice/Build）与 Cursor 之间共享、每周刷新；本站不重复收录 xAI 档。",
     "quotaUnit": null,
     "platformId": "cursor"
   },
@@ -740,7 +740,7 @@
     "verifiedAt": "2026-11-10",
     "status": "active",
     "confidence": "high",
-    "notes": "月费为 Grok 工具使用额度；官方说明第三方 Claude/GPT 等模型另按 API 单价收费，不含在月费中。工具订阅不等于通用 API 额度。",
+    "notes": "月费为 Grok 工具使用额度；官方说明第三方 Claude/GPT 等模型另按 API 单价收费，不含在月费中。工具订阅不等于通用 API 额度。同一订阅也在 xAI 官方价格页 https://x.ai/pricing 以相同档位与价格销售，额度池在 Grok（Chat/Imagine/Voice/Build）与 Cursor 之间共享、每周刷新；本站不重复收录 xAI 档。",
     "quotaUnit": "multiplier",
     "platformId": "cursor"
   },
@@ -774,7 +774,7 @@
     "verifiedAt": "2026-11-10",
     "status": "active",
     "confidence": "high",
-    "notes": "月费为 Grok 工具使用额度；官方说明第三方 Claude/GPT 等模型另按 API 单价收费，不含在月费中。工具订阅不等于通用 API 额度。",
+    "notes": "月费为 Grok 工具使用额度；官方说明第三方 Claude/GPT 等模型另按 API 单价收费，不含在月费中。工具订阅不等于通用 API 额度。同一订阅也在 xAI 官方价格页 https://x.ai/pricing 以相同档位与价格销售，额度池在 Grok（Chat/Imagine/Voice/Build）与 Cursor 之间共享、每周刷新；本站不重复收录 xAI 档。",
     "quotaUnit": "multiplier",
     "platformId": "cursor"
   },
@@ -808,7 +808,7 @@
     "verifiedAt": "2026-11-10",
     "status": "active",
     "confidence": "high",
-    "notes": "月费为 Grok 工具使用额度；官方说明第三方 Claude/GPT 等模型另按 API 单价收费，不含在月费中。工具订阅不等于通用 API 额度。",
+    "notes": "月费为 Grok 工具使用额度；官方说明第三方 Claude/GPT 等模型另按 API 单价收费，不含在月费中。工具订阅不等于通用 API 额度。同一订阅也在 xAI 官方价格页 https://x.ai/pricing 以相同档位与价格销售，额度池在 Grok（Chat/Imagine/Voice/Build）与 Cursor 之间共享、每周刷新；本站不重复收录 xAI 档。",
     "quotaUnit": "multiplier",
     "platformId": "cursor"
   },
@@ -3664,11 +3664,11 @@
     "tokenAllowance": null,
     "multimodal": null,
     "buyUrl": null,
-    "sourceUrl": "https://cloud.baidu.com/doc/qianfan/s/Fmrexuejc",
-    "verifiedAt": "2026-11-03",
+    "sourceUrl": "https://cloud.baidu.com/doc/qianfan/s/imlg0beiu",
+    "verifiedAt": "2026-11-10",
     "status": "discontinued",
     "confidence": "high",
-    "notes": "2026-06-25起停止续费，07-13起全部档位停止新购，已购用户可用到到期。可一键迁移到 Token Plan（额度重置，有效期顺延1个月）。模型已停止更新。",
+    "notes": "价格与额度见官方 Coding Plan 文档；官方停售公告（https://cloud.baidu.com/doc/qianfan/s/Fmrexuejc）：2026-07-13 10:00 起全档位停止购买，已购套餐可用至服务期结束，可一键迁移至 Token Plan（已耗额度重置，有效期顺延1个月）。官方注明 Coding Plan 已停止模型更新。",
     "platformId": "baidu-qianfan"
   },
   {
@@ -3699,10 +3699,10 @@
     "multimodal": null,
     "buyUrl": null,
     "sourceUrl": "https://cloud.baidu.com/doc/qianfan/s/imlg0beiu",
-    "verifiedAt": "2026-11-03",
+    "verifiedAt": "2026-11-10",
     "status": "discontinued",
     "confidence": "high",
-    "notes": "同 Lite 档",
+    "notes": "价格与额度见官方 Coding Plan 文档；官方停售公告（https://cloud.baidu.com/doc/qianfan/s/Fmrexuejc）：2026-07-13 10:00 起全档位停止购买，已购套餐可用至服务期结束，可一键迁移至 Token Plan（已耗额度重置，有效期顺延1个月）。官方注明 Coding Plan 已停止模型更新。",
     "platformId": "baidu-qianfan"
   },
   {
