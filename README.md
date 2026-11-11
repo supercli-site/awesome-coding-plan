@@ -42,10 +42,10 @@ AI 编程的账单分两种，混在一起看很容易选错：
 | **Agent Plan Medium** | 火山方舟 | ¥200/月 <sub>首期 ¥49.90</sub> | AFP积分：每5小时10,000、每周35,000、每月100,000；日额度为月额度一半 | doubao-seed-evolving、doubao-seed-2.1-pro、doubao-seed-2.1-lite、doubao-seed-2.0-mini、glm-5.3、glm-5.3-flash、kimi-k3.1-pro、kimi-k3、kimi-k2.8-preview、deepseek-v4.1-flash、deepseek-v4-flash、deepseek-v4-pro、minimax-m3 | ✅ | [直达](https://www.volcengine.com/activity/agentplan) | [官方](https://docs.volcengine.com/docs/ark/agent-plan-personal-plan-overview?lang=zh) |
 | **Agent Plan Large** | 火山方舟 | ¥500/月 | AFP积分：每5小时25,000、每周87,500、每月250,000；日额度为月额度一半 | doubao-seed-evolving、doubao-seed-2.1-pro、doubao-seed-2.1-lite、doubao-seed-2.0-mini、glm-5.3、glm-5.3-flash、kimi-k3.1-pro、kimi-k3、kimi-k2.8-preview、deepseek-v4.1-flash、deepseek-v4-flash、deepseek-v4-pro、minimax-m3、doubao-seedance-2.5 | ✅ | [直达](https://www.volcengine.com/activity/agentplan) | [官方](https://docs.volcengine.com/docs/ark/agent-plan-personal-plan-overview?lang=zh) |
 | **Agent Plan Max** | 火山方舟 | ¥1000/月 | AFP积分：每5小时50,000、每周175,000、每月500,000；日额度为月额度一半 | doubao-seed-evolving、doubao-seed-2.1-pro、doubao-seed-2.1-lite、doubao-seed-2.0-mini、glm-5.3、glm-5.3-flash、kimi-k3.1-pro、kimi-k3、kimi-k2.8-preview、deepseek-v4.1-flash、deepseek-v4-flash、deepseek-v4-pro、minimax-m3、doubao-seedance-2.5 | ✅ | [直达](https://www.volcengine.com/activity/agentplan) | [官方](https://docs.volcengine.com/docs/ark/agent-plan-personal-plan-overview?lang=zh) |
-| **Token Plan Lite** | 小米 MiMo | $6/月 | 492亿 Credits（套餐年总量）；无周限额、无5小时限额；夜间00:00-08:00消耗0.8x | MiMo-V2.6 | ✅ | [直达](https://platform.xiaomimimo.com/token-plan) | [官方](https://platform.xiaomimimo.com/token-plan) |
-| **Token Plan Standard** | 小米 MiMo | $16/月 | 1320亿 Credits =2.7x Lite；无周限额、无5小时限额；夜间00:00-08:00消耗0.8x | MiMo-V2.6 | ✅ | [直达](https://platform.xiaomimimo.com/token-plan) | [官方](https://platform.xiaomimimo.com/token-plan) |
-| **Token Plan Pro** | 小米 MiMo | $50/月 | 4560亿 Credits =9.3x Lite；无周限额、无5小时限额；夜间00:00-08:00消耗0.8x | MiMo-V2.6 | ✅ | [直达](https://platform.xiaomimimo.com/token-plan) | [官方](https://platform.xiaomimimo.com/token-plan) |
-| **Token Plan Max** | 小米 MiMo | $100/月 | 9840亿 Credits =20x Lite；无周限额、无5小时限额；夜间00:00-08:00消耗0.8x | MiMo-V2.6 | ✅ | [直达](https://platform.xiaomimimo.com/token-plan) | [官方](https://platform.xiaomimimo.com/token-plan) |
+| **Token Plan Lite** | 小米 MiMo | $6/月 | 每月41亿 Credits（月付档月总量；年付档年总量492亿）；无周限额、无5小时限额；夜间00:00-08:00消耗0.8x | MiMo-V2.6 | ✅ | [直达](https://platform.xiaomimimo.com/token-plan) | [官方](https://platform.xiaomimimo.com/token-plan) |
+| **Token Plan Standard** | 小米 MiMo | $16/月 | 每月110亿 Credits（月付档月总量；年付档年总量1320亿）=2.7x Lite；无周限额、无5小时限额；夜间00:00-08:00消耗0.8x | MiMo-V2.6 | ✅ | [直达](https://platform.xiaomimimo.com/token-plan) | [官方](https://platform.xiaomimimo.com/token-plan) |
+| **Token Plan Pro** | 小米 MiMo | $50/月 | 每月380亿 Credits（月付档月总量；年付档年总量4560亿）=9.3x Lite；无周限额、无5小时限额；夜间00:00-08:00消耗0.8x | MiMo-V2.6 | ✅ | [直达](https://platform.xiaomimimo.com/token-plan) | [官方](https://platform.xiaomimimo.com/token-plan) |
+| **Token Plan Max** | 小米 MiMo | $100/月 | 每月820亿 Credits（月付档月总量；年付档年总量9840亿）=20x Lite；无周限额、无5小时限额；夜间00:00-08:00消耗0.8x | MiMo-V2.6 | ✅ | [直达](https://platform.xiaomimimo.com/token-plan) | [官方](https://platform.xiaomimimo.com/token-plan) |
 | **Kimi 会员 Plus（含 Kimi Code）** | 月之暗面 Kimi | ¥99/月 | Kimi Code 额度每周刷新，高档位额度与并发更高；官方未公布具体数值 | kimi-k2.7-code、kimi-k3 | — | [直达](https://www.kimi.com/code) | [官方](https://www.kimi.com/resources/kimi-k2-7-code-pricing) |
 | **Kimi 会员 Pro（含 Kimi Code）** | 月之暗面 Kimi | ¥199/月 | Kimi Code 额度每周刷新，高档位额度与并发更高；官方未公布具体数值 | kimi-k2.7-code、kimi-k3 | — | [直达](https://www.kimi.com/code) | [官方](https://www.kimi.com/resources/kimi-k2-7-code-pricing) |
 | **Kimi 会员 Max（含 Kimi Code）** | 月之暗面 Kimi | ¥699/月 | Kimi Code 额度每周刷新，高档位额度与并发更高；官方未公布具体数值 | kimi-k2.7-code、kimi-k3 | — | [直达](https://www.kimi.com/code) | [官方](https://www.kimi.com/resources/kimi-k2-7-code-pricing) |
@@ -317,7 +317,7 @@ pnpm check     # 校验数据门禁
 
 - 排行快照共 137 个模型档位，采集于 2026-11-04
 - 套餐条目 113 条，API 价格条目 51 条
-- 最后一次核实：2026-11-10
+- 最后一次核实：2026-11-11
 
 ---
 

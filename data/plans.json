@@ -2544,7 +2544,7 @@
     "models": [
       "MiMo-V2.6"
     ],
-    "quota": "492亿 Credits（套餐年总量）；无周限额、无5小时限额；夜间00:00-08:00消耗0.8x",
+    "quota": "每月41亿 Credits（月付档月总量；年付档年总量492亿）；无周限额、无5小时限额；夜间00:00-08:00消耗0.8x",
     "quotaWindow": {
       "fiveHours": null,
       "week": null,
@@ -2554,7 +2554,7 @@
     "multimodal": true,
     "buyUrl": "https://platform.xiaomimimo.com/token-plan",
     "sourceUrl": "https://platform.xiaomimimo.com/token-plan",
-    "verifiedAt": "2026-11-10",
+    "verifiedAt": "2026-11-11",
     "status": "active",
     "confidence": "medium",
     "notes": "官网中文页仍以美元标价（可能按访问地区显示），未见人民币价；Credits 非 token 数，tokenAllowance 留空",
@@ -2577,7 +2577,7 @@
     "models": [
       "MiMo-V2.6"
     ],
-    "quota": "1320亿 Credits =2.7x Lite；无周限额、无5小时限额；夜间00:00-08:00消耗0.8x",
+    "quota": "每月110亿 Credits（月付档月总量；年付档年总量1320亿）=2.7x Lite；无周限额、无5小时限额；夜间00:00-08:00消耗0.8x",
     "quotaWindow": {
       "fiveHours": null,
       "week": null,
@@ -2587,7 +2587,7 @@
     "multimodal": true,
     "buyUrl": "https://platform.xiaomimimo.com/token-plan",
     "sourceUrl": "https://platform.xiaomimimo.com/token-plan",
-    "verifiedAt": "2026-11-10",
+    "verifiedAt": "2026-11-11",
     "status": "active",
     "confidence": "medium",
     "notes": "官网中文页仍以美元标价（可能按访问地区显示），未见人民币价；Credits 非 token 数，tokenAllowance 留空",
@@ -2610,7 +2610,7 @@
     "models": [
       "MiMo-V2.6"
     ],
-    "quota": "4560亿 Credits =9.3x Lite；无周限额、无5小时限额；夜间00:00-08:00消耗0.8x",
+    "quota": "每月380亿 Credits（月付档月总量；年付档年总量4560亿）=9.3x Lite；无周限额、无5小时限额；夜间00:00-08:00消耗0.8x",
     "quotaWindow": {
       "fiveHours": null,
       "week": null,
@@ -2620,7 +2620,7 @@
     "multimodal": true,
     "buyUrl": "https://platform.xiaomimimo.com/token-plan",
     "sourceUrl": "https://platform.xiaomimimo.com/token-plan",
-    "verifiedAt": "2026-11-10",
+    "verifiedAt": "2026-11-11",
     "status": "active",
     "confidence": "medium",
     "notes": "官网中文页仍以美元标价（可能按访问地区显示），未见人民币价；Credits 非 token 数，tokenAllowance 留空",
@@ -2643,7 +2643,7 @@
     "models": [
       "MiMo-V2.6"
     ],
-    "quota": "9840亿 Credits =20x Lite；无周限额、无5小时限额；夜间00:00-08:00消耗0.8x",
+    "quota": "每月820亿 Credits（月付档月总量；年付档年总量9840亿）=20x Lite；无周限额、无5小时限额；夜间00:00-08:00消耗0.8x",
     "quotaWindow": {
       "fiveHours": null,
       "week": null,
@@ -2653,7 +2653,7 @@
     "multimodal": true,
     "buyUrl": "https://platform.xiaomimimo.com/token-plan",
     "sourceUrl": "https://platform.xiaomimimo.com/token-plan",
-    "verifiedAt": "2026-11-10",
+    "verifiedAt": "2026-11-11",
     "status": "active",
     "confidence": "medium",
     "notes": "官网中文页仍以美元标价（可能按访问地区显示），未见人民币价；Credits 非 token 数，tokenAllowance 留空",
