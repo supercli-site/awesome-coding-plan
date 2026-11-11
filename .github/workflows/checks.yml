@@ -43,16 +43,16 @@ jobs:
         run: |
           node scripts/render-readme.mjs
           git diff --exit-code README.md
-      - name: Rank snapshot is fresh (within 7 days)
+      # 排行来自上游 ModelGo，上游停更不应挡住价格发布：>7 天告警，>30 天才阻断。
+      - name: Rank snapshot freshness (warn > 7 days, fail > 30 days)
         run: |
           node -e '
             const d = require("./data/rankings.json");
             const days = (Date.now() - new Date(d.snapshotDate)) / 86400000;
-            if (days > 7) {
-              console.error(`排行快照已过期 ${days.toFixed(1)} 天（${d.snapshotDate}），请运行 pnpm sync`);
-              process.exit(1);
-            }
-            console.log(`排行快照 ${d.snapshotDate}，${days.toFixed(1)} 天前`);
+            const msg = `排行快照 ${d.snapshotDate}，${days.toFixed(1)} 天前`;
+            if (days > 30) { console.error(`${msg}：超过 30 天，请检查上游同步`); process.exit(1); }
+            if (days > 7) console.log(`::warning::${msg}：上游超过 7 天未更新，页面展示快照日期`);
+            else console.log(msg);
           '
 
   deploy:
