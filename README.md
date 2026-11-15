@@ -98,9 +98,10 @@ AI 编程的账单分两种，混在一起看很容易选错：
 | **Claude Ultra** | Anthropic | $200/月 | No 5-hour limit (verified accounts); 10x Pro weekly usage; $200/mo API credits | Claude Fable 5.1、Claude Opus 5.5、Claude Sonnet 5.5、Claude Haiku 5.5 | ✅ | [直达](https://claude.com/pricing) | [官方](https://claude.com/pricing) |
 | **ChatGPT Free (Codex)** | OpenAI | $0/月 | Codex quick tasks in desktop app, subject to rollout | GPT-6 Luna | ✅ | [直达](https://chatgpt.com/pricing/) | [官方](https://developers.openai.com/codex/pricing) |
 | **ChatGPT Go (Codex)** | OpenAI | $8/月 | Lightweight Codex tasks, GPT-6 Luna standard speed in desktop app | GPT-6 Luna | ✅ | [直达](https://chatgpt.com/pricing/) | [官方](https://developers.openai.com/codex/pricing) |
-| **ChatGPT Plus (Codex)** | OpenAI | $20/月 | Local msgs per 5h (estimates): GPT-6.1 Sol 15-160, Terra 35-285, GPT-6 Luna 350-3000, Astra 5-45; weekly limits may apply; extend with credits | GPT-6.1 Sol、GPT-6.1 Terra、GPT-6 Luna、GPT-6 Astra | ✅ | [直达](https://chatgpt.com/pricing/) | [官方](https://developers.openai.com/codex/pricing) |
+| **ChatGPT Plus (Codex)** | OpenAI | $20/月 | Local msgs per 5h (estimates): GPT-6.1 Sol 15-160, GPT-6.1 Terra 35-285, GPT-6 Luna 350-3000, GPT-6 Astra 5-45, GPT-6 Sol 15-150; weekly limits may also apply (官方未给具体数值); extend with credits | GPT-6.1 Sol、GPT-6.1 Terra、GPT-6 Luna、GPT-6 Astra | ✅ | [直达](https://chatgpt.com/pricing/) | [官方](https://developers.openai.com/codex/pricing) |
 | **ChatGPT Pro (Codex)** | OpenAI | $100/月 | Tiers at $100/$200/$500; no 5-hour limit currently; Ultrafast mode only on $500 | GPT-6.1 Sol、GPT-6.1 Terra、GPT-6 Luna、GPT-6 Astra | ✅ | [直达](https://chatgpt.com/pricing/) | [官方](https://developers.openai.com/codex/pricing) |
 | **ChatGPT Business (Codex)** | OpenAI | $25/月 | Same per-5h estimates as Plus (Standard Business); extend with credits | GPT-6.1 Sol、GPT-6 Luna | ✅ | [直达](https://chatgpt.com/business/) | [官方](https://developers.openai.com/codex/pricing) |
+| **Google AI Plus** | Google | $4.99/月 | 2x Free 用量额度；Google AI Plus/Pro/Ultra 在 150+ 国家与地区可购 | Gemini 4 Argon | ✅ | [直达](https://gemini.google/subscriptions/) | [官方](https://gemini.google/subscriptions/) |
 | **Google AI Pro** | Google | $19.99/月 | Jules 100 tasks/24h, 15 concurrent; Antigravity higher rate limits + AI credit pool; consumer Gemini CLI access ended 2026-06-18 | Gemini 4 Argon | ✅ | [直达](https://gemini.google/subscriptions/) | [官方](https://gemini.google/subscriptions/) |
 | **Google AI Ultra** | Google | $99.99/月 | $99.99 = 5x AI Pro; $199.99 = 20x AI Pro; Jules 300 tasks/24h, 60 concurrent; consumer Gemini CLI access ended 2026-06-18 | Gemini 4 Argon | ✅ | [直达](https://gemini.google/subscriptions/) | [官方](https://gemini.google/subscriptions/) |
 | **Gemini CLI（旧个人免费登录档）** | Google | 已停售（历史价 $0） | 历史免费额度为 Google 账号每日 1,000 次；2026-06-18 起消费者登录停止服务，迁移至 Antigravity CLI | Gemini (Flash/Pro, per quota) | ✅ | — | [官方](https://developers.googleblog.com/an-important-update-transitioning-gemini-cli-to-antigravity-cli/) |
@@ -316,8 +317,8 @@ pnpm check     # 校验数据门禁
 ## 数据说明
 
 - 排行快照共 137 个模型档位，采集于 2026-11-04
-- 套餐条目 113 条，API 价格条目 51 条
-- 最后一次核实：2026-11-11
+- 套餐条目 114 条，API 价格条目 51 条
+- 最后一次核实：2026-11-15
 
 ---
 

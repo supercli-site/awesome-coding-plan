@@ -218,7 +218,7 @@
     "context": null,
     "buyUrl": "https://platform.minimaxi.com/user-center/payment/balance",
     "sourceUrl": "https://platform.minimaxi.com/docs/pricing/overview",
-    "verifiedAt": "2026-11-10",
+    "verifiedAt": "2026-11-15",
     "confidence": "high",
     "platformId": "minimax"
   },
@@ -235,7 +235,7 @@
     "context": null,
     "buyUrl": "https://platform.minimaxi.com/user-center/payment/balance",
     "sourceUrl": "https://platform.minimaxi.com/docs/pricing/overview",
-    "verifiedAt": "2026-11-10",
+    "verifiedAt": "2026-11-15",
     "confidence": "high",
     "platformId": "minimax"
   },
@@ -252,7 +252,7 @@
     "context": null,
     "buyUrl": "https://platform.minimax.io/user-center/payment/balance",
     "sourceUrl": "https://platform.minimax.io/docs/pricing/overview",
-    "verifiedAt": "2026-11-10",
+    "verifiedAt": "2026-11-15",
     "confidence": "high",
     "platformId": "minimax"
   },
@@ -269,7 +269,7 @@
     "context": null,
     "buyUrl": "https://platform.minimax.io/user-center/payment/balance",
     "sourceUrl": "https://platform.minimax.io/docs/pricing/overview",
-    "verifiedAt": "2026-11-10",
+    "verifiedAt": "2026-11-15",
     "confidence": "high",
     "platformId": "minimax"
   },
@@ -749,7 +749,7 @@
     "multimodal": true,
     "buyUrl": "https://aistudio.google.com/apikey",
     "sourceUrl": "https://ai.google.dev/gemini-api/docs/pricing",
-    "verifiedAt": "2026-11-10",
+    "verifiedAt": "2026-11-15",
     "confidence": "high",
     "notes": "无免费层",
     "platformId": "google"
@@ -769,7 +769,7 @@
     "multimodal": true,
     "buyUrl": "https://aistudio.google.com/apikey",
     "sourceUrl": "https://ai.google.dev/gemini-api/docs/pricing",
-    "verifiedAt": "2026-11-10",
+    "verifiedAt": "2026-11-15",
     "confidence": "high",
     "notes": null,
     "platformId": "google"
@@ -789,7 +789,7 @@
     "multimodal": true,
     "buyUrl": "https://aistudio.google.com/apikey",
     "sourceUrl": "https://ai.google.dev/gemini-api/docs/pricing",
-    "verifiedAt": "2026-11-10",
+    "verifiedAt": "2026-11-15",
     "confidence": "high",
     "notes": null,
     "platformId": "google"
@@ -809,7 +809,7 @@
     "multimodal": null,
     "buyUrl": "https://console.x.ai",
     "sourceUrl": "https://docs.x.ai/developers/pricing",
-    "verifiedAt": "2026-11-10",
+    "verifiedAt": "2026-11-15",
     "confidence": "high",
     "notes": null,
     "platformId": "xai"
@@ -829,7 +829,7 @@
     "multimodal": null,
     "buyUrl": "https://console.x.ai",
     "sourceUrl": "https://docs.x.ai/developers/pricing",
-    "verifiedAt": "2026-11-10",
+    "verifiedAt": "2026-11-15",
     "confidence": "high",
     "notes": "xAI 编程向模型",
     "platformId": "xai"
@@ -849,7 +849,7 @@
     "multimodal": null,
     "buyUrl": "https://console.x.ai",
     "sourceUrl": "https://docs.x.ai/developers/pricing",
-    "verifiedAt": "2026-11-10",
+    "verifiedAt": "2026-11-15",
     "confidence": "high",
     "notes": null,
     "platformId": "xai"

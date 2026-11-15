@@ -16,10 +16,10 @@
     "plans": {
       "cheapest": [
         "baidu-qianfan-token-mini",
+        "google-ai-plus",
         "tencent-token-plan-lite",
         "aliyun-token-plan-lite",
-        "volcengine-ark-coding-plan-lite",
-        "volcengine-ark-agent-plan-small"
+        "volcengine-ark-coding-plan-lite"
       ],
       "priciest": [
         "kimi-code-ultra",
@@ -249,6 +249,26 @@
       "bundle": "model-access",
       "bundleLabel": "纯模型额度",
       "platformUrl": "https://openai.com/chatgpt/pricing/"
+    },
+    {
+      "id": "google-ai-plus",
+      "vendor": "Google",
+      "name": "Google AI Plus",
+      "region": "global",
+      "kind": "coding-plan",
+      "originalCurrency": "USD",
+      "monthlyCny": 33.51,
+      "firstPeriodCny": null,
+      "includedCreditCny": null,
+      "creditRatio": null,
+      "confidence": "high",
+      "status": "active",
+      "platformId": "google",
+      "offering": "first-party",
+      "offeringLabel": "原厂直营",
+      "bundle": "model-access",
+      "bundleLabel": "纯模型额度",
+      "platformUrl": "https://ai.google.dev/pricing"
     },
     {
       "id": "google-ai-pro",
