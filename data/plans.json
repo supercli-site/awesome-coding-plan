@@ -338,9 +338,9 @@
       "note": null
     },
     "models": [
-      "Gemini 4 Argon"
+      "Gemini 4 Hydrogen"
     ],
-    "quota": "2x Free 用量额度；Google AI Plus/Pro/Ultra 在 150+ 国家与地区可购",
+    "quota": "2x Free 用量额度；Google AI Plus 在 160+ 国家与地区可购",
     "quotaWindow": {
       "fiveHours": null,
       "week": null,
@@ -350,10 +350,10 @@
     "multimodal": true,
     "buyUrl": "https://gemini.google/subscriptions/",
     "sourceUrl": "https://gemini.google/subscriptions/",
-    "verifiedAt": "2026-11-15",
+    "verifiedAt": "2026-11-17",
     "status": "active",
     "confidence": "high",
-    "notes": "官方独立可订阅档（独立卡片与购买按钮），非 Pro 附带。2x Free 用量；150+ 国家/地区可购（日文页写 160+ 国，措辞不一致，按英文页 150+ 记）。",
+    "notes": "官方独立可订阅档。2x Free 用量；160+ 国家/地区可购。含 Gemini 4 Hydrogen；不含 Gemini 4 Argon（Argon 属 Pro/Ultra，官方横幅明确：Looking for Gemini 4 Argon? Select AI Pro or AI Ultra）。此前误将 Argon 计入本档，已更正。",
     "quotaUnit": "credits",
     "platformId": "google"
   },
@@ -383,7 +383,7 @@
     "multimodal": true,
     "buyUrl": "https://gemini.google/subscriptions/",
     "sourceUrl": "https://gemini.google/subscriptions/",
-    "verifiedAt": "2026-11-15",
+    "verifiedAt": "2026-11-17",
     "status": "active",
     "confidence": "high",
     "notes": "Sources: https://gemini.google/subscriptions/, https://geminicli.com/docs/resources/quota-and-pricing/, https://jules.google/docs/usage-limits/, https://antigravity.google/pricing. US price; SGD 28.99 in SG",
@@ -416,10 +416,10 @@
     "multimodal": true,
     "buyUrl": "https://gemini.google/subscriptions/",
     "sourceUrl": "https://gemini.google/subscriptions/",
-    "verifiedAt": "2026-11-15",
+    "verifiedAt": "2026-11-17",
     "status": "active",
     "confidence": "high",
-    "notes": "Sources: https://geminicli.com/docs/resources/quota-and-pricing/, https://jules.google/docs/usage-limits/",
+    "notes": "Sources: https://geminicli.com/docs/resources/quota-and-pricing/, https://jules.google/docs/usage-limits/ 官方注明旗舰模型为 Gemini 4 Carbon，含 Argon 最高访问。",
     "quotaUnit": "multiplier",
     "platformId": "google"
   },
@@ -2075,7 +2075,7 @@
     "multimodal": true,
     "buyUrl": "https://bigmodel.cn/glm-coding",
     "sourceUrl": "https://bigmodel.cn/glm-coding",
-    "verifiedAt": "2026-11-15",
+    "verifiedAt": "2026-11-17",
     "status": "active",
     "confidence": "high",
     "notes": "价格读自订阅页（浏览器渲染）；积分额度见官方文档 https://docs.bigmodel.cn/cn/coding-plan/overview。2026-07-30 改版为积分制；V2 老价 49/149/469 仅老用户可续。quotaWindow 单位为积分",
@@ -2109,7 +2109,7 @@
     "multimodal": true,
     "buyUrl": "https://bigmodel.cn/glm-coding",
     "sourceUrl": "https://bigmodel.cn/glm-coding",
-    "verifiedAt": "2026-11-15",
+    "verifiedAt": "2026-11-17",
     "status": "active",
     "confidence": "high",
     "notes": "价格读自订阅页（浏览器渲染）；积分额度见官方文档 https://docs.bigmodel.cn/cn/coding-plan/overview。2026-07-30 改版为积分制；V2 老价 49/149/469 仅老用户可续。quotaWindow 单位为积分",
@@ -2143,7 +2143,7 @@
     "multimodal": true,
     "buyUrl": "https://bigmodel.cn/glm-coding",
     "sourceUrl": "https://bigmodel.cn/glm-coding",
-    "verifiedAt": "2026-11-15",
+    "verifiedAt": "2026-11-17",
     "status": "active",
     "confidence": "high",
     "notes": "价格读自订阅页（浏览器渲染）；积分额度见官方文档 https://docs.bigmodel.cn/cn/coding-plan/overview。2026-07-30 改版为积分制；V2 老价 49/149/469 仅老用户可续。quotaWindow 单位为积分",
@@ -2590,7 +2590,7 @@
     "verifiedAt": "2026-11-15",
     "status": "active",
     "confidence": "medium",
-    "notes": "官网中文页仍以美元标价（可能按访问地区显示），未见人民币价；Credits 非 token 数，tokenAllowance 留空",
+    "notes": "官网中文页仍以美元标价（可能按访问地区显示），未见人民币价；Credits 非 token 数，tokenAllowance 留空；地区定价：官网按出口 IP 返回地区价目（CN 出口返回 CNY 39/99/329/659，折后 34/87/289/579），USD 6/16/50/100 为其他地区价目，需对应地区出口复核。",
     "quotaUnit": null,
     "platformId": "xiaomi"
   },
@@ -2623,7 +2623,7 @@
     "verifiedAt": "2026-11-15",
     "status": "active",
     "confidence": "medium",
-    "notes": "官网中文页仍以美元标价（可能按访问地区显示），未见人民币价；Credits 非 token 数，tokenAllowance 留空",
+    "notes": "官网中文页仍以美元标价（可能按访问地区显示），未见人民币价；Credits 非 token 数，tokenAllowance 留空；地区定价：官网按出口 IP 返回地区价目（CN 出口返回 CNY 39/99/329/659，折后 34/87/289/579），USD 6/16/50/100 为其他地区价目，需对应地区出口复核。",
     "quotaUnit": null,
     "platformId": "xiaomi"
   },
@@ -2656,7 +2656,7 @@
     "verifiedAt": "2026-11-15",
     "status": "active",
     "confidence": "medium",
-    "notes": "官网中文页仍以美元标价（可能按访问地区显示），未见人民币价；Credits 非 token 数，tokenAllowance 留空",
+    "notes": "官网中文页仍以美元标价（可能按访问地区显示），未见人民币价；Credits 非 token 数，tokenAllowance 留空；地区定价：官网按出口 IP 返回地区价目（CN 出口返回 CNY 39/99/329/659，折后 34/87/289/579），USD 6/16/50/100 为其他地区价目，需对应地区出口复核。",
     "quotaUnit": null,
     "platformId": "xiaomi"
   },
@@ -2689,7 +2689,7 @@
     "verifiedAt": "2026-11-15",
     "status": "active",
     "confidence": "medium",
-    "notes": "官网中文页仍以美元标价（可能按访问地区显示），未见人民币价；Credits 非 token 数，tokenAllowance 留空",
+    "notes": "官网中文页仍以美元标价（可能按访问地区显示），未见人民币价；Credits 非 token 数，tokenAllowance 留空；地区定价：官网按出口 IP 返回地区价目（CN 出口返回 CNY 39/99/329/659，折后 34/87/289/579），USD 6/16/50/100 为其他地区价目，需对应地区出口复核。",
     "quotaUnit": null,
     "platformId": "xiaomi"
   },
@@ -3204,7 +3204,7 @@
     "multimodal": null,
     "buyUrl": "https://www.trae.cn/pricing",
     "sourceUrl": "https://www.trae.cn/pricing",
-    "verifiedAt": "2026-11-15",
+    "verifiedAt": "2026-11-17",
     "status": "active",
     "confidence": "high",
     "notes": null,
@@ -3221,8 +3221,8 @@
       "amount": 49,
       "currency": "CNY",
       "period": "month",
-      "firstPeriodAmount": 34,
-      "note": "原价¥49/月，页面标“低至¥34/月”（首月优惠）"
+      "firstPeriodAmount": 39,
+      "note": "原价¥49/月，页面标\"低至¥39/月\"（首月优惠）；双11特惠（首期¥34/69/167/489）已于2026-11-17前结束，现为首月优惠价"
     },
     "models": [
       "seed-2.1-turbo",
@@ -3241,10 +3241,10 @@
     "multimodal": null,
     "buyUrl": "https://www.trae.cn/pricing",
     "sourceUrl": "https://www.trae.cn/pricing",
-    "verifiedAt": "2026-11-15",
+    "verifiedAt": "2026-11-17",
     "status": "active",
     "confidence": "high",
-    "notes": null,
+    "notes": "模型折扣：Seed 2.1 模型 2.5 折、Deepseek-V4.1 模型闲时 5 折",
     "quotaUnit": "credits",
     "platformId": "trae-cn"
   },
@@ -3259,7 +3259,7 @@
       "currency": "CNY",
       "period": "month",
       "firstPeriodAmount": 69,
-      "note": "原价¥99/月，页面标“低至¥69/月”（首月优惠）"
+      "note": "原价¥99/月，页面标\"低至¥69/月\"（首月优惠）；双11特惠（首期¥34/69/167/489）已于2026-11-17前结束，现为首月优惠价"
     },
     "models": [
       "seed-2.1-turbo",
@@ -3278,10 +3278,10 @@
     "multimodal": null,
     "buyUrl": "https://www.trae.cn/pricing",
     "sourceUrl": "https://www.trae.cn/pricing",
-    "verifiedAt": "2026-11-15",
+    "verifiedAt": "2026-11-17",
     "status": "active",
     "confidence": "high",
-    "notes": null,
+    "notes": "模型折扣：Seed 2.1 模型 2.5 折、Deepseek-V4.1 模型闲时 5 折",
     "quotaUnit": "credits",
     "platformId": "trae-cn"
   },
@@ -3295,8 +3295,8 @@
       "amount": 239,
       "currency": "CNY",
       "period": "month",
-      "firstPeriodAmount": 167,
-      "note": "原价¥239/月，页面标“低至¥167/月”（折扣条件页面未说明）"
+      "firstPeriodAmount": 219,
+      "note": "原价¥239/月，页面标\"低至¥219/月\"（首月优惠）；双11特惠（首期¥34/69/167/489）已于2026-11-17前结束，现为首月优惠价"
     },
     "models": [
       "seed-2.1-turbo",
@@ -3315,10 +3315,10 @@
     "multimodal": null,
     "buyUrl": "https://www.trae.cn/pricing",
     "sourceUrl": "https://www.trae.cn/pricing",
-    "verifiedAt": "2026-11-15",
+    "verifiedAt": "2026-11-17",
     "status": "active",
     "confidence": "high",
-    "notes": null,
+    "notes": "模型折扣：Seed 2.1 模型 2.5 折、Deepseek-V4.1 模型闲时 5 折",
     "quotaUnit": "credits",
     "platformId": "trae-cn"
   },
@@ -3332,8 +3332,8 @@
       "amount": 699,
       "currency": "CNY",
       "period": "month",
-      "firstPeriodAmount": 489,
-      "note": "原价¥699/月，页面标“低至¥489/月”（折扣条件页面未说明）"
+      "firstPeriodAmount": 629,
+      "note": "原价¥699/月，页面标\"低至¥629/月\"（首月优惠）；双11特惠（首期¥34/69/167/489）已于2026-11-17前结束，现为首月优惠价"
     },
     "models": [
       "seed-2.1-turbo",
@@ -3352,10 +3352,10 @@
     "multimodal": null,
     "buyUrl": "https://www.trae.cn/pricing",
     "sourceUrl": "https://www.trae.cn/pricing",
-    "verifiedAt": "2026-11-15",
+    "verifiedAt": "2026-11-17",
     "status": "active",
     "confidence": "high",
-    "notes": null,
+    "notes": "模型折扣：Seed 2.1 模型 2.5 折、Deepseek-V4.1 模型闲时 5 折",
     "quotaUnit": "credits",
     "platformId": "trae-cn"
   },
@@ -3506,7 +3506,7 @@
       "currency": "CNY",
       "period": "month",
       "firstPeriodAmount": 4.9,
-      "note": "限时5折特惠（新用户首购）；官方页当前仅渲染折后价，未渲染划线原价；原价沿用 2026-11-03 核实值"
+      "note": "限时5折特惠（首期¥4.9，原价¥9.9）；官方活动期至 2026-12-31 23:59（https://cloud.baidu.com/doc/qianfan/s/Dmrabu8b6）"
     },
     "models": [
       "deepseek-v4.1-flash",
@@ -3524,7 +3524,7 @@
     "multimodal": null,
     "buyUrl": "https://cloud.baidu.com/product/qianfan_home/token_plan_personal.html",
     "sourceUrl": "https://cloud.baidu.com/product/qianfan_home/token_plan_personal.html",
-    "verifiedAt": "2026-11-15",
+    "verifiedAt": "2026-11-17",
     "status": "active",
     "confidence": "high",
     "notes": "可选积分制或 Token 制。DeepSeek-V4.1-Flash、DeepSeek-V4-Pro-0813、GLM-5.3 在每天22:00到次日8:00按2折计费。",
@@ -3541,7 +3541,7 @@
       "currency": "CNY",
       "period": "month",
       "firstPeriodAmount": 19.9,
-      "note": "双11·首月5折；官方页当前仅渲染折后价，未渲染划线原价；原价沿用 2026-11-03 核实值"
+      "note": "双11·首月5折（首期¥19.9，原价¥40）；官方活动期至 2026-11-23 23:59（https://cloud.baidu.com/doc/qianfan/s/Dmrabu8b6）"
     },
     "models": [
       "deepseek-v4.1-flash",
@@ -3559,7 +3559,7 @@
     "multimodal": null,
     "buyUrl": "https://cloud.baidu.com/product/qianfan_home/token_plan_personal.html",
     "sourceUrl": "https://cloud.baidu.com/product/qianfan_home/token_plan_personal.html",
-    "verifiedAt": "2026-11-15",
+    "verifiedAt": "2026-11-17",
     "status": "active",
     "confidence": "high",
     "notes": null,
@@ -3576,7 +3576,7 @@
       "currency": "CNY",
       "period": "month",
       "firstPeriodAmount": null,
-      "note": "官方标“上新”，页面未标首期折扣"
+      "note": "上新（无首期折扣）；无首期折扣"
     },
     "models": [
       "deepseek-v4.1-flash",
@@ -3594,7 +3594,7 @@
     "multimodal": null,
     "buyUrl": "https://cloud.baidu.com/product/qianfan_home/token_plan_personal.html",
     "sourceUrl": "https://cloud.baidu.com/product/qianfan_home/token_plan_personal.html",
-    "verifiedAt": "2026-11-15",
+    "verifiedAt": "2026-11-17",
     "status": "active",
     "confidence": "high",
     "notes": null,
@@ -3611,7 +3611,7 @@
       "currency": "CNY",
       "period": "month",
       "firstPeriodAmount": 99.9,
-      "note": "双11·首月5折；官方页当前仅渲染折后价，未渲染划线原价；原价沿用 2026-11-03 核实值"
+      "note": "双11·首月5折（首期¥99.9，原价¥200）；官方活动期至 2026-11-23 23:59（https://cloud.baidu.com/doc/qianfan/s/Dmrabu8b6）"
     },
     "models": [
       "deepseek-v4.1-flash",
@@ -3629,7 +3629,7 @@
     "multimodal": null,
     "buyUrl": "https://cloud.baidu.com/product/qianfan_home/token_plan_personal.html",
     "sourceUrl": "https://cloud.baidu.com/product/qianfan_home/token_plan_personal.html",
-    "verifiedAt": "2026-11-15",
+    "verifiedAt": "2026-11-17",
     "status": "active",
     "confidence": "high",
     "notes": null,
@@ -3646,7 +3646,7 @@
       "currency": "CNY",
       "period": "month",
       "firstPeriodAmount": 299.9,
-      "note": "双11·首月5折；官方页当前仅渲染折后价，未渲染划线原价；原价沿用 2026-11-03 核实值"
+      "note": "双11·首月5折（首期¥299.9，原价¥600）；官方活动期至 2026-11-23 23:59（https://cloud.baidu.com/doc/qianfan/s/Dmrabu8b6）"
     },
     "models": [
       "deepseek-v4.1-flash",
@@ -3664,7 +3664,7 @@
     "multimodal": null,
     "buyUrl": "https://cloud.baidu.com/product/qianfan_home/token_plan_personal.html",
     "sourceUrl": "https://cloud.baidu.com/product/qianfan_home/token_plan_personal.html",
-    "verifiedAt": "2026-11-15",
+    "verifiedAt": "2026-11-17",
     "status": "active",
     "confidence": "high",
     "notes": null,

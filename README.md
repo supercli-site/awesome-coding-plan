@@ -61,10 +61,10 @@ AI 编程的账单分两种，混在一起看很容易选错：
 | **CodeBuddy 旗舰版** | 腾讯 CodeBuddy | ¥999/月 | 每月50,000积分（基础+赠送） | — | — | [直达](https://www.codebuddy.cn/pricing) | [官方](https://www.codebuddy.cn/pricing) |
 | **CodeBuddy Buddy One VIP** | 腾讯 CodeBuddy | ¥999/月 | 每月50,000积分（基础+赠送） | — | — | [直达](https://www.codebuddy.cn/pricing) | [官方](https://www.codebuddy.cn/pricing) |
 | **TRAE Free** | 字节 Trae（国内版） | ¥0/月 | 每月500积分；云端任务并发2 | seed-2.1-turbo、seed-code、glm-5.3、deepseek-v4.1-flash、deepseek-v4-pro | — | [直达](https://www.trae.cn/pricing) | [官方](https://www.trae.cn/pricing) |
-| **TRAE 会员 Lite** | 字节 Trae（国内版） | ¥49/月 <sub>首期 ¥34</sub> | 每月2,000积分，会员签到多得3000积分；云端任务并发2 | seed-2.1-turbo、seed-code、glm-5.3、deepseek-v4.1-flash、deepseek-v4-pro | — | [直达](https://www.trae.cn/pricing) | [官方](https://www.trae.cn/pricing) |
+| **TRAE 会员 Lite** | 字节 Trae（国内版） | ¥49/月 <sub>首期 ¥39</sub> | 每月2,000积分，会员签到多得3000积分；云端任务并发2 | seed-2.1-turbo、seed-code、glm-5.3、deepseek-v4.1-flash、deepseek-v4-pro | — | [直达](https://www.trae.cn/pricing) | [官方](https://www.trae.cn/pricing) |
 | **TRAE 会员 Pro** | 字节 Trae（国内版） | ¥99/月 <sub>首期 ¥69</sub> | 每月4,000积分，会员签到多得3000积分；云端任务并发10 | seed-2.1-turbo、seed-code、glm-5.3、deepseek-v4.1-flash、deepseek-v4-pro | — | [直达](https://www.trae.cn/pricing) | [官方](https://www.trae.cn/pricing) |
-| **TRAE 会员 Pro+** | 字节 Trae（国内版） | ¥239/月 <sub>首期 ¥167</sub> | 每月12,000积分，会员签到多得3000积分；云端任务并发10 | seed-2.1-turbo、seed-code、glm-5.3、deepseek-v4.1-flash、deepseek-v4-pro | — | [直达](https://www.trae.cn/pricing) | [官方](https://www.trae.cn/pricing) |
-| **TRAE 会员 Ultra** | 字节 Trae（国内版） | ¥699/月 <sub>首期 ¥489</sub> | 每月40,000积分，会员签到多得3000积分；云端任务并发20 | seed-2.1-turbo、seed-code、glm-5.3、deepseek-v4.1-flash、deepseek-v4-pro | — | [直达](https://www.trae.cn/pricing) | [官方](https://www.trae.cn/pricing) |
+| **TRAE 会员 Pro+** | 字节 Trae（国内版） | ¥239/月 <sub>首期 ¥219</sub> | 每月12,000积分，会员签到多得3000积分；云端任务并发10 | seed-2.1-turbo、seed-code、glm-5.3、deepseek-v4.1-flash、deepseek-v4-pro | — | [直达](https://www.trae.cn/pricing) | [官方](https://www.trae.cn/pricing) |
+| **TRAE 会员 Ultra** | 字节 Trae（国内版） | ¥699/月 <sub>首期 ¥629</sub> | 每月40,000积分，会员签到多得3000积分；云端任务并发20 | seed-2.1-turbo、seed-code、glm-5.3、deepseek-v4.1-flash、deepseek-v4-pro | — | [直达](https://www.trae.cn/pricing) | [官方](https://www.trae.cn/pricing) |
 | **Token Plan 个人版 Lite** | 阿里云百炼 | ¥39/月 <sub>首期 ¥19.50</sub> | 每月20,000 Credits，Agent 并发1～2个 | qwen3.8-max、qwen3.8-flash | ✅ | [直达](https://cn.aliyun.com/benefit/scene/tokenplan) | [官方](https://help.aliyun.com/zh/model-studio/token-plan-personal-overview) |
 | **Token Plan 个人版 Essential** | 阿里云百炼 | ¥79/月 <sub>首期 ¥39.50</sub> | 每月45,000 Credits，Agent 并发2～3个 | qwen3.8-max、qwen3.8-flash | ✅ | [直达](https://cn.aliyun.com/benefit/scene/tokenplan) | [官方](https://help.aliyun.com/zh/model-studio/token-plan-personal-overview) |
 | **Token Plan 个人版 Standard** | 阿里云百炼 | ¥139/月 | 每月80,000 Credits，Agent 并发3～4个，赠送 Harness 权益 | qwen3.8-max、qwen3.8-flash | ✅ | [直达](https://cn.aliyun.com/benefit/scene/tokenplan) | [官方](https://help.aliyun.com/zh/model-studio/token-plan-personal-overview) |
@@ -101,7 +101,7 @@ AI 编程的账单分两种，混在一起看很容易选错：
 | **ChatGPT Plus (Codex)** | OpenAI | $20/月 | Local msgs per 5h (estimates): GPT-6.1 Sol 15-160, GPT-6.1 Terra 35-285, GPT-6 Luna 350-3000, GPT-6 Astra 5-45, GPT-6 Sol 15-150; weekly limits may also apply (官方未给具体数值); extend with credits | GPT-6.1 Sol、GPT-6.1 Terra、GPT-6 Luna、GPT-6 Astra | ✅ | [直达](https://chatgpt.com/pricing/) | [官方](https://developers.openai.com/codex/pricing) |
 | **ChatGPT Pro (Codex)** | OpenAI | $100/月 | Tiers at $100/$200/$500; no 5-hour limit currently; Ultrafast mode only on $500 | GPT-6.1 Sol、GPT-6.1 Terra、GPT-6 Luna、GPT-6 Astra | ✅ | [直达](https://chatgpt.com/pricing/) | [官方](https://developers.openai.com/codex/pricing) |
 | **ChatGPT Business (Codex)** | OpenAI | $25/月 | Same per-5h estimates as Plus (Standard Business); extend with credits | GPT-6.1 Sol、GPT-6 Luna | ✅ | [直达](https://chatgpt.com/business/) | [官方](https://developers.openai.com/codex/pricing) |
-| **Google AI Plus** | Google | $4.99/月 | 2x Free 用量额度；Google AI Plus/Pro/Ultra 在 150+ 国家与地区可购 | Gemini 4 Argon | ✅ | [直达](https://gemini.google/subscriptions/) | [官方](https://gemini.google/subscriptions/) |
+| **Google AI Plus** | Google | $4.99/月 | 2x Free 用量额度；Google AI Plus 在 160+ 国家与地区可购 | Gemini 4 Hydrogen | ✅ | [直达](https://gemini.google/subscriptions/) | [官方](https://gemini.google/subscriptions/) |
 | **Google AI Pro** | Google | $19.99/月 | Jules 100 tasks/24h, 15 concurrent; Antigravity higher rate limits + AI credit pool; consumer Gemini CLI access ended 2026-06-18 | Gemini 4 Argon | ✅ | [直达](https://gemini.google/subscriptions/) | [官方](https://gemini.google/subscriptions/) |
 | **Google AI Ultra** | Google | $99.99/月 | $99.99 = 5x AI Pro; $199.99 = 20x AI Pro; Jules 300 tasks/24h, 60 concurrent; consumer Gemini CLI access ended 2026-06-18 | Gemini 4 Argon | ✅ | [直达](https://gemini.google/subscriptions/) | [官方](https://gemini.google/subscriptions/) |
 | **Gemini CLI（旧个人免费登录档）** | Google | 已停售（历史价 $0） | 历史免费额度为 Google 账号每日 1,000 次；2026-06-18 起消费者登录停止服务，迁移至 Antigravity CLI | Gemini (Flash/Pro, per quota) | ✅ | — | [官方](https://developers.googleblog.com/an-important-update-transitioning-gemini-cli-to-antigravity-cli/) |
@@ -318,7 +318,7 @@ pnpm check     # 校验数据门禁
 
 - 排行快照共 137 个模型档位，采集于 2026-11-04
 - 套餐条目 114 条，API 价格条目 51 条
-- 最后一次核实：2026-11-15
+- 最后一次核实：2026-11-17
 
 ---
 

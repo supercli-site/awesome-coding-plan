@@ -150,7 +150,7 @@
     "context": "1,048,576",
     "buyUrl": "https://platform.kimi.com/console",
     "sourceUrl": "https://platform.kimi.com/docs/pricing/chat",
-    "verifiedAt": "2026-11-10",
+    "verifiedAt": "2026-11-17",
     "confidence": "high",
     "platformId": "moonshot"
   },
@@ -167,9 +167,10 @@
     "context": "262,144",
     "buyUrl": "https://platform.kimi.com/console",
     "sourceUrl": "https://platform.kimi.com/docs/pricing/chat",
-    "verifiedAt": "2026-11-10",
+    "verifiedAt": "2026-11-17",
     "confidence": "medium",
-    "platformId": "moonshot"
+    "platformId": "moonshot",
+    "notes": "官方下线提示：K2 系列自 2026-10-31 起停止向新注册用户开放，已注册用户不受影响，计划 2026 年 12 月底下线所有 K2 系列模型。"
   },
   {
     "id": "kimi-k3-1-pro-global",
@@ -184,7 +185,7 @@
     "context": "1,048,576",
     "buyUrl": "https://platform.kimi.ai/console",
     "sourceUrl": "https://platform.kimi.ai/docs/pricing/chat",
-    "verifiedAt": "2026-11-10",
+    "verifiedAt": "2026-11-17",
     "confidence": "high",
     "platformId": "moonshot"
   },
@@ -201,9 +202,10 @@
     "context": "262,144",
     "buyUrl": "https://platform.kimi.ai/console",
     "sourceUrl": "https://platform.kimi.ai/docs/pricing/chat",
-    "verifiedAt": "2026-11-10",
+    "verifiedAt": "2026-11-17",
     "confidence": "medium",
-    "platformId": "moonshot"
+    "platformId": "moonshot",
+    "notes": "K2 系列计划 2026 年 12 月底下线，仅存量用户在售。"
   },
   {
     "id": "minimax-m3-cn",
@@ -456,7 +458,7 @@
     "context": "128K（按计费档推断）",
     "buyUrl": "https://console.bce.baidu.com/qianfan",
     "sourceUrl": "https://cloud.baidu.com/doc/qianfan/s/wmh4sv6ya",
-    "verifiedAt": "2026-11-10",
+    "verifiedAt": "2026-11-17",
     "confidence": "high",
     "platformId": "baidu-qianfan"
   },
@@ -529,7 +531,7 @@
     "multimodal": null,
     "buyUrl": "https://platform.moonshot.cn/console/api-keys",
     "sourceUrl": "https://platform.kimi.com/docs/pricing/chat",
-    "verifiedAt": "2026-11-10",
+    "verifiedAt": "2026-11-17",
     "confidence": "high",
     "notes": null,
     "platformId": "moonshot"
@@ -869,7 +871,7 @@
     "multimodal": true,
     "buyUrl": "https://console.mistral.ai/",
     "sourceUrl": "https://docs.mistral.ai/inference/pricing",
-    "verifiedAt": "2026-11-10",
+    "verifiedAt": "2026-11-17",
     "confidence": "high",
     "notes": "官方状态 Public Preview；Devstral 2 已于 2026-05-22 弃用",
     "platformId": "mistral"
@@ -889,7 +891,7 @@
     "multimodal": null,
     "buyUrl": "https://console.mistral.ai/",
     "sourceUrl": "https://docs.mistral.ai/inference/pricing",
-    "verifiedAt": "2026-11-10",
+    "verifiedAt": "2026-11-17",
     "confidence": "high",
     "notes": null,
     "platformId": "mistral"
@@ -909,7 +911,7 @@
     "multimodal": null,
     "buyUrl": "https://dev.meta.ai/",
     "sourceUrl": "https://dev.meta.ai/docs/pricing-rate-limits",
-    "verifiedAt": "2026-11-10",
+    "verifiedAt": "2026-11-17",
     "confidence": "high",
     "notes": "Meta 官方 Model API 当前按量计费列表中没有 Llama，仅 Muse 系列；Llama 官方价格未核实",
     "platformId": "meta"
@@ -929,7 +931,7 @@
     "multimodal": null,
     "buyUrl": "https://dev.meta.ai/",
     "sourceUrl": "https://dev.meta.ai/docs/pricing-rate-limits",
-    "verifiedAt": "2026-11-10",
+    "verifiedAt": "2026-11-17",
     "confidence": "high",
     "notes": "同上：非 Llama",
     "platformId": "meta"
