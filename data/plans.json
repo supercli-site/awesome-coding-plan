@@ -3390,7 +3390,7 @@
     "verifiedAt": "2026-11-10",
     "status": "active",
     "confidence": "high",
-    "notes": "仅在华北2（北京）地域提供。必须用专属 sk-sp- 开头的 Key。超额调用88折。文档写明团队版不用数据训练模型，个人版没有同类声明。；2026-11-09 20:00（UTC+8）起四档额度上调、Pro 降价；存量 Pro 当前周期价格不变，下一周期生效（官方公告 https://www.aliyun.com/notice/118815）",
+    "notes": "仅在华北2（北京）地域提供。必须用专属 sk-sp- 开头的 Key。套餐及用量包耗尽即阻断，不自动转按量；可等待重置、升级或购买用量包。文档写明团队版不用数据训练模型，个人版没有同类声明。；2026-11-09 20:00（UTC+8）起四档额度上调、Pro 降价；存量 Pro 当前周期价格不变，下一周期生效（官方公告 https://www.aliyun.com/notice/118815）",
     "platformId": "aliyun-bailian"
   },
   {
@@ -3572,32 +3572,32 @@
     "region": "cn",
     "kind": "token-plan",
     "price": {
-      "amount": 49.9,
+      "amount": 100,
       "currency": "CNY",
       "period": "month",
-      "firstPeriodAmount": null,
-      "note": "上新（无首期折扣）；无首期折扣"
+      "firstPeriodAmount": 49.9,
+      "note": "常规¥100/月；新客首购¥49.9，仅积分制，活动至2026-11-23 23:59；老客活动续费价另计"
     },
     "models": [
       "deepseek-v4.1-flash",
       "deepseek-v4-pro",
       "glm-5.3"
     ],
-    "quota": "每月23,760积分；目前限时取消7天限额",
+    "quota": "每月基础22,000积分；活动首月额外赠送1,760积分（首月合计23,760），限时取消7天限额",
     "quotaWindow": {
       "fiveHours": null,
       "week": "限时取消",
-      "month": "23,760积分"
+      "month": "22,000积分"
     },
     "quotaUnit": "credits",
     "tokenAllowance": null,
     "multimodal": null,
     "buyUrl": "https://cloud.baidu.com/product/qianfan_home/token_plan_personal.html",
-    "sourceUrl": "https://cloud.baidu.com/product/qianfan_home/token_plan_personal.html",
-    "verifiedAt": "2026-11-17",
+    "sourceUrl": "https://cloud.baidu.com/doc/qianfan/s/Dmrabu8b6",
+    "verifiedAt": "2026-11-18",
     "status": "active",
     "confidence": "high",
-    "notes": null,
+    "notes": "首月加赠不可当作每月固定额度；套餐额度耗尽后需等待下个周期恢复，不会消耗其他资源包或账户余额。",
     "platformId": "baidu-qianfan"
   },
   {
@@ -3611,28 +3611,28 @@
       "currency": "CNY",
       "period": "month",
       "firstPeriodAmount": 99.9,
-      "note": "双11·首月5折（首期¥99.9，原价¥200）；官方活动期至 2026-11-23 23:59（https://cloud.baidu.com/doc/qianfan/s/Dmrabu8b6）"
+      "note": "常规¥200/月；新客首购¥99.9，仅积分制，活动至2026-11-23 23:59；老客活动续费价另计"
     },
     "models": [
       "deepseek-v4.1-flash",
       "deepseek-v4-pro",
       "glm-5.3"
     ],
-    "quota": "每月49,500积分；目前限时取消7天限额",
+    "quota": "每月基础45,000积分；活动首月额外赠送4,500积分（首月合计49,500），限时取消7天限额",
     "quotaWindow": {
       "fiveHours": null,
       "week": "限时取消",
-      "month": "49,500积分"
+      "month": "45,000积分"
     },
     "quotaUnit": "credits",
     "tokenAllowance": null,
     "multimodal": null,
     "buyUrl": "https://cloud.baidu.com/product/qianfan_home/token_plan_personal.html",
-    "sourceUrl": "https://cloud.baidu.com/product/qianfan_home/token_plan_personal.html",
-    "verifiedAt": "2026-11-17",
+    "sourceUrl": "https://cloud.baidu.com/doc/qianfan/s/Dmrabu8b6",
+    "verifiedAt": "2026-11-18",
     "status": "active",
     "confidence": "high",
-    "notes": null,
+    "notes": "首月加赠不可当作每月固定额度；套餐额度耗尽后需等待下个周期恢复，不会消耗其他资源包或账户余额。",
     "platformId": "baidu-qianfan"
   },
   {
@@ -3646,28 +3646,28 @@
       "currency": "CNY",
       "period": "month",
       "firstPeriodAmount": 299.9,
-      "note": "双11·首月5折（首期¥299.9，原价¥600）；官方活动期至 2026-11-23 23:59（https://cloud.baidu.com/doc/qianfan/s/Dmrabu8b6）"
+      "note": "常规¥600/月；新客首购¥299.9，仅积分制，活动至2026-11-23 23:59；老客活动续费价另计"
     },
     "models": [
       "deepseek-v4.1-flash",
       "deepseek-v4-pro",
       "glm-5.3"
     ],
-    "quota": "每月184,800积分；目前限时取消7天限额",
+    "quota": "每月基础165,000积分；活动首月额外赠送19,800积分（首月合计184,800），限时取消7天限额",
     "quotaWindow": {
       "fiveHours": null,
       "week": "限时取消",
-      "month": "184,800积分"
+      "month": "165,000积分"
     },
     "quotaUnit": "credits",
     "tokenAllowance": null,
     "multimodal": null,
     "buyUrl": "https://cloud.baidu.com/product/qianfan_home/token_plan_personal.html",
-    "sourceUrl": "https://cloud.baidu.com/product/qianfan_home/token_plan_personal.html",
-    "verifiedAt": "2026-11-17",
+    "sourceUrl": "https://cloud.baidu.com/doc/qianfan/s/Dmrabu8b6",
+    "verifiedAt": "2026-11-18",
     "status": "active",
     "confidence": "high",
-    "notes": null,
+    "notes": "首月加赠不可当作每月固定额度；套餐额度耗尽后需等待下个周期恢复，不会消耗其他资源包或账户余额。",
     "platformId": "baidu-qianfan"
   },
   {

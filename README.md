@@ -71,9 +71,9 @@ AI 编程的账单分两种，混在一起看很容易选错：
 | **Token Plan 个人版 Pro** | 阿里云百炼 | ¥312/月 | 每月200,000 Credits，Agent 并发6～8个，赠送 Harness 权益 | qwen3.8-max、qwen3.8-flash | ✅ | [直达](https://cn.aliyun.com/benefit/scene/tokenplan) | [官方](https://help.aliyun.com/zh/model-studio/token-plan-personal-overview) |
 | **Token Plan 个人版 Mini（积分制）** | 百度千帆 | ¥9.90/月 <sub>首期 ¥4.90</sub> | 每月1,400积分；目前限时取消7天限额 | deepseek-v4.1-flash、deepseek-v4-pro、glm-5.3 | — | [直达](https://cloud.baidu.com/product/qianfan_home/token_plan_personal.html) | [官方](https://cloud.baidu.com/product/qianfan_home/token_plan_personal.html) |
 | **Token Plan 个人版 Lite（积分制）** | 百度千帆 | ¥40/月 <sub>首期 ¥19.90</sub> | 每月11,500积分；目前限时取消7天限额 | deepseek-v4.1-flash、deepseek-v4-pro、glm-5.3 | — | [直达](https://cloud.baidu.com/product/qianfan_home/token_plan_personal.html) | [官方](https://cloud.baidu.com/product/qianfan_home/token_plan_personal.html) |
-| **Token Plan 个人版 Standard（积分制）** | 百度千帆 | ¥49.90/月 | 每月23,760积分；目前限时取消7天限额 | deepseek-v4.1-flash、deepseek-v4-pro、glm-5.3 | — | [直达](https://cloud.baidu.com/product/qianfan_home/token_plan_personal.html) | [官方](https://cloud.baidu.com/product/qianfan_home/token_plan_personal.html) |
-| **Token Plan 个人版 Pro（积分制）** | 百度千帆 | ¥200/月 <sub>首期 ¥99.90</sub> | 每月49,500积分；目前限时取消7天限额 | deepseek-v4.1-flash、deepseek-v4-pro、glm-5.3 | — | [直达](https://cloud.baidu.com/product/qianfan_home/token_plan_personal.html) | [官方](https://cloud.baidu.com/product/qianfan_home/token_plan_personal.html) |
-| **Token Plan 个人版 Max（积分制）** | 百度千帆 | ¥600/月 <sub>首期 ¥299.90</sub> | 每月184,800积分；目前限时取消7天限额 | deepseek-v4.1-flash、deepseek-v4-pro、glm-5.3 | — | [直达](https://cloud.baidu.com/product/qianfan_home/token_plan_personal.html) | [官方](https://cloud.baidu.com/product/qianfan_home/token_plan_personal.html) |
+| **Token Plan 个人版 Standard（积分制）** | 百度千帆 | ¥100/月 <sub>首期 ¥49.90</sub> | 每月基础22,000积分；活动首月额外赠送1,760积分（首月合计23,760），限时取消7天限额 | deepseek-v4.1-flash、deepseek-v4-pro、glm-5.3 | — | [直达](https://cloud.baidu.com/product/qianfan_home/token_plan_personal.html) | [官方](https://cloud.baidu.com/doc/qianfan/s/Dmrabu8b6) |
+| **Token Plan 个人版 Pro（积分制）** | 百度千帆 | ¥200/月 <sub>首期 ¥99.90</sub> | 每月基础45,000积分；活动首月额外赠送4,500积分（首月合计49,500），限时取消7天限额 | deepseek-v4.1-flash、deepseek-v4-pro、glm-5.3 | — | [直达](https://cloud.baidu.com/product/qianfan_home/token_plan_personal.html) | [官方](https://cloud.baidu.com/doc/qianfan/s/Dmrabu8b6) |
+| **Token Plan 个人版 Max（积分制）** | 百度千帆 | ¥600/月 <sub>首期 ¥299.90</sub> | 每月基础165,000积分；活动首月额外赠送19,800积分（首月合计184,800），限时取消7天限额 | deepseek-v4.1-flash、deepseek-v4-pro、glm-5.3 | — | [直达](https://cloud.baidu.com/product/qianfan_home/token_plan_personal.html) | [官方](https://cloud.baidu.com/doc/qianfan/s/Dmrabu8b6) |
 | **千帆 Coding Plan Lite** | 百度千帆 | 已停售（历史价 ¥40/月） | 每5小时约1,200次请求，每周约9,000次，每订阅月约18,000次 | deepseek-v4-pro、glm-5.1 | — | — | [官方](https://cloud.baidu.com/doc/qianfan/s/imlg0beiu) |
 | **千帆 Coding Plan Pro** | 百度千帆 | 已停售（历史价 ¥200/月） | 每5小时约6,000次请求，每周约45,000次，每月约90,000次 | deepseek-v4-pro、glm-5.1 | — | — | [官方](https://cloud.baidu.com/doc/qianfan/s/imlg0beiu) |
 | **Qoder CN 体验版** | 阿里 Qoder CN（原通义灵码） | ¥0/月 | 有限体验额度，含2周专业版试用和300 Credits；签到30天累计3,000 Credits | qwen3.8-max | — | [直达](https://qoder.com.cn/pricing) | [官方](https://qoder.com.cn/pricing) |
@@ -318,7 +318,7 @@ pnpm check     # 校验数据门禁
 
 - 排行快照共 137 个模型档位，采集于 2026-11-04
 - 套餐条目 114 条，API 价格条目 51 条
-- 最后一次核实：2026-11-17
+- 最后一次核实：2026-11-18
 
 ---
 
