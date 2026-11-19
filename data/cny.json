@@ -19,7 +19,7 @@
         "google-ai-plus",
         "tencent-token-plan-lite",
         "aliyun-token-plan-lite",
-        "volcengine-ark-coding-plan-lite"
+        "baidu-qianfan-token-lite"
       ],
       "priciest": [
         "kimi-code-ultra",
@@ -2057,7 +2057,7 @@
       "region": "cn",
       "kind": "token-plan",
       "originalCurrency": "CNY",
-      "monthlyCny": 40,
+      "monthlyCny": 39,
       "firstPeriodCny": 19.9,
       "includedCreditCny": null,
       "creditRatio": null,

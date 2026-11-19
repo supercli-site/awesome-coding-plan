@@ -48,7 +48,7 @@
     "context": "1M",
     "buyUrl": "https://platform.deepseek.com",
     "sourceUrl": "https://api-docs.deepseek.com/quick_start/pricing",
-    "verifiedAt": "2026-11-10",
+    "verifiedAt": "2026-11-19",
     "confidence": "high",
     "platformId": "deepseek"
   },
@@ -65,7 +65,7 @@
     "context": "1M",
     "buyUrl": "https://platform.deepseek.com",
     "sourceUrl": "https://api-docs.deepseek.com/quick_start/pricing",
-    "verifiedAt": "2026-11-10",
+    "verifiedAt": "2026-11-19",
     "confidence": "high",
     "platformId": "deepseek"
   },
@@ -82,7 +82,7 @@
     "context": "1M",
     "buyUrl": "https://bigmodel.cn/console",
     "sourceUrl": "https://docs.bigmodel.cn/cn/guide/start/pricing.md",
-    "verifiedAt": "2026-11-10",
+    "verifiedAt": "2026-11-19",
     "confidence": "high",
     "platformId": "zhipu"
   },
@@ -99,7 +99,7 @@
     "context": "1M",
     "buyUrl": "https://bigmodel.cn/console",
     "sourceUrl": "https://docs.bigmodel.cn/cn/guide/start/pricing.md",
-    "verifiedAt": "2026-11-10",
+    "verifiedAt": "2026-11-19",
     "confidence": "high",
     "platformId": "zhipu"
   },
@@ -475,7 +475,7 @@
     "context": null,
     "buyUrl": "https://platform.stepfun.com",
     "sourceUrl": "https://platform.stepfun.com/docs/zh/guides/pricing/details",
-    "verifiedAt": "2026-11-10",
+    "verifiedAt": "2026-11-19",
     "confidence": "high",
     "platformId": "stepfun"
   },
@@ -492,7 +492,7 @@
     "context": null,
     "buyUrl": "https://platform.stepfun.com",
     "sourceUrl": "https://platform.stepfun.com/docs/zh/guides/pricing/details",
-    "verifiedAt": "2026-11-10",
+    "verifiedAt": "2026-11-19",
     "confidence": "high",
     "platformId": "stepfun"
   },
@@ -511,7 +511,7 @@
     "multimodal": true,
     "buyUrl": "https://bigmodel.cn/usercenter/proj-mgmt/apikeys",
     "sourceUrl": "https://docs.bigmodel.cn/cn/guide/start/pricing",
-    "verifiedAt": "2026-11-10",
+    "verifiedAt": "2026-11-19",
     "confidence": "high",
     "notes": null,
     "platformId": "zhipu"
