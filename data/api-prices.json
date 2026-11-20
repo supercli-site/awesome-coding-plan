@@ -288,7 +288,7 @@
     "context": "1M",
     "buyUrl": "https://bailian.console.aliyun.com",
     "sourceUrl": "https://help.aliyun.com/zh/model-studio/model-pricing",
-    "verifiedAt": "2026-11-10",
+    "verifiedAt": "2026-11-20",
     "confidence": "high",
     "platformId": "aliyun-bailian"
   },
@@ -305,7 +305,7 @@
     "context": "1M",
     "buyUrl": "https://bailian.console.aliyun.com",
     "sourceUrl": "https://help.aliyun.com/zh/model-studio/model-pricing",
-    "verifiedAt": "2026-11-10",
+    "verifiedAt": "2026-11-20",
     "confidence": "high",
     "platformId": "aliyun-bailian"
   },
@@ -322,7 +322,7 @@
     "context": "1M",
     "buyUrl": "https://bailian.console.aliyun.com",
     "sourceUrl": "https://help.aliyun.com/zh/model-studio/model-pricing",
-    "verifiedAt": "2026-11-10",
+    "verifiedAt": "2026-11-20",
     "confidence": "high",
     "platformId": "aliyun-bailian"
   },
@@ -339,7 +339,7 @@
     "context": "1M",
     "buyUrl": "https://modelstudio.console.alibabacloud.com",
     "sourceUrl": "https://help.aliyun.com/zh/model-studio/model-pricing",
-    "verifiedAt": "2026-11-10",
+    "verifiedAt": "2026-11-20",
     "confidence": "medium",
     "platformId": "aliyun-bailian"
   },
@@ -356,7 +356,7 @@
     "context": "1024K",
     "buyUrl": "https://console.volcengine.com/ark",
     "sourceUrl": "https://www.volcengine.com/docs/82379/1544106",
-    "verifiedAt": "2026-11-10",
+    "verifiedAt": "2026-11-20",
     "confidence": "high",
     "platformId": "volcengine-ark"
   },
@@ -373,7 +373,7 @@
     "context": "256K",
     "buyUrl": "https://console.volcengine.com/ark",
     "sourceUrl": "https://www.volcengine.com/docs/82379/1544106",
-    "verifiedAt": "2026-11-10",
+    "verifiedAt": "2026-11-20",
     "confidence": "high",
     "platformId": "volcengine-ark"
   },
@@ -551,7 +551,7 @@
     "multimodal": false,
     "buyUrl": "https://bailian.console.aliyun.com/",
     "sourceUrl": "https://help.aliyun.com/zh/model-studio/model-pricing",
-    "verifiedAt": "2026-11-10",
+    "verifiedAt": "2026-11-20",
     "confidence": "high",
     "notes": "当前页面未见更新代际的 coder 型号",
     "platformId": "aliyun-bailian"
@@ -571,10 +571,30 @@
     "multimodal": null,
     "buyUrl": "https://console.volcengine.com/ark",
     "sourceUrl": "https://www.volcengine.com/docs/82379/1544106",
-    "verifiedAt": "2026-11-10",
+    "verifiedAt": "2026-11-20",
     "confidence": "high",
     "notes": null,
     "platformId": "volcengine-ark"
+  },
+  {
+    "id": "hunyuan-hy4-flash",
+    "vendor": "腾讯混元",
+    "model": "hy4-flash",
+    "region": "cn",
+    "currency": "CNY",
+    "input": 0.5,
+    "output": 2,
+    "cacheHit": 0.02,
+    "cacheWrite": null,
+    "context": null,
+    "tiering": "TokenHub 广州地域目录价；官方“Hy4 flash 限时折扣”：至2026-11-30 12:00:00（北京时间）按目录价50%结算（约0.25/1/0.01），期满恢复目录价",
+    "multimodal": null,
+    "buyUrl": "https://console.cloud.tencent.com/tokenhub",
+    "sourceUrl": "https://cloud.tencent.com/document/product/1823/130055",
+    "verifiedAt": "2026-11-20",
+    "confidence": "high",
+    "notes": "官方文档（最近更新 2026-11-16 12:15:30）新增模型，与 Hy4（至12-31五折）、Hy4 preview 折扣分别说明，官方未写明 preview 是否含五折。",
+    "platformId": "tencent-hunyuan"
   },
   {
     "id": "hunyuan-hy4-preview",
@@ -587,13 +607,13 @@
     "cacheHit": 0.3,
     "cacheWrite": null,
     "context": null,
-    "tiering": "TokenHub 广州地域目录价；官方“Hy4 限时折扣”：至2026-12-31 23:59:59（北京时间）Hy4 模型调用按目录价50%结算（约3/9/0.15），期满恢复目录价。折扣是否覆盖 preview 版官方未单列",
+    "tiering": "TokenHub 广州地域目录价；官方“Hy4 限时折扣”：至2026-12-31 23:59:59（北京时间）Hy4 模型调用按目录价50%结算（约3/9/0.15），期满恢复目录价。官方另有“Hy4 flash”折扣（至11-30 12:00）；两条均只写模型名，未列 preview，preview 是否享受折扣官方未说明",
     "multimodal": null,
     "buyUrl": "https://console.cloud.tencent.com/tokenhub",
     "sourceUrl": "https://cloud.tencent.com/document/product/1823/130055",
-    "verifiedAt": "2026-11-10",
+    "verifiedAt": "2026-11-20",
     "confidence": "high",
-    "notes": "混元生文已迁移至 TokenHub，原平台停止新购",
+    "notes": "混元生文已迁移至 TokenHub，原平台停止新购。官方文档最近更新 2026-11-16 12:15:30",
     "platformId": "tencent-hunyuan"
   },
   {
@@ -611,7 +631,7 @@
     "multimodal": null,
     "buyUrl": "https://console.cloud.tencent.com/tokenhub",
     "sourceUrl": "https://cloud.tencent.com/document/product/1823/130055",
-    "verifiedAt": "2026-11-10",
+    "verifiedAt": "2026-11-20",
     "confidence": "high",
     "notes": null,
     "platformId": "tencent-hunyuan"

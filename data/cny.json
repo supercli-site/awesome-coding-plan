@@ -38,11 +38,11 @@
     },
     "api": {
       "cheapest": [
+        "hunyuan-hy4-flash",
         "mimo-v2-6-flash-global",
         "mimo-v2-6-flash-cn",
         "qwen3-8-flash-cn",
-        "glm-5-3-flash",
-        "claude-haiku-5-5"
+        "glm-5-3-flash"
       ],
       "priciest": [
         "meta-muse-wonder",
@@ -2879,6 +2879,22 @@
       "offering": "cloud-platform",
       "offeringLabel": "云平台上架",
       "platformUrl": "https://console.volcengine.com/ark"
+    },
+    {
+      "id": "hunyuan-hy4-flash",
+      "vendor": "腾讯混元",
+      "model": "hy4-flash",
+      "region": "cn",
+      "originalCurrency": "CNY",
+      "inputCny": 0.5,
+      "outputCny": 2,
+      "cacheHitCny": 0.02,
+      "blendedCny": 0.875,
+      "confidence": "high",
+      "platformId": "tencent-hunyuan",
+      "offering": "first-party",
+      "offeringLabel": "原厂直营",
+      "platformUrl": "https://cloud.tencent.com/product/hunyuan"
     },
     {
       "id": "hunyuan-hy4-preview",

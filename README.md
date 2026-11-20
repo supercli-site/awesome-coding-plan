@@ -181,6 +181,7 @@ AI 编程的账单分两种，混在一起看很容易选错：
 | **kimi-k3** | Kimi/Moonshot | ¥20 | ¥100 | ¥2 | 1M | [直达](https://platform.moonshot.cn/console/api-keys) | [官方](https://platform.kimi.com/docs/pricing/chat) |
 | **qwen3-coder-flash** | 阿里云百炼 Qwen | ¥1 | ¥4 | — | 1M | [直达](https://bailian.console.aliyun.com/) | [官方](https://help.aliyun.com/zh/model-studio/model-pricing) |
 | **doubao-seed-2.1-turbo** | 火山方舟豆包 | ¥3 | ¥15 | ¥0.60 | 256K | [直达](https://console.volcengine.com/ark) | [官方](https://www.volcengine.com/docs/82379/1544106) |
+| **hy4-flash** | 腾讯混元 | ¥0.50 | ¥2 | ¥0.02 | — | [直达](https://console.cloud.tencent.com/tokenhub) | [官方](https://cloud.tencent.com/document/product/1823/130055) |
 | **hy4-preview** | 腾讯混元 | ¥6 | ¥18 | ¥0.30 | — | [直达](https://console.cloud.tencent.com/tokenhub) | [官方](https://cloud.tencent.com/document/product/1823/130055) |
 | **hy3** | 腾讯混元 | ¥1 | ¥4 | ¥0.25 | — | [直达](https://console.cloud.tencent.com/tokenhub) | [官方](https://cloud.tencent.com/document/product/1823/130055) |
 
@@ -317,8 +318,8 @@ pnpm check     # 校验数据门禁
 ## 数据说明
 
 - 排行快照共 137 个模型档位，采集于 2026-11-04
-- 套餐条目 114 条，API 价格条目 51 条
-- 最后一次核实：2026-11-19
+- 套餐条目 114 条，API 价格条目 52 条
+- 最后一次核实：2026-11-20
 
 ---
 
