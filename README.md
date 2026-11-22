@@ -85,6 +85,10 @@ AI 编程的账单分两种，混在一起看很容易选错：
 | **文心快码 个人标准版 Free** | 百度 文心快码 | ¥0 | 首次注册赠送5,000积分（一次性） | — | — | [直达](https://comate.baidu.com/zh/pricing) | [官方](https://comate.baidu.com/zh/pricing) |
 | **文心快码 个人专业版 Pro** | 百度 文心快码 | ¥59/月 | 每月25,000积分；无模型额度时自动切换免费 Auto-Free 模式（150k tokens/h） | — | — | [直达](https://comate.baidu.com/zh/pricing) | [官方](https://comate.baidu.com/zh/pricing) |
 | **文心快码 个人旗舰版 Max** | 百度 文心快码 | ¥199/月 | 每月100,000积分；Auto-Free 模式 500k tokens/h，限时不限量至12月31日 | — | — | [直达](https://comate.baidu.com/zh/pricing/payment?type=vip&plan=flagship) | [官方](https://comate.baidu.com/zh/pricing) |
+| **Hy Token Plan 个人版 Lite（体验套餐）** | 腾讯云 | ¥28/月 | 每订阅月560积分 | hy4-flash、hy4、hy4-preview、hy3、hy3-preview、hy3-202608 | — | [直达](https://cloud.tencent.com/act/pro/tokenplan) | [官方](https://cloud.tencent.com/act/pro/tokenplan) |
+| **Hy Token Plan 个人版 Standard（基础套餐）** | 腾讯云 | ¥78/月 | 每订阅月1560积分 | hy4-flash、hy4、hy4-preview、hy3、hy3-preview、hy3-202608 | — | [直达](https://cloud.tencent.com/act/pro/tokenplan) | [官方](https://cloud.tencent.com/act/pro/tokenplan) |
+| **Hy Token Plan 个人版 Pro（进阶套餐）** | 腾讯云 | ¥238/月 | 每订阅月4760积分 | hy4-flash、hy4、hy4-preview、hy3、hy3-preview、hy3-202608 | — | [直达](https://cloud.tencent.com/act/pro/tokenplan) | [官方](https://cloud.tencent.com/act/pro/tokenplan) |
+| **Hy Token Plan 个人版 Max（专业套餐）** | 腾讯云 | ¥468/月 | 每订阅月9360积分 | hy4-flash、hy4、hy4-preview、hy3、hy3-preview、hy3-202608 | — | [直达](https://cloud.tencent.com/act/pro/tokenplan) | [官方](https://cloud.tencent.com/act/pro/tokenplan) |
 
 ---
 
@@ -96,16 +100,16 @@ AI 编程的账单分两种，混在一起看很容易选错：
 | **Claude Pro** | Anthropic | $20/月 | 1x baseline usage per 5h & weekly; Claude Code included; Fable billed via usage credits | Claude Fable 5.1、Claude Opus 5.5、Claude Sonnet 5.5、Claude Haiku 5.5 | ✅ | [直达](https://claude.com/pricing) | [官方](https://claude.com/pricing) |
 | **Claude Max** | Anthropic | $100/月 | 5x Pro usage every 5h and every week; Fable up to 50% of weekly limit; $100/mo API credits | Claude Fable 5.1、Claude Opus 5.5、Claude Sonnet 5.5、Claude Haiku 5.5 | ✅ | [直达](https://claude.com/pricing) | [官方](https://claude.com/pricing) |
 | **Claude Ultra** | Anthropic | $200/月 | No 5-hour limit (verified accounts); 10x Pro weekly usage; $200/mo API credits | Claude Fable 5.1、Claude Opus 5.5、Claude Sonnet 5.5、Claude Haiku 5.5 | ✅ | [直达](https://claude.com/pricing) | [官方](https://claude.com/pricing) |
-| **ChatGPT Free (Codex)** | OpenAI | $0/月 | Codex quick tasks in desktop app, subject to rollout | GPT-6 Luna | ✅ | [直达](https://chatgpt.com/pricing/) | [官方](https://developers.openai.com/codex/pricing) |
-| **ChatGPT Go (Codex)** | OpenAI | $8/月 | Lightweight Codex tasks, GPT-6 Luna standard speed in desktop app | GPT-6 Luna | ✅ | [直达](https://chatgpt.com/pricing/) | [官方](https://developers.openai.com/codex/pricing) |
-| **ChatGPT Plus (Codex)** | OpenAI | $20/月 | Local msgs per 5h (estimates): GPT-6.1 Sol 15-160, GPT-6.1 Terra 35-285, GPT-6 Luna 350-3000, GPT-6 Astra 5-45, GPT-6 Sol 15-150; weekly limits may also apply (官方未给具体数值); extend with credits | GPT-6.1 Sol、GPT-6.1 Terra、GPT-6 Luna、GPT-6 Astra | ✅ | [直达](https://chatgpt.com/pricing/) | [官方](https://developers.openai.com/codex/pricing) |
-| **ChatGPT Pro (Codex)** | OpenAI | $100/月 | Tiers at $100/$200/$500; no 5-hour limit currently; Ultrafast mode only on $500 | GPT-6.1 Sol、GPT-6.1 Terra、GPT-6 Luna、GPT-6 Astra | ✅ | [直达](https://chatgpt.com/pricing/) | [官方](https://developers.openai.com/codex/pricing) |
-| **ChatGPT Business (Codex)** | OpenAI | $25/月 | Same per-5h estimates as Plus (Standard Business); extend with credits | GPT-6.1 Sol、GPT-6 Luna | ✅ | [直达](https://chatgpt.com/business/) | [官方](https://developers.openai.com/codex/pricing) |
+| **ChatGPT Free (Codex)** | OpenAI | $0/月 | Codex quick tasks in desktop app, subject to rollout | GPT-6 Luna | ✅ | [直达](https://chatgpt.com/pricing/) | [官方](https://learn.chatgpt.com/docs/pricing) |
+| **ChatGPT Go (Codex)** | OpenAI | $8/月 | Lightweight Codex tasks, GPT-6 Luna standard speed in desktop app | GPT-6 Luna | ✅ | [直达](https://chatgpt.com/pricing/) | [官方](https://learn.chatgpt.com/docs/pricing) |
+| **ChatGPT Plus (Codex)** | OpenAI | $20/月 | Local msgs per 5h (estimates): GPT-6.2 Astra 6-50, GPT-6.2 Sol 17-180, GPT-6 Astra 5-45, GPT-6.1 Sol 15-160, GPT-6.1 Terra 35-285, GPT-6 Sol 15-150, GPT-6 Luna 350-3000; weekly limits may also apply; extend with credits | GPT-6.2 Astra、GPT-6.2 Sol、GPT-6.1 Sol、GPT-6.1 Terra、GPT-6 Luna、GPT-6 Astra、GPT-6 Sol | ✅ | [直达](https://chatgpt.com/pricing/) | [官方](https://learn.chatgpt.com/docs/pricing) |
+| **ChatGPT Pro (Codex)** | OpenAI | $100/月 | Tiers at $100/$200/$500; no 5-hour limit currently; Ultrafast mode only on $500 | GPT-6.1 Sol、GPT-6.1 Terra、GPT-6 Luna、GPT-6 Astra | ✅ | [直达](https://chatgpt.com/pricing/) | [官方](https://learn.chatgpt.com/docs/pricing) |
+| **ChatGPT Business (Codex)** | OpenAI | $25/月 | Same per-5h estimates as Plus (Standard Business); extend with credits | GPT-6.1 Sol、GPT-6 Luna | ✅ | [直达](https://chatgpt.com/business/) | [官方](https://learn.chatgpt.com/docs/pricing) |
 | **Google AI Plus** | Google | $4.99/月 | 2x Free 用量额度；Google AI Plus 在 160+ 国家与地区可购 | Gemini 4 Hydrogen | ✅ | [直达](https://gemini.google/subscriptions/) | [官方](https://gemini.google/subscriptions/) |
 | **Google AI Pro** | Google | $19.99/月 | Jules 100 tasks/24h, 15 concurrent; Antigravity higher rate limits + AI credit pool; consumer Gemini CLI access ended 2026-06-18 | Gemini 4 Argon | ✅ | [直达](https://gemini.google/subscriptions/) | [官方](https://gemini.google/subscriptions/) |
 | **Google AI Ultra** | Google | $99.99/月 | $99.99 = 5x AI Pro; $199.99 = 20x AI Pro; Jules 300 tasks/24h, 60 concurrent; consumer Gemini CLI access ended 2026-06-18 | Gemini 4 Argon | ✅ | [直达](https://gemini.google/subscriptions/) | [官方](https://gemini.google/subscriptions/) |
 | **Gemini CLI（旧个人免费登录档）** | Google | 已停售（历史价 $0） | 历史免费额度为 Google 账号每日 1,000 次；2026-06-18 起消费者登录停止服务，迁移至 Antigravity CLI | Gemini (Flash/Pro, per quota) | ✅ | — | [官方](https://developers.googleblog.com/an-important-update-transitioning-gemini-cli-to-antigravity-cli/) |
-| **Antigravity Individual** | Google | $0 | Unlimited Tab completions & command requests; basic weekly rate limits | Gemini models | ✅ | [直达](https://antigravity.google/pricing) | [官方](https://antigravity.google/pricing) |
+| **Antigravity Individual** | Google | $0 | Baseline agent quota refreshed weekly; 跨 App/CLI/IDE 扩展/Python SDK 使用，可并行后台 agent、子 agent、浏览器使用与定时任务 | Gemini 3.8 Flash、Claude Sonnet 4.6、Claude Opus 4.6、GPT-OSS-120b | ✅ | [直达](https://antigravity.google/pricing) | [官方](https://antigravity.google/pricing) |
 | **Jules (free)** | Google | $0 | 15 tasks per rolling 24h, 3 concurrent | Gemini | ✅ | [直达](https://jules.google) | [官方](https://jules.google/docs/usage-limits/) |
 | **Copilot Free** | GitHub | $0 | 2,000 completions/month; limited chat & agent usage | Claude Haiku 4.5、GPT-5 mini | ✅ | [直达](https://github.com/features/copilot/plans) | [官方](https://github.com/features/copilot/plans) |
 | **Copilot Pro** | GitHub | $10/月 | $15/mo total GitHub AI Credits (1 credit=$0.01); unlimited completions; Claude Code & Codex agents | Multiple (Claude/GPT/Gemini) | ✅ | [直达](https://github.com/features/copilot/plans) | [官方](https://github.com/features/copilot/plans) |
@@ -318,8 +322,8 @@ pnpm check     # 校验数据门禁
 ## 数据说明
 
 - 排行快照共 137 个模型档位，采集于 2026-11-04
-- 套餐条目 114 条，API 价格条目 52 条
-- 最后一次核实：2026-11-20
+- 套餐条目 118 条，API 价格条目 52 条
+- 最后一次核实：2026-11-22
 
 ---
 

@@ -9,11 +9,11 @@
     "output": 8,
     "cacheHit": 0.04,
     "tiering": "单位：人民币/百万 tokens。表列高峰价：未命中输入2、缓存命中0.04、输出8；空闲价：未命中输入1、缓存命中0.02、输出4。高峰为北京时间周一至周五09:00–12:00、14:00–18:00（中国法定节假日除外）；其余时段、周末及中国法定节假日全天均为空闲时段。",
-    "notes": "原厂按量，无月费套餐。deepseek-flash 实际版本为 DeepSeek-V4.1-Flash-1017，旧别名 deepseek-v4-flash 仍可调用，按现价计费。Search 与 Fetch 各额外收费5元/1000次成功请求，2026-11-01 00:00（北京时间）起生效，不包含在 token 单价里。缓存命中价仅适用于实际命中的输入 token。",
+    "notes": "原厂按量，无月费套餐。deepseek-flash 实际版本为 DeepSeek-V4.1-Flash-1017，旧别名 deepseek-v4-flash 仍可调用，按现价计费。Search 与 Fetch API 均按成功请求计费，各 5元/1000次成功请求，不含在 token 单价里。自 2026-11-18 12:00（北京时间）起，调用模型时触发的服务端搜索与网页抓取工具调用本身不再收费。缓存命中价仅适用于实际命中的输入 token。",
     "context": "1M（最大输出384K）",
     "buyUrl": "https://platform.deepseek.com",
     "sourceUrl": "https://api-docs.deepseek.com/zh-cn/quick_start/pricing",
-    "verifiedAt": "2026-11-10",
+    "verifiedAt": "2026-11-22",
     "confidence": "high",
     "platformId": "deepseek"
   },
@@ -44,11 +44,11 @@
     "output": 1.2,
     "cacheHit": 0.006,
     "tiering": "单位：美元/百万 tokens。表列高峰价：未命中输入0.30、缓存命中0.006、输出1.20；空闲价：未命中输入0.15、缓存命中0.003、输出0.60。高峰为UTC周一至周五01:00–04:00、06:00–10:00（中国法定节假日除外）；其余时段、周末及中国法定节假日全天为空闲时段。",
-    "notes": "原厂按量。使用 deepseek-flash，实际版本 DeepSeek-V4.1-Flash-1017，旧别名 deepseek-v4-flash 请求同样由现版Flash处理。Search 与 Fetch 各额外收费0.75美元/1000次成功请求，自北京时间2026-11-01 00:00起生效；不包含在 token 单价里。缓存命中价只适用于实际命中的输入 token。",
+    "notes": "原厂按量。使用 deepseek-flash，实际版本 DeepSeek-V4.1-Flash-1017，旧别名 deepseek-v4-flash 请求同样由现版Flash处理。Search 与 Fetch API 均按成功请求计费，各 0.75美元/1000次成功请求，不含在 token 单价里。自 2026-11-18 12:00（北京时间）起，调用模型时触发的服务端搜索与网页抓取工具调用本身不再收费。缓存命中价只适用于实际命中的输入 token。",
     "context": "1M",
     "buyUrl": "https://platform.deepseek.com",
     "sourceUrl": "https://api-docs.deepseek.com/quick_start/pricing",
-    "verifiedAt": "2026-11-19",
+    "verifiedAt": "2026-11-22",
     "confidence": "high",
     "platformId": "deepseek"
   },
@@ -82,7 +82,7 @@
     "context": "1M",
     "buyUrl": "https://bigmodel.cn/console",
     "sourceUrl": "https://docs.bigmodel.cn/cn/guide/start/pricing.md",
-    "verifiedAt": "2026-11-19",
+    "verifiedAt": "2026-11-22",
     "confidence": "high",
     "platformId": "zhipu"
   },
@@ -99,7 +99,7 @@
     "context": "1M",
     "buyUrl": "https://bigmodel.cn/console",
     "sourceUrl": "https://docs.bigmodel.cn/cn/guide/start/pricing.md",
-    "verifiedAt": "2026-11-19",
+    "verifiedAt": "2026-11-22",
     "confidence": "high",
     "platformId": "zhipu"
   },
@@ -167,10 +167,10 @@
     "context": "262,144",
     "buyUrl": "https://platform.kimi.com/console",
     "sourceUrl": "https://platform.kimi.com/docs/pricing/chat",
-    "verifiedAt": "2026-11-17",
+    "verifiedAt": "2026-11-22",
     "confidence": "medium",
     "platformId": "moonshot",
-    "notes": "官方下线提示：K2 系列自 2026-10-31 起停止向新注册用户开放，已注册用户不受影响，计划 2026 年 12 月底下线所有 K2 系列模型。"
+    "notes": "K2 系列自 2026-10-31 起停止向新注册用户开放，已注册用户不受影响；官方计划 2026 年 12 月底下线所有 K2 系列模型（官方原文两语种一致）。"
   },
   {
     "id": "kimi-k3-1-pro-global",
@@ -202,10 +202,10 @@
     "context": "262,144",
     "buyUrl": "https://platform.kimi.ai/console",
     "sourceUrl": "https://platform.kimi.ai/docs/pricing/chat",
-    "verifiedAt": "2026-11-17",
+    "verifiedAt": "2026-11-22",
     "confidence": "medium",
     "platformId": "moonshot",
-    "notes": "K2 系列计划 2026 年 12 月底下线，仅存量用户在售。"
+    "notes": "K2 系列自 2026-10-31 起停止向新注册用户开放，已注册用户不受影响；官方计划 2026 年 12 月底下线所有 K2 系列模型（官方原文两语种一致）。"
   },
   {
     "id": "minimax-m3-cn",
@@ -356,7 +356,7 @@
     "context": "1024K",
     "buyUrl": "https://console.volcengine.com/ark",
     "sourceUrl": "https://www.volcengine.com/docs/82379/1544106",
-    "verifiedAt": "2026-11-20",
+    "verifiedAt": "2026-11-22",
     "confidence": "high",
     "platformId": "volcengine-ark"
   },
@@ -373,7 +373,7 @@
     "context": "256K",
     "buyUrl": "https://console.volcengine.com/ark",
     "sourceUrl": "https://www.volcengine.com/docs/82379/1544106",
-    "verifiedAt": "2026-11-20",
+    "verifiedAt": "2026-11-22",
     "confidence": "high",
     "platformId": "volcengine-ark"
   },
@@ -571,7 +571,7 @@
     "multimodal": null,
     "buyUrl": "https://console.volcengine.com/ark",
     "sourceUrl": "https://www.volcengine.com/docs/82379/1544106",
-    "verifiedAt": "2026-11-20",
+    "verifiedAt": "2026-11-22",
     "confidence": "high",
     "notes": null,
     "platformId": "volcengine-ark"
@@ -591,7 +591,7 @@
     "multimodal": null,
     "buyUrl": "https://console.cloud.tencent.com/tokenhub",
     "sourceUrl": "https://cloud.tencent.com/document/product/1823/130055",
-    "verifiedAt": "2026-11-20",
+    "verifiedAt": "2026-11-22",
     "confidence": "high",
     "notes": "官方文档（最近更新 2026-11-16 12:15:30）新增模型，与 Hy4（至12-31五折）、Hy4 preview 折扣分别说明，官方未写明 preview 是否含五折。",
     "platformId": "tencent-hunyuan"
@@ -611,7 +611,7 @@
     "multimodal": null,
     "buyUrl": "https://console.cloud.tencent.com/tokenhub",
     "sourceUrl": "https://cloud.tencent.com/document/product/1823/130055",
-    "verifiedAt": "2026-11-20",
+    "verifiedAt": "2026-11-22",
     "confidence": "high",
     "notes": "混元生文已迁移至 TokenHub，原平台停止新购。官方文档最近更新 2026-11-16 12:15:30",
     "platformId": "tencent-hunyuan"
@@ -631,7 +631,7 @@
     "multimodal": null,
     "buyUrl": "https://console.cloud.tencent.com/tokenhub",
     "sourceUrl": "https://cloud.tencent.com/document/product/1823/130055",
-    "verifiedAt": "2026-11-20",
+    "verifiedAt": "2026-11-22",
     "confidence": "high",
     "notes": null,
     "platformId": "tencent-hunyuan"
