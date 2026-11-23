@@ -753,7 +753,7 @@
     "sourceUrl": "https://developers.openai.com/api/docs/pricing",
     "verifiedAt": "2026-11-10",
     "confidence": "high",
-    "notes": "Codex 专用编程模型",
+    "notes": "Codex 专用编程模型；官方标记 Deprecated，计划于 2027-04-01 关闭，建议迁移至 gpt-6-sol。详见 https://developers.openai.com/api/docs/deprecations 。",
     "platformId": "openai"
   },
   {

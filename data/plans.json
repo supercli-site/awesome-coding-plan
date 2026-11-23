@@ -3568,7 +3568,7 @@
     "verifiedAt": "2026-11-20",
     "status": "active",
     "confidence": "high",
-    "notes": "原价 39/40 冲突已裁决：官方套餐定价表与老客续费表均写 39；旧活动页 token-plan-activity 的 40 为调价前旧值（该页仍显示过期 6,600 积分）。",
+    "notes": "官方套餐定价表与老客续费表写 39 元、11,500 积分；另一官方活动页 token-plan-activity 仍写 40 元、6,600 积分。两页存在冲突，其更新状态未获确认。",
     "platformId": "baidu-qianfan"
   },
   {
