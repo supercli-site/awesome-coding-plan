@@ -2977,6 +2977,22 @@
       "platformUrl": "https://cloud.tencent.com/product/hunyuan"
     },
     {
+      "id": "hunyuan-hy4",
+      "vendor": "腾讯混元",
+      "model": "hy4",
+      "region": "cn",
+      "originalCurrency": "CNY",
+      "inputCny": 6,
+      "outputCny": 18,
+      "cacheHitCny": 0.3,
+      "blendedCny": 9,
+      "confidence": "high",
+      "platformId": "tencent-hunyuan",
+      "offering": "first-party",
+      "offeringLabel": "原厂直营",
+      "platformUrl": "https://cloud.tencent.com/product/hunyuan"
+    },
+    {
       "id": "hunyuan-hy4-preview",
       "vendor": "腾讯混元",
       "model": "hy4-preview",

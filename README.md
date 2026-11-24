@@ -161,6 +161,8 @@ AI 编程的账单分两种，混在一起看很容易选错：
 
 ### 国内厂商
 
+腾讯 Hy4 下表展示目录价；截至北京时间 2026-12-31 23:59:59 按目录价五折结算，详见官方来源。
+
 | 模型 | 厂商 | 输入 / 1M | 输出 / 1M | 缓存命中 | 上下文 | 开通 | 来源 |
 |---|---|---:|---:|---:|---|---|---|
 | **deepseek-flash** | DeepSeek | ¥2 | ¥8 | ¥0.04 | 1M（最大输出384K） | [直达](https://platform.deepseek.com) | [官方](https://api-docs.deepseek.com/zh-cn/quick_start/pricing) |
@@ -186,6 +188,7 @@ AI 编程的账单分两种，混在一起看很容易选错：
 | **qwen3-coder-flash** | 阿里云百炼 Qwen | ¥1 | ¥4 | — | 1M | [直达](https://bailian.console.aliyun.com/) | [官方](https://help.aliyun.com/zh/model-studio/model-pricing) |
 | **doubao-seed-2.1-turbo** | 火山方舟豆包 | ¥3 | ¥15 | ¥0.60 | 256K | [直达](https://console.volcengine.com/ark) | [官方](https://www.volcengine.com/docs/82379/1544106) |
 | **hy4-flash** | 腾讯混元 | ¥0.50 | ¥2 | ¥0.02 | — | [直达](https://console.cloud.tencent.com/tokenhub) | [官方](https://cloud.tencent.com/document/product/1823/130055) |
+| **hy4** | 腾讯混元 | ¥6 | ¥18 | ¥0.30 | 1M | [直达](https://console.cloud.tencent.com/tokenhub) | [官方](https://cloud.tencent.com/document/product/1823/130055) |
 | **hy4-preview** | 腾讯混元 | ¥6 | ¥18 | ¥0.30 | — | [直达](https://console.cloud.tencent.com/tokenhub) | [官方](https://cloud.tencent.com/document/product/1823/130055) |
 | **hy3** | 腾讯混元 | ¥1 | ¥4 | ¥0.25 | — | [直达](https://console.cloud.tencent.com/tokenhub) | [官方](https://cloud.tencent.com/document/product/1823/130055) |
 
@@ -322,8 +325,8 @@ pnpm check     # 校验数据门禁
 ## 数据说明
 
 - 排行快照共 137 个模型档位，采集于 2026-11-04
-- 套餐条目 118 条，API 价格条目 52 条
-- 最后一次核实：2026-11-22
+- 套餐条目 118 条，API 价格条目 53 条
+- 最后一次核实：2026-11-24
 
 ---
 

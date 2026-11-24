@@ -597,6 +597,26 @@
     "platformId": "tencent-hunyuan"
   },
   {
+    "id": "hunyuan-hy4",
+    "vendor": "腾讯混元",
+    "model": "hy4",
+    "region": "cn",
+    "currency": "CNY",
+    "input": 6,
+    "output": 18,
+    "cacheHit": 0.3,
+    "cacheWrite": null,
+    "context": "1M",
+    "tiering": "TokenHub 广州地域目录价；至2026-12-31 23:59:59（北京时间）按目录价50%结算，折后输入3/输出9/缓存命中0.15元每百万tokens",
+    "multimodal": true,
+    "buyUrl": "https://console.cloud.tencent.com/tokenhub",
+    "sourceUrl": "https://cloud.tencent.com/document/product/1823/130055",
+    "verifiedAt": "2026-11-24",
+    "confidence": "high",
+    "notes": "Hy4 与 Hy4 preview 是官方价格表中独立的模型条目；上下文见 https://cloud.tencent.com/document/product/1823/130051。",
+    "platformId": "tencent-hunyuan"
+  },
+  {
     "id": "hunyuan-hy4-preview",
     "vendor": "腾讯混元",
     "model": "hy4-preview",
