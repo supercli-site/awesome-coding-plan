@@ -1,11 +1,11 @@
 {
   "base": "USD",
   "quote": "CNY",
-  "rate": 6.7111,
-  "date": "2026-11-24",
-  "publishedAt": "2026-11-24 9:15",
+  "rate": 6.7088,
+  "date": "2026-11-25",
+  "publishedAt": "2026-11-25 9:15",
   "source": "中国外汇交易中心 人民币汇率中间价",
   "sourceUrl": "https://www.chinamoney.com.cn/chinese/bkccpr/",
   "fallbackUsed": false,
-  "fetchedAt": "2026-11-24"
+  "fetchedAt": "2026-11-25"
 }
