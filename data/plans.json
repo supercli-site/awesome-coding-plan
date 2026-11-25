@@ -1503,10 +1503,10 @@
     "multimodal": true,
     "buyUrl": "https://qoder.com/pricing",
     "sourceUrl": "https://docs.qoder.com/account/pricing",
-    "verifiedAt": "2026-11-10",
+    "verifiedAt": "2026-11-25",
     "status": "active",
     "confidence": "high",
-    "notes": null,
+    "notes": "国际站个人月付，价格不含适用税费。基础积分当期有效、不结转；额外积分包$20/1,500积分，有效1个月。活动：首次成功付费赠1,000积分，续费/到期后重订赠500积分；历史退款仍视为已付费，不再享首订。赠额自发放起30自然日有效（UTC+8），活动结束不提前清零，活动2026-10-21起、结束待公告。详见 https://docs.qoder.com/events/newbogo",
     "quotaUnit": "credits",
     "platformId": "qoder"
   },
@@ -1536,10 +1536,10 @@
     "multimodal": true,
     "buyUrl": "https://qoder.com/pricing",
     "sourceUrl": "https://docs.qoder.com/account/pricing",
-    "verifiedAt": "2026-11-10",
+    "verifiedAt": "2026-11-25",
     "status": "active",
     "confidence": "high",
-    "notes": null,
+    "notes": "国际站个人月付，价格不含适用税费。基础积分当期有效、不结转；额外积分包$20/1,500积分，有效1个月。活动：首次成功付费赠2,000积分，续费/到期后重订赠1,000积分，升级至本档赠1,000积分；历史退款仍视为已付费，不再享首订。赠额自发放起30自然日有效（UTC+8），活动结束不提前清零，活动2026-10-21起、结束待公告。详见 https://docs.qoder.com/events/newbogo",
     "quotaUnit": "credits",
     "platformId": "qoder"
   },
@@ -1569,10 +1569,10 @@
     "multimodal": true,
     "buyUrl": "https://qoder.com/pricing",
     "sourceUrl": "https://docs.qoder.com/account/pricing",
-    "verifiedAt": "2026-11-10",
+    "verifiedAt": "2026-11-25",
     "status": "active",
     "confidence": "high",
-    "notes": null,
+    "notes": "国际站个人月付，价格不含适用税费。基础积分当期有效、不结转；额外积分包$20/1,500积分，有效1个月。活动：首次成功付费赠6,000积分，续费/到期后重订赠2,000积分，升级至本档赠2,000积分；历史退款仍视为已付费，不再享首订。赠额自发放起30自然日有效（UTC+8），活动结束不提前清零，活动2026-10-21起、结束待公告。详见 https://docs.qoder.com/events/newbogo",
     "quotaUnit": "credits",
     "platformId": "qoder"
   },
@@ -1602,10 +1602,10 @@
     "multimodal": true,
     "buyUrl": "https://qoder.com/pricing",
     "sourceUrl": "https://docs.qoder.com/account/pricing",
-    "verifiedAt": "2026-11-10",
+    "verifiedAt": "2026-11-25",
     "status": "active",
     "confidence": "high",
-    "notes": null,
+    "notes": "国际站个人月付，价格不含适用税费。基础积分当期有效、不结转；额外积分包$20/1,500积分，有效1个月。活动：首次成功付费赠0积分，续费/到期后重订赠3,000积分，升级至本档赠3,000积分；历史退款仍视为已付费，不再享首订。赠额自发放起30自然日有效（UTC+8），活动结束不提前清零，活动2026-10-21起、结束待公告。详见 https://docs.qoder.com/events/newbogo",
     "quotaUnit": "credits",
     "platformId": "qoder"
   },
@@ -2172,7 +2172,7 @@
     "models": [
       "MiniMax-M3.1-Flash"
     ],
-    "quota": "额度为相对值 1倍(基准)；5小时窗口+7天窗口双重刷新，官方未公布绝对数",
+    "quota": "额度为相对值 1倍(基准)；5小时窗口+7天窗口双重刷新（图片和视频仅受周额度限制），官方未公布绝对数",
     "quotaWindow": {
       "fiveHours": null,
       "week": null,
@@ -2185,7 +2185,7 @@
     "verifiedAt": "2026-11-20",
     "status": "active",
     "confidence": "medium",
-    "notes": "面向个人开发者交互式使用；团队共享账户未获支持，自建生产环境官方建议按量。非视频5小时与周双窗口，未用额度不结转；额度耗尽可消耗已购适用积分包，不自动扣账户余额。M Plan 承接旧Token Plan，老用户续费规则另见官方通知。",
+    "notes": "面向个人开发者交互式使用；团队共享账户未获支持，自建生产环境官方建议按量。图片和视频仅受周额度限制，其余用量受5小时与周双窗口限制，未用额度不结转；额度耗尽可消耗已购适用积分包，不自动扣账户余额。M Plan 承接旧Token Plan，老用户续费规则另见官方通知。用量规则：https://platform.minimax.cn/docs/m-plan/intro.md",
     "quotaUnit": null,
     "platformId": "minimax"
   },
@@ -2206,7 +2206,7 @@
       "MiniMax-M3.1-Flash",
       "H3(视频)"
     ],
-    "quota": "额度为相对值 3倍 Go；5小时窗口+7天窗口双重刷新，官方未公布绝对数",
+    "quota": "额度为相对值 3倍 Go；5小时窗口+7天窗口双重刷新（图片和视频仅受周额度限制），官方未公布绝对数",
     "quotaWindow": {
       "fiveHours": null,
       "week": null,
@@ -2219,7 +2219,7 @@
     "verifiedAt": "2026-11-20",
     "status": "active",
     "confidence": "medium",
-    "notes": "面向个人开发者交互式使用；团队共享账户未获支持，自建生产环境官方建议按量。非视频5小时与周双窗口，未用额度不结转；额度耗尽可消耗已购适用积分包，不自动扣账户余额。M Plan 承接旧Token Plan，老用户续费规则另见官方通知。",
+    "notes": "面向个人开发者交互式使用；团队共享账户未获支持，自建生产环境官方建议按量。图片和视频仅受周额度限制，其余用量受5小时与周双窗口限制，未用额度不结转；额度耗尽可消耗已购适用积分包，不自动扣账户余额。M Plan 承接旧Token Plan，老用户续费规则另见官方通知。用量规则：https://platform.minimax.cn/docs/m-plan/intro.md",
     "quotaUnit": null,
     "platformId": "minimax"
   },
@@ -2240,7 +2240,7 @@
       "MiniMax-M3.1-Flash",
       "H3(视频)"
     ],
-    "quota": "额度为相对值 12倍 Go；5小时窗口+7天窗口双重刷新，官方未公布绝对数",
+    "quota": "额度为相对值 12倍 Go；5小时窗口+7天窗口双重刷新（图片和视频仅受周额度限制），官方未公布绝对数",
     "quotaWindow": {
       "fiveHours": null,
       "week": null,
@@ -2253,7 +2253,7 @@
     "verifiedAt": "2026-11-20",
     "status": "active",
     "confidence": "medium",
-    "notes": "面向个人开发者交互式使用；团队共享账户未获支持，自建生产环境官方建议按量。非视频5小时与周双窗口，未用额度不结转；额度耗尽可消耗已购适用积分包，不自动扣账户余额。M Plan 承接旧Token Plan，老用户续费规则另见官方通知。",
+    "notes": "面向个人开发者交互式使用；团队共享账户未获支持，自建生产环境官方建议按量。图片和视频仅受周额度限制，其余用量受5小时与周双窗口限制，未用额度不结转；额度耗尽可消耗已购适用积分包，不自动扣账户余额。M Plan 承接旧Token Plan，老用户续费规则另见官方通知。用量规则：https://platform.minimax.cn/docs/m-plan/intro.md",
     "quotaUnit": null,
     "platformId": "minimax"
   },
@@ -3376,7 +3376,7 @@
       "currency": "CNY",
       "period": "month",
       "firstPeriodAmount": 19.5,
-      "note": "新用户限时价¥19.5/月（有效期至2026-11-30 23:59:59，仅限从未购买过个人版的账号）"
+      "note": "新用户限时价¥19.5/月（有效期至2026-11-30 23:59:59 UTC+8，仅同一用户下全部账号均未购买过Token Plan个人版可享）"
     },
     "models": [
       "qwen3.8-max",
@@ -3388,7 +3388,7 @@
       "week": null,
       "month": 20000
     },
-    "quotaUnit": null,
+    "quotaUnit": "credits",
     "tokenAllowance": null,
     "multimodal": true,
     "buyUrl": "https://cn.aliyun.com/benefit/scene/tokenplan",
@@ -3410,7 +3410,7 @@
       "currency": "CNY",
       "period": "month",
       "firstPeriodAmount": 39.5,
-      "note": "新用户限时价¥39.5/月（有效期至2026-11-30 23:59:59，仅限从未购买过个人版的账号）"
+      "note": "新用户限时价¥39.5/月（有效期至2026-11-30 23:59:59 UTC+8，仅同一用户下全部账号均未购买过Token Plan个人版可享）"
     },
     "models": [
       "qwen3.8-max",
@@ -3422,7 +3422,7 @@
       "week": null,
       "month": 45000
     },
-    "quotaUnit": null,
+    "quotaUnit": "credits",
     "tokenAllowance": null,
     "multimodal": true,
     "buyUrl": "https://cn.aliyun.com/benefit/scene/tokenplan",
@@ -3456,7 +3456,7 @@
       "week": null,
       "month": 80000
     },
-    "quotaUnit": null,
+    "quotaUnit": "credits",
     "tokenAllowance": null,
     "multimodal": true,
     "buyUrl": "https://cn.aliyun.com/benefit/scene/tokenplan",
@@ -3490,7 +3490,7 @@
       "week": null,
       "month": 200000
     },
-    "quotaUnit": null,
+    "quotaUnit": "credits",
     "tokenAllowance": null,
     "multimodal": true,
     "buyUrl": "https://cn.aliyun.com/benefit/scene/tokenplan",
@@ -3547,7 +3547,7 @@
       "currency": "CNY",
       "period": "month",
       "firstPeriodAmount": 19.9,
-      "note": "双11·首月5折（首期¥19.9，原价¥39）；官方活动期至 2026-11-23 23:59（https://cloud.baidu.com/doc/qianfan/s/Dmrabu8b6）"
+      "note": "双十二·首购5折（首期¥19.9，原价¥39）；官方活动期至 2026-12-21 23:59（https://cloud.baidu.com/doc/qianfan/s/Dmrabu8b6）"
     },
     "models": [
       "deepseek-v4.1-flash",
@@ -3582,7 +3582,7 @@
       "currency": "CNY",
       "period": "month",
       "firstPeriodAmount": 49.9,
-      "note": "常规¥100/月；新客首购¥49.9，仅积分制，活动至2026-11-23 23:59；老客活动续费价另计"
+      "note": "常规¥100/月；新客首购¥49.9，仅积分制，活动至2026-12-21 23:59；老客活动续费价另计"
     },
     "models": [
       "deepseek-v4.1-flash",
@@ -3603,7 +3603,7 @@
     "verifiedAt": "2026-11-20",
     "status": "active",
     "confidence": "high",
-    "notes": "首月加赠不可当作每月固定额度；套餐额度耗尽后需等待下个周期恢复，不会消耗其他资源包或账户余额。",
+    "notes": "首月加赠不可当作每月固定额度；套餐额度耗尽后需等待下个周期恢复，不会消耗其他资源包或账户余额。 官方双十二活动期2026-11-23 23:59至12-21 23:59；首购及首月加赠表活动期11-06至12-21，均仅适用积分制；原文未注明时区。",
     "platformId": "baidu-qianfan"
   },
   {
@@ -3617,7 +3617,7 @@
       "currency": "CNY",
       "period": "month",
       "firstPeriodAmount": 99.9,
-      "note": "常规¥200/月；新客首购¥99.9，仅积分制，活动至2026-11-23 23:59；老客活动续费价另计"
+      "note": "常规¥200/月；新客首购¥99.9，仅积分制，活动至2026-12-21 23:59；老客活动续费价另计"
     },
     "models": [
       "deepseek-v4.1-flash",
@@ -3638,7 +3638,7 @@
     "verifiedAt": "2026-11-20",
     "status": "active",
     "confidence": "high",
-    "notes": "首月加赠不可当作每月固定额度；套餐额度耗尽后需等待下个周期恢复，不会消耗其他资源包或账户余额。",
+    "notes": "首月加赠不可当作每月固定额度；套餐额度耗尽后需等待下个周期恢复，不会消耗其他资源包或账户余额。 官方双十二活动期2026-11-23 23:59至12-21 23:59；首购及首月加赠表活动期11-06至12-21，均仅适用积分制；原文未注明时区。",
     "platformId": "baidu-qianfan"
   },
   {
@@ -3652,7 +3652,7 @@
       "currency": "CNY",
       "period": "month",
       "firstPeriodAmount": 299.9,
-      "note": "常规¥600/月；新客首购¥299.9，仅积分制，活动至2026-11-23 23:59；老客活动续费价另计"
+      "note": "常规¥600/月；新客首购¥299.9，仅积分制，活动至2026-12-21 23:59；老客活动续费价另计"
     },
     "models": [
       "deepseek-v4.1-flash",
@@ -3673,7 +3673,7 @@
     "verifiedAt": "2026-11-20",
     "status": "active",
     "confidence": "high",
-    "notes": "首月加赠不可当作每月固定额度；套餐额度耗尽后需等待下个周期恢复，不会消耗其他资源包或账户余额。",
+    "notes": "首月加赠不可当作每月固定额度；套餐额度耗尽后需等待下个周期恢复，不会消耗其他资源包或账户余额。 官方双十二活动期2026-11-23 23:59至12-21 23:59；首购及首月加赠表活动期11-06至12-21，均仅适用积分制；原文未注明时区。",
     "platformId": "baidu-qianfan"
   },
   {

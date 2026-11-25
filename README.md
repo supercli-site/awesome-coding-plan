@@ -32,9 +32,9 @@ AI 编程的账单分两种，混在一起看很容易选错：
 | **GLM Coding Plan Lite** | 智谱 | ¥118/月 | 积分制：每5小时2,000积分、每周10,000积分 | glm-5.3、glm-5.3-flash | ✅ | [直达](https://bigmodel.cn/glm-coding) | [官方](https://bigmodel.cn/glm-coding) |
 | **GLM Coding Plan Pro** | 智谱 | ¥538/月 | 积分制：每5小时12,000积分、每周60,000积分 | glm-5.3、glm-5.3-flash | ✅ | [直达](https://bigmodel.cn/glm-coding) | [官方](https://bigmodel.cn/glm-coding) |
 | **GLM Coding Plan Max** | 智谱 | ¥1078/月 | 积分制：每5小时28,000积分、每周140,000积分 | glm-5.3、glm-5.3-flash | ✅ | [直达](https://bigmodel.cn/glm-coding) | [官方](https://bigmodel.cn/glm-coding) |
-| **M Plan Go** | MiniMax | ¥49/月 | 额度为相对值 1倍(基准)；5小时窗口+7天窗口双重刷新，官方未公布绝对数 | MiniMax-M3.1-Flash | ✅ | [直达](https://www.minimax.cn/m-plan) | [官方](https://platform.minimaxi.com/docs/m-plan/monthly-offer.md) |
-| **M Plan Explore** | MiniMax | ¥119/月 | 额度为相对值 3倍 Go；5小时窗口+7天窗口双重刷新，官方未公布绝对数 | MiniMax-M3.1-Flash、H3(视频) | ✅ | [直达](https://www.minimax.cn/m-plan) | [官方](https://platform.minimaxi.com/docs/m-plan/monthly-offer.md) |
-| **M Plan Build** | MiniMax | ¥469/月 | 额度为相对值 12倍 Go；5小时窗口+7天窗口双重刷新，官方未公布绝对数 | MiniMax-M3.1-Flash、H3(视频) | ✅ | [直达](https://www.minimax.cn/m-plan) | [官方](https://platform.minimaxi.com/docs/m-plan/monthly-offer.md) |
+| **M Plan Go** | MiniMax | ¥49/月 | 额度为相对值 1倍(基准)；5小时窗口+7天窗口双重刷新（图片和视频仅受周额度限制），官方未公布绝对数 | MiniMax-M3.1-Flash | ✅ | [直达](https://www.minimax.cn/m-plan) | [官方](https://platform.minimaxi.com/docs/m-plan/monthly-offer.md) |
+| **M Plan Explore** | MiniMax | ¥119/月 | 额度为相对值 3倍 Go；5小时窗口+7天窗口双重刷新（图片和视频仅受周额度限制），官方未公布绝对数 | MiniMax-M3.1-Flash、H3(视频) | ✅ | [直达](https://www.minimax.cn/m-plan) | [官方](https://platform.minimaxi.com/docs/m-plan/monthly-offer.md) |
+| **M Plan Build** | MiniMax | ¥469/月 | 额度为相对值 12倍 Go；5小时窗口+7天窗口双重刷新（图片和视频仅受周额度限制），官方未公布绝对数 | MiniMax-M3.1-Flash、H3(视频) | ✅ | [直达](https://www.minimax.cn/m-plan) | [官方](https://platform.minimaxi.com/docs/m-plan/monthly-offer.md) |
 | **Coding Plan Pro** | 阿里云百炼 | ¥200/月 <sub>首期 ¥39.90</sub> | 每5小时6,000次请求、每周45,000次、每月90,000次（按模型调用次数计） | qwen3.7-plus、qwen3.6-plus、kimi-k2.5、glm-5、MiniMax-M2.5、qwen3.5-plus | ✅ | [直达](https://bailian.console.aliyun.com/) | [官方](https://help.aliyun.com/zh/model-studio/coding-plan) |
 | **Coding Plan Lite** | 火山方舟 | ¥40/月 | 5小时/周/月三重限额（具体次数官方文档未列） | doubao-seed-evolving、doubao-seed-2.1-pro、doubao-seed-2.1-lite、doubao-seed-2.0-mini、glm-5.3、glm-5.3-flash、kimi-k3.1-pro、kimi-k3、kimi-k2.8-preview、deepseek-v4.1-flash、deepseek-v4-flash、deepseek-v4-pro、minimax-m3 | ✅ | [直达](https://www.volcengine.com/activity/codingplan) | [官方](https://docs.volcengine.com/docs/ark/coding-plan-personal-universal-promotion?lang=zh) |
 | **Coding Plan Pro** | 火山方舟 | ¥200/月 | 5小时/周/月三重限额（具体次数官方文档未列） | doubao-seed-evolving、doubao-seed-2.1-pro、doubao-seed-2.1-lite、doubao-seed-2.0-mini、glm-5.3、glm-5.3-flash、kimi-k3.1-pro、kimi-k3、kimi-k2.8-preview、deepseek-v4.1-flash、deepseek-v4-flash、deepseek-v4-pro、minimax-m3 | ✅ | [直达](https://www.volcengine.com/activity/codingplan) | [官方](https://docs.volcengine.com/docs/ark/coding-plan-personal-universal-promotion?lang=zh) |
@@ -326,7 +326,7 @@ pnpm check     # 校验数据门禁
 
 - 排行快照共 137 个模型档位，采集于 2026-11-04
 - 套餐条目 118 条，API 价格条目 53 条
-- 最后一次核实：2026-11-24
+- 最后一次核实：2026-11-25
 
 ---
 
