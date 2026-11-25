@@ -1,3 +1,4 @@
+import { trackPageView } from './analytics'
 /** TokenPlan 单页入口；路由：/ 与各锚点；API：/data/{cny,plans,api-prices,platforms}.json。 */
 import "./styles/tokens.css";
 import "./styles/main.css";
@@ -97,3 +98,5 @@ mount().catch((error: unknown) => {
     h("h1", null, "价格数据暂时无法加载"), h("p", null, `加载失败：${reason}`), retry,
   ]));
 });
+
+trackPageView()
