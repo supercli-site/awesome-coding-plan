@@ -591,9 +591,9 @@
     "multimodal": null,
     "buyUrl": "https://console.cloud.tencent.com/tokenhub",
     "sourceUrl": "https://cloud.tencent.com/document/product/1823/130055",
-    "verifiedAt": "2026-11-22",
+    "verifiedAt": "2026-11-26",
     "confidence": "high",
-    "notes": "官方文档（最近更新 2026-11-16 12:15:30）新增模型，与 Hy4（至12-31五折）、Hy4 preview 折扣分别说明，官方未写明 preview 是否含五折。",
+    "notes": "官方文档（最近更新 2026-11-25 18:48:00）新增模型，与 Hy4（至12-31五折）、Hy4 preview 折扣分别说明，官方未写明 preview 是否含五折。",
     "platformId": "tencent-hunyuan"
   },
   {
@@ -611,7 +611,7 @@
     "multimodal": true,
     "buyUrl": "https://console.cloud.tencent.com/tokenhub",
     "sourceUrl": "https://cloud.tencent.com/document/product/1823/130055",
-    "verifiedAt": "2026-11-24",
+    "verifiedAt": "2026-11-26",
     "confidence": "high",
     "notes": "Hy4 与 Hy4 preview 是官方价格表中独立的模型条目；上下文见 https://cloud.tencent.com/document/product/1823/130051。",
     "platformId": "tencent-hunyuan"
@@ -631,9 +631,9 @@
     "multimodal": null,
     "buyUrl": "https://console.cloud.tencent.com/tokenhub",
     "sourceUrl": "https://cloud.tencent.com/document/product/1823/130055",
-    "verifiedAt": "2026-11-22",
+    "verifiedAt": "2026-11-26",
     "confidence": "high",
-    "notes": "混元生文已迁移至 TokenHub，原平台停止新购。官方文档最近更新 2026-11-16 12:15:30",
+    "notes": "混元生文已迁移至 TokenHub，原平台停止新购。官方文档最近更新 2026-11-25 18:48:00",
     "platformId": "tencent-hunyuan"
   },
   {
@@ -651,7 +651,7 @@
     "multimodal": null,
     "buyUrl": "https://console.cloud.tencent.com/tokenhub",
     "sourceUrl": "https://cloud.tencent.com/document/product/1823/130055",
-    "verifiedAt": "2026-11-22",
+    "verifiedAt": "2026-11-26",
     "confidence": "high",
     "notes": null,
     "platformId": "tencent-hunyuan"
@@ -791,7 +791,7 @@
     "multimodal": true,
     "buyUrl": "https://aistudio.google.com/apikey",
     "sourceUrl": "https://ai.google.dev/gemini-api/docs/pricing",
-    "verifiedAt": "2026-11-15",
+    "verifiedAt": "2026-11-26",
     "confidence": "high",
     "notes": "无免费层",
     "platformId": "google"
@@ -811,7 +811,7 @@
     "multimodal": true,
     "buyUrl": "https://aistudio.google.com/apikey",
     "sourceUrl": "https://ai.google.dev/gemini-api/docs/pricing",
-    "verifiedAt": "2026-11-15",
+    "verifiedAt": "2026-11-26",
     "confidence": "high",
     "notes": null,
     "platformId": "google"
@@ -831,7 +831,7 @@
     "multimodal": true,
     "buyUrl": "https://aistudio.google.com/apikey",
     "sourceUrl": "https://ai.google.dev/gemini-api/docs/pricing",
-    "verifiedAt": "2026-11-15",
+    "verifiedAt": "2026-11-26",
     "confidence": "high",
     "notes": null,
     "platformId": "google"

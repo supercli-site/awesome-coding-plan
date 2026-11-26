@@ -65,10 +65,10 @@ AI 编程的账单分两种，混在一起看很容易选错：
 | **TRAE 会员 Pro** | 字节 Trae（国内版） | ¥99/月 <sub>首期 ¥69</sub> | 每月4,000积分，会员签到多得3000积分；云端任务并发10 | seed-2.1-turbo、seed-code、glm-5.3、deepseek-v4.1-flash、deepseek-v4-pro | — | [直达](https://www.trae.cn/pricing) | [官方](https://www.trae.cn/pricing) |
 | **TRAE 会员 Pro+** | 字节 Trae（国内版） | ¥239/月 <sub>首期 ¥219</sub> | 每月12,000积分，会员签到多得3000积分；云端任务并发10 | seed-2.1-turbo、seed-code、glm-5.3、deepseek-v4.1-flash、deepseek-v4-pro | — | [直达](https://www.trae.cn/pricing) | [官方](https://www.trae.cn/pricing) |
 | **TRAE 会员 Ultra** | 字节 Trae（国内版） | ¥699/月 <sub>首期 ¥629</sub> | 每月40,000积分，会员签到多得3000积分；云端任务并发20 | seed-2.1-turbo、seed-code、glm-5.3、deepseek-v4.1-flash、deepseek-v4-pro | — | [直达](https://www.trae.cn/pricing) | [官方](https://www.trae.cn/pricing) |
-| **Token Plan 个人版 Lite** | 阿里云百炼 | ¥39/月 <sub>首期 ¥19.50</sub> | 每月20,000 Credits，Agent 并发1～2个 | qwen3.8-max、qwen3.8-flash | ✅ | [直达](https://cn.aliyun.com/benefit/scene/tokenplan) | [官方](https://help.aliyun.com/zh/model-studio/token-plan-personal-overview) |
-| **Token Plan 个人版 Essential** | 阿里云百炼 | ¥79/月 <sub>首期 ¥39.50</sub> | 每月45,000 Credits，Agent 并发2～3个 | qwen3.8-max、qwen3.8-flash | ✅ | [直达](https://cn.aliyun.com/benefit/scene/tokenplan) | [官方](https://help.aliyun.com/zh/model-studio/token-plan-personal-overview) |
-| **Token Plan 个人版 Standard** | 阿里云百炼 | ¥139/月 | 每月80,000 Credits，Agent 并发3～4个，赠送 Harness 权益 | qwen3.8-max、qwen3.8-flash | ✅ | [直达](https://cn.aliyun.com/benefit/scene/tokenplan) | [官方](https://help.aliyun.com/zh/model-studio/token-plan-personal-overview) |
-| **Token Plan 个人版 Pro** | 阿里云百炼 | ¥312/月 | 每月200,000 Credits，Agent 并发6～8个，赠送 Harness 权益 | qwen3.8-max、qwen3.8-flash | ✅ | [直达](https://cn.aliyun.com/benefit/scene/tokenplan) | [官方](https://help.aliyun.com/zh/model-studio/token-plan-personal-overview) |
+| **Token Plan 个人版 Lite** | 阿里云百炼 | ¥39/月 <sub>首期 ¥19.50</sub> | 每月20,000 Credits，Agent 并发1～2个 | qwen4-max、qwen3.8-max、qwen3.8-flash | ✅ | [直达](https://cn.aliyun.com/benefit/scene/tokenplan) | [官方](https://help.aliyun.com/zh/model-studio/token-plan-personal-overview) |
+| **Token Plan 个人版 Essential** | 阿里云百炼 | ¥79/月 <sub>首期 ¥39.50</sub> | 每月45,000 Credits，Agent 并发2～3个 | qwen4-max、qwen3.8-max、qwen3.8-flash | ✅ | [直达](https://cn.aliyun.com/benefit/scene/tokenplan) | [官方](https://help.aliyun.com/zh/model-studio/token-plan-personal-overview) |
+| **Token Plan 个人版 Standard** | 阿里云百炼 | ¥139/月 | 每月80,000 Credits，Agent 并发3～4个，赠送 Harness 权益 | qwen4-max、qwen3.8-max、qwen3.8-flash | ✅ | [直达](https://cn.aliyun.com/benefit/scene/tokenplan) | [官方](https://help.aliyun.com/zh/model-studio/token-plan-personal-overview) |
+| **Token Plan 个人版 Pro** | 阿里云百炼 | ¥312/月 | 每月200,000 Credits，Agent 并发6～8个，赠送 Harness 权益 | qwen4-max、qwen3.8-max、qwen3.8-flash | ✅ | [直达](https://cn.aliyun.com/benefit/scene/tokenplan) | [官方](https://help.aliyun.com/zh/model-studio/token-plan-personal-overview) |
 | **Token Plan 个人版 Mini（积分制）** | 百度千帆 | ¥9.90/月 <sub>首期 ¥4.90</sub> | 每月1,400积分；目前限时取消7天限额 | deepseek-v4.1-flash、deepseek-v4-pro、glm-5.3 | — | [直达](https://cloud.baidu.com/product/qianfan_home/token_plan_personal.html) | [官方](https://cloud.baidu.com/product/qianfan_home/token_plan_personal.html) |
 | **Token Plan 个人版 Lite（积分制）** | 百度千帆 | ¥39/月 <sub>首期 ¥19.90</sub> | 每月11,500积分；目前限时取消7天限额 | deepseek-v4.1-flash、deepseek-v4-pro、glm-5.3 | — | [直达](https://cloud.baidu.com/product/qianfan_home/token_plan_personal.html) | [官方](https://cloud.baidu.com/product/qianfan_home/token_plan_personal.html) |
 | **Token Plan 个人版 Standard（积分制）** | 百度千帆 | ¥100/月 <sub>首期 ¥49.90</sub> | 每月基础22,000积分；活动首月额外赠送1,760积分（首月合计23,760），限时取消7天限额 | deepseek-v4.1-flash、deepseek-v4-pro、glm-5.3 | — | [直达](https://cloud.baidu.com/product/qianfan_home/token_plan_personal.html) | [官方](https://cloud.baidu.com/doc/qianfan/s/Dmrabu8b6) |
@@ -109,7 +109,7 @@ AI 编程的账单分两种，混在一起看很容易选错：
 | **Google AI Pro** | Google | $19.99/月 | Jules 100 tasks/24h, 15 concurrent; Antigravity higher rate limits + AI credit pool; consumer Gemini CLI access ended 2026-06-18 | Gemini 4 Argon | ✅ | [直达](https://gemini.google/subscriptions/) | [官方](https://gemini.google/subscriptions/) |
 | **Google AI Ultra** | Google | $99.99/月 | $99.99 = 5x AI Pro; $199.99 = 20x AI Pro; Jules 300 tasks/24h, 60 concurrent; consumer Gemini CLI access ended 2026-06-18 | Gemini 4 Argon | ✅ | [直达](https://gemini.google/subscriptions/) | [官方](https://gemini.google/subscriptions/) |
 | **Gemini CLI（旧个人免费登录档）** | Google | 已停售（历史价 $0） | 历史免费额度为 Google 账号每日 1,000 次；2026-06-18 起消费者登录停止服务，迁移至 Antigravity CLI | Gemini (Flash/Pro, per quota) | ✅ | — | [官方](https://developers.googleblog.com/an-important-update-transitioning-gemini-cli-to-antigravity-cli/) |
-| **Antigravity Individual** | Google | $0 | Baseline agent quota refreshed weekly; 跨 App/CLI/IDE 扩展/Python SDK 使用，可并行后台 agent、子 agent、浏览器使用与定时任务 | Gemini 3.8 Flash、Claude Sonnet 4.6、Claude Opus 4.6、GPT-OSS-120b | ✅ | [直达](https://antigravity.google/pricing) | [官方](https://antigravity.google/pricing) |
+| **Antigravity Individual** | Google | $0 | Baseline agent quota refreshed weekly; 跨 App/CLI/IDE 扩展/Python SDK 使用，可并行后台 agent、子 agent、浏览器使用与定时任务 | Gemini 4 Hydrogen、Gemini 3.8 Flash、Claude Sonnet 4.6、Claude Opus 4.6、GPT-OSS-120b | ✅ | [直达](https://antigravity.google/pricing) | [官方](https://antigravity.google/pricing) |
 | **Jules (free)** | Google | $0 | 15 tasks per rolling 24h, 3 concurrent | Gemini | ✅ | [直达](https://jules.google) | [官方](https://jules.google/docs/usage-limits/) |
 | **Copilot Free** | GitHub | $0 | 2,000 completions/month; limited chat & agent usage | Claude Haiku 4.5、GPT-5 mini | ✅ | [直达](https://github.com/features/copilot/plans) | [官方](https://github.com/features/copilot/plans) |
 | **Copilot Pro** | GitHub | $10/月 | $15/mo total GitHub AI Credits (1 credit=$0.01); unlimited completions; Claude Code & Codex agents | Multiple (Claude/GPT/Gemini) | ✅ | [直达](https://github.com/features/copilot/plans) | [官方](https://github.com/features/copilot/plans) |
@@ -326,7 +326,7 @@ pnpm check     # 校验数据门禁
 
 - 排行快照共 137 个模型档位，采集于 2026-11-25
 - 套餐条目 118 条，API 价格条目 53 条
-- 最后一次核实：2026-11-25
+- 最后一次核实：2026-11-26
 
 ---
 
