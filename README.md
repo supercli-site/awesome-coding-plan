@@ -228,7 +228,7 @@ AI 编程的账单分两种，混在一起看很容易选错：
 
 ## 四、性价比排行
 
-数据来自 [ModelGo](https://modelgo.ai/models/rankings/agent) 的公开 Agent 排行榜（快照日期 2026-11-26）：
+数据来自 [ModelGo](https://modelgo.ai/models/rankings/agent) 的公开 Agent 排行榜（快照日期 2026-11-27）：
 
 - **Agentic Index** — Artificial Analysis 的 Agent 能力综合评分
 - **单任务成本** — 跑完一个 Agent 任务的平均美元成本
@@ -236,46 +236,46 @@ AI 编程的账单分两种，混在一起看很容易选错：
 
 | # | 模型 | 厂商 | Agentic Index | 单任务成本 | 输出 TPS | 权重 | API 单价（入/出, $/1M） |
 |---:|---|---|---:|---:|---:|---|---|
-| 1 | Claude Fable 5.1 (Max, Default Fallback) | Anthropic | 57.9 | $7.6297 | 85.27 | 闭源 | $10 / $50 |
-| 2 | Claude Fable 5.1 (Xhigh, Default Fallback) | Anthropic | 57.2 | $5.9783 | 84.91 | 闭源 | $10 / $50 |
-| 3 | Claude Opus 5 (Max) | Anthropic | 56.5 | $5.8584 | 77.46 | 闭源 | $5 / $25 |
-| 4 | Qwen3.8 Max (0902) | Alibaba | 56 | $5.4085 | 52.55 | 闭源 | $2 / $6 |
-| 5 | Claude Opus 5 (Xhigh) | Anthropic | 55.6 | $4.8778 | 76.86 | 闭源 | $5 / $25 |
-| 6 | Muse Spark 1.3 (Max) | Meta | 55.5 | $1.3146 | 108.46 | 闭源 | $1.25 / $4.25 |
-| 7 | Qwen3.8-Flash-Next | Alibaba | 53.6 | $0.3722 | 74.03 | 开源 | $0.15 / $0.47 |
-| 8 | Claude Fable 5.1 (High, Default Fallback) | Anthropic | 53.1 | $3.9125 | 83.97 | 闭源 | $10 / $50 |
-| 9 | GLM-5.3 (Max) | Z AI | 53.1 | $2.0056 | 72.39 | 开源 | $1.40 / $4.40 |
-| 10 | Grok 4.6 (High) | SpaceXAI | 53 | $1.4848 | 73.69 | 闭源 | $2 / $6 |
+| 1 | Claude Fable 5.1 (Max, Default Fallback) | Anthropic | 57.9 | $7.6297 | 87.09 | 闭源 | $10 / $50 |
+| 2 | Claude Fable 5.1 (Xhigh, Default Fallback) | Anthropic | 57.2 | $5.9783 | 86.65 | 闭源 | $10 / $50 |
+| 3 | Claude Opus 5 (Max) | Anthropic | 56.5 | $5.8584 | 79.41 | 闭源 | $5 / $25 |
+| 4 | Qwen3.8 Max (0902) | Alibaba | 56 | $5.4085 | 54.34 | 闭源 | $2 / $6 |
+| 5 | Claude Opus 5 (Xhigh) | Anthropic | 55.6 | $4.8778 | 78.83 | 闭源 | $5 / $25 |
+| 6 | Muse Spark 1.3 (Max) | Meta | 55.5 | $1.3146 | 107.2 | 闭源 | $1.25 / $4.25 |
+| 7 | Qwen3.8-Flash-Next | Alibaba | 53.6 | $0.3722 | 78.28 | 开源 | $0.15 / $0.47 |
+| 8 | Claude Fable 5.1 (High, Default Fallback) | Anthropic | 53.1 | $3.9125 | 86.83 | 闭源 | $10 / $50 |
+| 9 | GLM-5.3 (Max) | Z AI | 53.1 | $2.0056 | 73.8 | 开源 | $1.40 / $4.40 |
+| 10 | Grok 4.6 (High) | SpaceXAI | 53 | $1.4848 | 72.26 | 闭源 | $2 / $6 |
 
 ### 开源权重模型（可自部署 / 私有化）
 
 | # | 模型 | 厂商 | Agentic Index | 单任务成本 | 输出 TPS | 权重 | API 单价（入/出, $/1M） |
 |---:|---|---|---:|---:|---:|---|---|
-| 1 | Qwen3.8-Flash-Next | Alibaba | 53.6 | $0.3722 | 74.03 | 开源 | $0.15 / $0.47 |
-| 2 | GLM-5.3 (Max) | Z AI | 53.1 | $2.0056 | 72.39 | 开源 | $1.40 / $4.40 |
-| 3 | GLM-5.3-Flash (Max) | Z AI | 50.9 | $0.2836 | 58.37 | 开源 | $0.15 / $0.50 |
-| 4 | Qwen3.8 2.4T A95B | Alibaba | 50.1 | $2.1552 | 41.52 | 开源 | $2 / $6 |
-| 5 | Kimi K3 (Max) | Kimi | 50 | $2.0001 | 38.49 | 开源 | $3 / $15 |
-| 6 | Qwen3.8 27B (Xhigh) | Alibaba | 45.8 | $1.1464 | 62.14 | 开源 | $0.50 / $3 |
-| 7 | Qwen3.8 27B (Medium) | Alibaba | 44.4 | $1.2709 | 63.2 | 开源 | $0.50 / $3 |
-| 8 | DeepSeek V4 Pro 0813 (Max) | DeepSeek | 41.3 | $0.674 | 82.94 | 开源 | $1.32 / $3.96 |
-| 9 | DeepSeek V4 Flash 0731 (Max) | DeepSeek | 41 | $0.1775 | 125.41 | 开源 | $0.14 / $0.28 |
-| 10 | Qwen3.8 27B (Low) | Alibaba | 38.9 | $1.1702 | 61.69 | 开源 | $0.50 / $3 |
+| 1 | Qwen3.8-Flash-Next | Alibaba | 53.6 | $0.3722 | 78.28 | 开源 | $0.15 / $0.47 |
+| 2 | GLM-5.3 (Max) | Z AI | 53.1 | $2.0056 | 73.8 | 开源 | $1.40 / $4.40 |
+| 3 | GLM-5.3-Flash (Max) | Z AI | 50.9 | $0.2836 | 54.9 | 开源 | $0.15 / $0.50 |
+| 4 | Qwen3.8 2.4T A95B | Alibaba | 50.1 | $2.1552 | 40.97 | 开源 | $2 / $6 |
+| 5 | Kimi K3 (Max) | Kimi | 50 | $2.0001 | 39.37 | 开源 | $3 / $15 |
+| 6 | Qwen3.8 27B (Xhigh) | Alibaba | 45.8 | $1.1464 | 59.55 | 开源 | $0.50 / $3 |
+| 7 | Qwen3.8 27B (Medium) | Alibaba | 44.4 | $1.2709 | 60.28 | 开源 | $0.50 / $3 |
+| 8 | DeepSeek V4 Pro 0813 (Max) | DeepSeek | 41.3 | $0.674 | 80.16 | 开源 | $1.32 / $3.96 |
+| 9 | DeepSeek V4 Flash 0731 (Max) | DeepSeek | 41 | $0.1775 | 123.38 | 开源 | $0.14 / $0.28 |
+| 10 | Qwen3.8 27B (Low) | Alibaba | 38.9 | $1.1702 | 60.99 | 开源 | $0.50 / $3 |
 
 ### 性价比（Agentic Index ≥ 40 的模型里，按「分数 ÷ 单任务成本」排序）
 
 | # | 模型 | 厂商 | Agentic Index | 单任务成本 | 输出 TPS | 权重 | API 单价（入/出, $/1M） |
 |---:|---|---|---:|---:|---:|---|---|
-| 1 | GPT-5.6 Luna (Max) | OpenAI | 42.1 | $0.1783 | 87.63 | 闭源 | $0.20 / $1.20 |
-| 2 | DeepSeek V4 Flash 0731 (Max) | DeepSeek | 41 | $0.1775 | 125.41 | 开源 | $0.14 / $0.28 |
-| 3 | GLM-5.3-Flash (Max) | Z AI | 50.9 | $0.2836 | 58.37 | 开源 | $0.15 / $0.50 |
-| 4 | Qwen3.8-Flash-Next | Alibaba | 53.6 | $0.3722 | 74.03 | 开源 | $0.15 / $0.47 |
-| 5 | Grok 4.6 (Low) | SpaceXAI | 41.2 | $0.3758 | 70.03 | 闭源 | $2 / $6 |
-| 6 | GPT-5.6 Terra (Xhigh) | OpenAI | 41.4 | $0.6318 | 93.82 | 闭源 | $2 / $12 |
-| 7 | DeepSeek V4 Pro 0813 (Max) | DeepSeek | 41.3 | $0.674 | 82.94 | 开源 | $1.32 / $3.96 |
-| 8 | GPT-5.6 Sol (High) | OpenAI | 44.2 | $0.808 | 100.97 | 闭源 | $4 / $20 |
-| 9 | Grok 4.5 (High) | SpaceXAI | 41.2 | $0.7603 | 84.05 | 闭源 | $2 / $6 |
-| 10 | Muse Spark 1.2 (Xhigh) | Meta | 43.2 | $0.812 | 190.38 | 闭源 | $1.25 / $4.25 |
+| 1 | GPT-5.6 Luna (Max) | OpenAI | 42.1 | $0.1783 | 98.41 | 闭源 | $0.20 / $1.20 |
+| 2 | DeepSeek V4 Flash 0731 (Max) | DeepSeek | 41 | $0.1775 | 123.38 | 开源 | $0.14 / $0.28 |
+| 3 | GLM-5.3-Flash (Max) | Z AI | 50.9 | $0.2836 | 54.9 | 开源 | $0.15 / $0.50 |
+| 4 | Qwen3.8-Flash-Next | Alibaba | 53.6 | $0.3722 | 78.28 | 开源 | $0.15 / $0.47 |
+| 5 | Grok 4.6 (Low) | SpaceXAI | 41.2 | $0.3758 | 71.57 | 闭源 | $2 / $6 |
+| 6 | GPT-5.6 Terra (Xhigh) | OpenAI | 41.4 | $0.6318 | 95.94 | 闭源 | $2 / $12 |
+| 7 | DeepSeek V4 Pro 0813 (Max) | DeepSeek | 41.3 | $0.674 | 80.16 | 开源 | $1.32 / $3.96 |
+| 8 | GPT-5.6 Sol (High) | OpenAI | 44.2 | $0.808 | 103.43 | 闭源 | $4 / $20 |
+| 9 | Grok 4.5 (High) | SpaceXAI | 41.2 | $0.7603 | 88.56 | 闭源 | $2 / $6 |
+| 10 | Muse Spark 1.2 (Xhigh) | Meta | 43.2 | $0.812 | 189.26 | 闭源 | $1.25 / $4.25 |
 
 ---
 
@@ -324,7 +324,7 @@ pnpm check     # 校验数据门禁
 
 ## 数据说明
 
-- 排行快照共 137 个模型档位，采集于 2026-11-26
+- 排行快照共 137 个模型档位，采集于 2026-11-27
 - 套餐条目 118 条，API 价格条目 53 条
 - 最后一次核实：2026-11-26
 
